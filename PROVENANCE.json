@@ -1,0 +1,3842 @@
+{
+  "source_archives": [
+    {
+      "name": "forgetting_mechanism_suite.zip",
+      "kind": "distributed_suite",
+      "sha256": "d585411abdea2be1c83e3c46e5d1def79f07f30b56151f4a1c90a770b0f2810b"
+    },
+    {
+      "name": "olmo_structure_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "10fa45d54a248f7edb22311b981aae4110ba4d4b92304c7cbea0770a969ecb0f"
+    },
+    {
+      "name": "olmo_structure_complete.zip",
+      "kind": "distributed_suite",
+      "sha256": "f92beb93e1c4b7f1248370265b2e254adaf53e4f8b2b7db297d317196fb66a9e"
+    },
+    {
+      "name": "olmo_structure_ph_rmt_ntk.zip",
+      "kind": "distributed_suite",
+      "sha256": "b6612e6150d93744fb16811001c4dd1e99d00cbc7b9bf7acaf1ecd70aa29b3af"
+    },
+    {
+      "name": "olmo_task_geometry.zip",
+      "kind": "distributed_suite",
+      "sha256": "dbbb2b267a67fe5313f022e8239e920981d400791212f9082698c48ee73c3df7"
+    },
+    {
+      "name": "olmo_update_path.zip",
+      "kind": "distributed_suite",
+      "sha256": "d4f7e63103dc9385389039f5d2d4e405065ee21161f71ae1f21274cbe372ff80"
+    },
+    {
+      "name": "olmo_overnight.zip",
+      "kind": "distributed_suite",
+      "sha256": "b75a3ac8517a1dadb9ada60b138f36f40988921c05156891842da4d43422e8be"
+    },
+    {
+      "name": "olmo_mechanism_bridge.zip",
+      "kind": "distributed_suite",
+      "sha256": "05284f75e45d97b01031d182b7af2312b50fd76761fe1c97f5924208553803e0"
+    },
+    {
+      "name": "olmo_bridge_speedup.zip",
+      "kind": "distributed_suite",
+      "sha256": "9133272b15ea7802105b8579b71e24976eb83325b8dac8cb5b20caab3b2c3f8d"
+    },
+    {
+      "name": "olmo_natural_geometry_overnight.zip",
+      "kind": "distributed_suite",
+      "sha256": "33d390c69c9361b27966d762e205b976c42f46f42bca18d51a98047dc82db915"
+    },
+    {
+      "name": "olmo_precise_forgetting_overnight.zip",
+      "kind": "distributed_suite",
+      "sha256": "4c49c38bf26ff974e4e3af771ae2b245060a2cbf92e3aa2f6a634793c7b832f1"
+    },
+    {
+      "name": "olmo_path_refinement_overnight.zip",
+      "kind": "distributed_suite",
+      "sha256": "d60a156113e52e92f3339a948a03f927de599eacf77b1ccb5523f9941bb7249b"
+    },
+    {
+      "name": "olmo_four_vector_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "ec4811f13845c776313b3a822689ddcf871e63fd54c5fe4c201de6d3031f0cd8"
+    },
+    {
+      "name": "multimodel_forgetting_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "1d7697046ddb0fc16e39c450f9f15a510b62b85de057da3b1425d3a613a0b348"
+    },
+    {
+      "name": "forgetting_validation.zip",
+      "kind": "distributed_suite",
+      "sha256": "2ea396255f70d3a90063888a00838b569d4ff10d13df822b2554e9122fddef81"
+    },
+    {
+      "name": "frame_history_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "e1f28fabdecb55975f66236552ce33eafac149618270ee05cefa594ac8e58e02"
+    },
+    {
+      "name": "paired_base_instruct_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "77160017ac5be1a0e5bcf3e242822f23ef88691a5f7df22eb897c8295a4ec44a"
+    },
+    {
+      "name": "qwen3_open1b_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "b2db3ff39e2fde9606cdc2dd4b2fff6fd212dce481f4bbd5280e12e6951f6465"
+    },
+    {
+      "name": "overnight_replication_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "88992c2e7800b4b619aaf87a72fad460e1604b7a47029d869859882d687ff9fc"
+    },
+    {
+      "name": "optimizer_generality_study.zip",
+      "kind": "distributed_suite",
+      "sha256": "d416d597517e941d393e7eb201a2ebc8539a7ab67a96ea4afc42e686f1abdcc4"
+    },
+    {
+      "name": "history_geometry_followup.zip",
+      "kind": "distributed_suite",
+      "sha256": "150e90f63d493ba0b2bf2a76ecc0847385b00d3b9d2fe02ae7fc9ba48e1aefca"
+    },
+    {
+      "name": "natural_forgetting_components_fixed.zip",
+      "kind": "distributed_suite",
+      "sha256": "55343aa85fc6ee217d8cd883f09930a7c7ed43745b0fb0f06e94b5807a254bfe"
+    },
+    {
+      "name": "history_dynamics_replay.zip",
+      "kind": "distributed_suite",
+      "sha256": "34c1c2c6bac6e318e59d1bc7e9ca32ec5358a2c042124b13e592f9f15bfeb9c7"
+    },
+    {
+      "name": "qwen3_history_replication.zip",
+      "kind": "distributed_suite",
+      "sha256": "6073e6db70881073767f70e398f0bf9d3ac29c243e3b97cbd5643e0224906683"
+    },
+    {
+      "name": "four_vector_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "331aabc43f7cbbe89393902b786ddbc6df2b3b986c304179db89c4ce729186a9",
+      "code_files": 8
+    },
+    {
+      "name": "multimodel_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "9ecbcdaaaf11c73590d6d7f1b354b2fbaecb147f449433bdf17d63588d13e3c6",
+      "code_files": 25
+    },
+    {
+      "name": "paired_models_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "b7448422a9cc00ecb13fbf8e7e7230b7fd7d1f2a423f9ef7d5cb48a0a8435366",
+      "code_files": 32
+    },
+    {
+      "name": "qwen3_models_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "cbe4749f425edef7d98395ff44f964cd9f8795aeed0205312c32a14600020d90",
+      "code_files": 41
+    },
+    {
+      "name": "frame_history_v1_share (1).zip",
+      "kind": "recorded_result_archive",
+      "sha256": "3f8a3deb6b5c8e9ecd485182887d3f2c8cfb58e0310b2f5247d906a2cb76368e",
+      "code_files": 29
+    },
+    {
+      "name": "reviewer_results_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "22d02b72d35a6c23c67598c5330f198beb65633b772539049cae08287cb63bd6",
+      "code_files": 11
+    },
+    {
+      "name": "overnight_replication_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "3ca92bd918b3c0a3385f3fc208a48be7c2bdd7f39a0475149544cb253d6bee3f",
+      "code_files": 14
+    },
+    {
+      "name": "optimizer_generality_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "77ad2a23d53e51d960acdf930ebf591315f1a6733431e1800b8b9462feaeabac",
+      "code_files": 15
+    },
+    {
+      "name": "history_dynamics_share.zip",
+      "kind": "recorded_result_archive",
+      "sha256": "7b02fe1ef6df2e9179d4864b187e3b7febfae085b7e9094ee650cac52300966a",
+      "code_files": 11
+    }
+  ],
+  "files": [
+    {
+      "path": "suites/forgetting_mechanism_suite/README.md",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/README.md",
+      "sha256": "a242bc5457da69398524c0cbcc342a573406b22bea4424676859e756058057a6"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/Run_forgetting_mechanisms.ipynb",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/Run_forgetting_mechanisms.ipynb",
+      "sha256": "85354e4b1b6554e80a60345dc00e48889ab99f0eb72dd75e93950aff63bd002e"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/VALIDATION.md",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/VALIDATION.md",
+      "sha256": "b31169b0c9ac5059651b68322e1e83e5e2f5c4bcee5ad13d05ead5cc1632073b"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/example_results/archive_analysis.csv",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/example_results/archive_analysis.csv",
+      "sha256": "a0b91142b1541eeb4fdd8ca2573d53a9532f11ebe4a5da8093dc1dec330940b2"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/example_results/archive_analysis.json",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/example_results/archive_analysis.json",
+      "sha256": "55d3a6cc1d7521a87b1a2dfadae63c681e20ac4abfba8372d495d31967d72286"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/example_results/archive_dose_curves.csv",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/example_results/archive_dose_curves.csv",
+      "sha256": "75b56b39e664bd5213b0fe7db9e1c4ff1c5a2d3b48b03783279f1f09fd09c6cb"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/example_results/archive_overview.png",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/example_results/archive_overview.png",
+      "sha256": "4ae2a8b5825b9e8c8a175b43d9a52d89da66381a0b55f2e7f4ebfafa8b95f0c8"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/example_results/archive_report.txt",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/example_results/archive_report.txt",
+      "sha256": "f70e354e2692f7af22927692632cb4d6057363d22e5ff7fc1f7e9010cc104f5f"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/manifest.json",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/manifest.json",
+      "sha256": "48fb80cc711da9ad7c57a1646deb420a41642f08965a99b1944cf4139bbce7c8"
+    },
+    {
+      "path": "suites/forgetting_mechanism_suite/requirements.txt",
+      "origin_archive": "forgetting_mechanism_suite.zip",
+      "origin_member": "forgetting_mechanism_suite/requirements.txt",
+      "sha256": "595795635903f88f4ad497992c7ee01f89dd238fec26e595c3b74a8a54ff0d52"
+    },
+    {
+      "path": "suites/olmo_structure_study/README.md",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/README.md",
+      "sha256": "b46469d9b40011b0dc4af7dd5589915983c784aa42abe323e7fd1799175e49ff"
+    },
+    {
+      "path": "suites/olmo_structure_study/Run_structure_study.ipynb",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/Run_structure_study.ipynb",
+      "sha256": "2442554c0139d988b726d41cefb262ddf061ee991e62b83d966c164d14c16f49"
+    },
+    {
+      "path": "suites/olmo_structure_study/VALIDATION.md",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/VALIDATION.md",
+      "sha256": "665b599cddb8f8011ac61f0ff904572c7721d592942958c72f622d13ad7343fa"
+    },
+    {
+      "path": "suites/olmo_structure_study/example_tiny_model/README.txt",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/example_tiny_model/README.txt",
+      "sha256": "b3efed4bbdd6f26939f7a74946cc46fc2cfcb293035542586b4b44c055b37685"
+    },
+    {
+      "path": "suites/olmo_structure_study/example_tiny_model/structure_overview.png",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/example_tiny_model/structure_overview.png",
+      "sha256": "cc25292678246eda041edc56bbd3ce42d0feba25e12e97868cce8cfc82b0453a"
+    },
+    {
+      "path": "suites/olmo_structure_study/example_tiny_model/weight_change_overview.png",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/example_tiny_model/weight_change_overview.png",
+      "sha256": "f7419a81ee80cfd5511ece5eba7b5de07f70ab8e4751bfeba020d3d331e31c61"
+    },
+    {
+      "path": "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/olmo_structure_study/requirements.txt",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/requirements.txt",
+      "sha256": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a"
+    },
+    {
+      "path": "suites/olmo_structure_study/structure_study.py",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/structure_study.py",
+      "sha256": "532fe3295976ee7a8ee15ca684d9ad928134c975ce75ed66fbed2bb7f5e6d78c"
+    },
+    {
+      "path": "suites/olmo_structure_study/manifest.json",
+      "origin_archive": "olmo_structure_study.zip",
+      "origin_member": "olmo_structure_study/manifest.json",
+      "sha256": "c5af55e7e85b2fefab09ea9aa1f3dc69623d2b6cf8c4ec6548e4155098a0408d"
+    },
+    {
+      "path": "suites/olmo_structure_complete/METHODS.md",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/METHODS.md",
+      "sha256": "cc25c9eae57b6f5836accd0ef2ed3d8a9e8758a4a797aa2b7d129b1b356d7a03"
+    },
+    {
+      "path": "suites/olmo_structure_complete/README.md",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/README.md",
+      "sha256": "f4c3574619299ff57f9283a20eb0385340f903bdf25e87784b3b1d4eb594091d"
+    },
+    {
+      "path": "suites/olmo_structure_complete/Run_structure_study.ipynb",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/Run_structure_study.ipynb",
+      "sha256": "431386af568a04e67fa7c57fecebf62f063b65fab73b577b829b370c761bedde"
+    },
+    {
+      "path": "suites/olmo_structure_complete/VALIDATION.md",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/VALIDATION.md",
+      "sha256": "2caa0c558175cc4bcac21231d2190d3af0054505cfd677bba769fbec82852c70"
+    },
+    {
+      "path": "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/olmo_structure_complete/notebook_runner.py",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/notebook_runner.py",
+      "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc"
+    },
+    {
+      "path": "suites/olmo_structure_complete/requirements.txt",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/requirements.txt",
+      "sha256": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a"
+    },
+    {
+      "path": "suites/olmo_structure_complete/structure_study.py",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/structure_study.py",
+      "sha256": "532fe3295976ee7a8ee15ca684d9ad928134c975ce75ed66fbed2bb7f5e6d78c"
+    },
+    {
+      "path": "suites/olmo_structure_complete/manifest.json",
+      "origin_archive": "olmo_structure_complete.zip",
+      "origin_member": "olmo_structure_complete/manifest.json",
+      "sha256": "5d35c79c150fa69646e507738a59533601bcb0def632e5f206ab29dd0b1e3a38"
+    },
+    {
+      "path": "suites/olmo_structure_ph_rmt_ntk/README.md",
+      "origin_archive": "olmo_structure_ph_rmt_ntk.zip",
+      "origin_member": "olmo_structure_ph_rmt_ntk/README.md",
+      "sha256": "33697d5f8a2a1f29a421f63869cc7e3691d8f85f2d942f18919efcf4abc9c65b"
+    },
+    {
+      "path": "suites/olmo_structure_ph_rmt_ntk/Run_structure_study.ipynb",
+      "origin_archive": "olmo_structure_ph_rmt_ntk.zip",
+      "origin_member": "olmo_structure_ph_rmt_ntk/Run_structure_study.ipynb",
+      "sha256": "44643ad627302ba3c9ae67eff1b75843aacd90c4bb0b00348276ae45682c5612"
+    },
+    {
+      "path": "suites/olmo_structure_ph_rmt_ntk/VALIDATION.md",
+      "origin_archive": "olmo_structure_ph_rmt_ntk.zip",
+      "origin_member": "olmo_structure_ph_rmt_ntk/VALIDATION.md",
+      "sha256": "268e7f5de3b9dec78c673e270efad07e379b2e150010feea2a15a0cdb7c5f204"
+    },
+    {
+      "path": "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "origin_archive": "olmo_structure_ph_rmt_ntk.zip",
+      "origin_member": "olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/olmo_structure_ph_rmt_ntk/requirements.txt",
+      "origin_archive": "olmo_structure_ph_rmt_ntk.zip",
+      "origin_member": "olmo_structure_ph_rmt_ntk/requirements.txt",
+      "sha256": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a"
+    },
+    {
+      "path": "suites/olmo_structure_ph_rmt_ntk/structure_study.py",
+      "origin_archive": "olmo_structure_ph_rmt_ntk.zip",
+      "origin_member": "olmo_structure_ph_rmt_ntk/structure_study.py",
+      "sha256": "929fa6439da64ab0b03c204cf6e98907710730adc360659138ee00c513c53a56"
+    },
+    {
+      "path": "suites/olmo_structure_ph_rmt_ntk/manifest.json",
+      "origin_archive": "olmo_structure_ph_rmt_ntk.zip",
+      "origin_member": "olmo_structure_ph_rmt_ntk/manifest.json",
+      "sha256": "334483b745356602d9d68b15e7ffb98d5d2a52629bf75a64df3bfe108714c8ac"
+    },
+    {
+      "path": "suites/olmo_task_geometry/CHECKPOINT_METHODS.md",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/CHECKPOINT_METHODS.md",
+      "sha256": "33697d5f8a2a1f29a421f63869cc7e3691d8f85f2d942f18919efcf4abc9c65b"
+    },
+    {
+      "path": "suites/olmo_task_geometry/README.md",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/README.md",
+      "sha256": "685b9fa3ca5b98f8e4d36b64ff74ad04167119cc0c64418b83e312649c44671a"
+    },
+    {
+      "path": "suites/olmo_task_geometry/Run_structure_study.ipynb",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/Run_structure_study.ipynb",
+      "sha256": "90f4ffe61a3368e92a3d1f26d11e79f6b8aecfd3319196c5c00b1af0f78949fa"
+    },
+    {
+      "path": "suites/olmo_task_geometry/VALIDATION.md",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/VALIDATION.md",
+      "sha256": "a2d1560694b83b4ae7dbf88519d8b4bdb6a021be5d07587b429daa042ab90f8d"
+    },
+    {
+      "path": "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/olmo_task_geometry/requirements.txt",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/requirements.txt",
+      "sha256": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a"
+    },
+    {
+      "path": "suites/olmo_task_geometry/structure_study.py",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/structure_study.py",
+      "sha256": "16e5d1537cdce31b692983550101cca9bce07bd44c922288ddb1c1ec3657e0cc"
+    },
+    {
+      "path": "suites/olmo_task_geometry/manifest.json",
+      "origin_archive": "olmo_task_geometry.zip",
+      "origin_member": "olmo_task_geometry/manifest.json",
+      "sha256": "e430ac80b2d470780f43eb9ec6421ddfc84fb7aac48dacea5b8d18a07dce4713"
+    },
+    {
+      "path": "suites/olmo_update_path/CHECKPOINT_METHODS.md",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/CHECKPOINT_METHODS.md",
+      "sha256": "33697d5f8a2a1f29a421f63869cc7e3691d8f85f2d942f18919efcf4abc9c65b"
+    },
+    {
+      "path": "suites/olmo_update_path/README.md",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/README.md",
+      "sha256": "1a1eaf4b8067168f5d3d1e7828b1578a20924c57f23989d38cab4e9225479320"
+    },
+    {
+      "path": "suites/olmo_update_path/Run_structure_study.ipynb",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/Run_structure_study.ipynb",
+      "sha256": "94b8dcc01a392664ad1b855fa80535e24b6e8491502818fb3c68c01c70a3a5e1"
+    },
+    {
+      "path": "suites/olmo_update_path/TRAJECTORY_METHODS.md",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/TRAJECTORY_METHODS.md",
+      "sha256": "fc8222129b1ce32cf3dcba0d2bbb01428a19df12119260dd81bb125a8f890255"
+    },
+    {
+      "path": "suites/olmo_update_path/VALIDATION.md",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/VALIDATION.md",
+      "sha256": "84088fe033dcd3e3b3c053065b1c209aaae5475984f8d6d4bb3853ccf78c885e"
+    },
+    {
+      "path": "suites/olmo_update_path/forgetting_mechanisms.py",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/olmo_update_path/manifest.json",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/manifest.json",
+      "sha256": "1052dda8dcbe3691fee8a12d84adf61573f2c9102eb03bad9aa2a46462dd3df6"
+    },
+    {
+      "path": "suites/olmo_update_path/requirements.txt",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/requirements.txt",
+      "sha256": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a"
+    },
+    {
+      "path": "suites/olmo_update_path/structure_study.py",
+      "origin_archive": "olmo_update_path.zip",
+      "origin_member": "olmo_update_path/structure_study.py",
+      "sha256": "ce94ac66cd4af253f9a8c83ef61ac34fcf4c758e76ce5830aedd2cd8017718f8"
+    },
+    {
+      "path": "suites/olmo_overnight/README.md",
+      "origin_archive": "olmo_overnight.zip",
+      "origin_member": "olmo_overnight/README.md",
+      "sha256": "568f8764bf08c371f84205ff2b82412331efe594298e064c6e8409b96f19364a"
+    },
+    {
+      "path": "suites/olmo_overnight/Run_structure_study.ipynb",
+      "origin_archive": "olmo_overnight.zip",
+      "origin_member": "olmo_overnight/Run_structure_study.ipynb",
+      "sha256": "2d2e238daf0d76db9bbc3bf09f38183396c47f90976b9101461520548a5ab24c"
+    },
+    {
+      "path": "suites/olmo_overnight/VALIDATION.md",
+      "origin_archive": "olmo_overnight.zip",
+      "origin_member": "olmo_overnight/VALIDATION.md",
+      "sha256": "319b449d1f0f41b7dde70775d0ddda4dffa9fb357fb461faadabef55f3257929"
+    },
+    {
+      "path": "suites/olmo_overnight/forgetting_mechanisms.py",
+      "origin_archive": "olmo_overnight.zip",
+      "origin_member": "olmo_overnight/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/olmo_overnight/manifest.json",
+      "origin_archive": "olmo_overnight.zip",
+      "origin_member": "olmo_overnight/manifest.json",
+      "sha256": "aff907760acc02f10a1b67a5b0c2b73ae4e8ff552f5101a023c16370ed25f52a"
+    },
+    {
+      "path": "suites/olmo_overnight/requirements.txt",
+      "origin_archive": "olmo_overnight.zip",
+      "origin_member": "olmo_overnight/requirements.txt",
+      "sha256": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a"
+    },
+    {
+      "path": "suites/olmo_overnight/structure_study.py",
+      "origin_archive": "olmo_overnight.zip",
+      "origin_member": "olmo_overnight/structure_study.py",
+      "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/README.md",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/README.md",
+      "sha256": "8aa2f7dc32dd900da540aea19bee83c86be92b2a690e5357bb0fe4ad0b487e2a"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/Run_mechanism_bridge.ipynb",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/Run_mechanism_bridge.ipynb",
+      "sha256": "60bc107950fb9b9a2fd522646d139d4c89f1efb31e5ba47e73aca7f17a72118a"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/VALIDATION.md",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/VALIDATION.md",
+      "sha256": "5d1ab40e4583c350dddfc3676ad79232591f23df3a7b5824d6e3db182a7ffceb"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/bridge_core.py",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/bridge_core.py",
+      "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/bridge_replay.py",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/bridge_replay.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/mechanism_bridge.py",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/mechanism_bridge.py",
+      "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/requirements.txt",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/requirements.txt",
+      "sha256": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a"
+    },
+    {
+      "path": "suites/olmo_mechanism_bridge/test_bridge.py",
+      "origin_archive": "olmo_mechanism_bridge.zip",
+      "origin_member": "olmo_mechanism_bridge/test_bridge.py",
+      "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4"
+    },
+    {
+      "path": "suites/olmo_bridge_speedup/Apply_speedup.ipynb",
+      "origin_archive": "olmo_bridge_speedup.zip",
+      "origin_member": "Apply_speedup.ipynb",
+      "sha256": "32c63e84a2aa3ca2e2a4e9bf7911cd5ba2541c0cdac7da565bb613bf1665dc21"
+    },
+    {
+      "path": "suites/olmo_bridge_speedup/SPEEDUP_README.md",
+      "origin_archive": "olmo_bridge_speedup.zip",
+      "origin_member": "SPEEDUP_README.md",
+      "sha256": "5a824497dcf36b700028e4cbc84af38d4dab6c2259667156362b69eff36dcc6b"
+    },
+    {
+      "path": "suites/olmo_bridge_speedup/SPEEDUP_VALIDATION.md",
+      "origin_archive": "olmo_bridge_speedup.zip",
+      "origin_member": "SPEEDUP_VALIDATION.md",
+      "sha256": "959b8489f20314bece599a5f5e987978894f6e61bf978527eb040e8a640bc9a9"
+    },
+    {
+      "path": "suites/olmo_bridge_speedup/bridge_fast.py",
+      "origin_archive": "olmo_bridge_speedup.zip",
+      "origin_member": "bridge_fast.py",
+      "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/test_lifecycle.py",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/test_lifecycle.py",
+      "sha256": "661a2fb4485aa42e18f9977803012b1c6aeb8714fd563ce9c5e1dc6e510ea0b6"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/requirements.txt",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/requirements.txt",
+      "sha256": "8e27460c50cc47e4598b431fc94a19e16cbea4d305eb58cabb07754a8c34d87d"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/association_core.py",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/natural_geometry.py",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/natural_geometry.py",
+      "sha256": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/VALIDATION.md",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/VALIDATION.md",
+      "sha256": "a31fc9244401cd869fbdee389f97914f8ac5e793f278b419520c622f6acff473"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/test_natural_geometry.py",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/test_natural_geometry.py",
+      "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/README.md",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/README.md",
+      "sha256": "a36964bc8a174b1b807cf6f2d7a2fa0d476abf6f9ef2a6417e2ddba9abbab425"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/Run_Natural_Geometry.ipynb",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/Run_Natural_Geometry.ipynb",
+      "sha256": "4ae1156951a980c86a14989e6bcef564b64e53785943943cc06a3ce7f0169488"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/geometry_math.py",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/olmo_natural_geometry_overnight/SHA256.json",
+      "origin_archive": "olmo_natural_geometry_overnight.zip",
+      "origin_member": "olmo_natural_geometry/SHA256.json",
+      "sha256": "d6dc69211f4e1914c0b042f3580ab8290a672d67db1c9ddbf09b3f15e64fa91f"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/README.md",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/README.md",
+      "sha256": "985d596addcd091d8c8f89ab4550c4c1509b0406f5cd82fda90ad0094fcf60fc"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/Run_Precise_Forgetting.ipynb",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/Run_Precise_Forgetting.ipynb",
+      "sha256": "d7789df3723895a54657cbf8eef7725a6be8a2605b5387103d58497278d7f2f5"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/VALIDATION.md",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/VALIDATION.md",
+      "sha256": "bc9881f12ed464e888af8ebf0af329c0ac393e3b18a7f15a0b097a5b88376aa4"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/association_core.py",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/natural_geometry.py",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/natural_geometry.py",
+      "sha256": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/precise_forgetting.py",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/requirements.txt",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/requirements.txt",
+      "sha256": "8e27460c50cc47e4598b431fc94a19e16cbea4d305eb58cabb07754a8c34d87d"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/test_lifecycle.py",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/test_lifecycle.py",
+      "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/test_precise.py",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/test_precise.py",
+      "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f"
+    },
+    {
+      "path": "suites/olmo_precise_forgetting_overnight/SHA256.json",
+      "origin_archive": "olmo_precise_forgetting_overnight.zip",
+      "origin_member": "olmo_precise_forgetting/SHA256.json",
+      "sha256": "7852193a4d208e35b4f0cfd41be9639e502143ab01e48a16e89f1dd4c59c8a55"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/README.md",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/README.md",
+      "sha256": "947c326ef5540380860417542b36e3fa45c80317a6698283e50caec3027ab46c"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/Run_Path_Refinement.ipynb",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/Run_Path_Refinement.ipynb",
+      "sha256": "9fe42fb8d2357ab7ce4e5c61d4c6274f24cf9e250a39f016d6842a110f5edd76"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/VALIDATION.md",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/VALIDATION.md",
+      "sha256": "dbc39e33e2181bf4e0b8cd9ec319fdc3c01782f9d0a53b03f8c1961aa13cc630"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/association_core.py",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/natural_geometry.py",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/natural_geometry.py",
+      "sha256": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/precise_forgetting.py",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/refine_paths.py",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/refine_paths.py",
+      "sha256": "bd6fd6ec915a25e51307311c821a36c9f0fa17c85e53d5e5042557c3c8bd6702"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/requirements.txt",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/requirements.txt",
+      "sha256": "8e27460c50cc47e4598b431fc94a19e16cbea4d305eb58cabb07754a8c34d87d"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/test_refinement.py",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/test_refinement.py",
+      "sha256": "9d7d2228aac2744ef58d0d3c4f8d7d9f055dedcd248fc8113ef637329a164e73"
+    },
+    {
+      "path": "suites/olmo_path_refinement_overnight/SHA256.json",
+      "origin_archive": "olmo_path_refinement_overnight.zip",
+      "origin_member": "olmo_path_refinement/SHA256.json",
+      "sha256": "565846541eda2c6e33138fcabf1f0669ec2cca95edfcfb943443a59d198ff376"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/README.md",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/README.md",
+      "sha256": "cae416ac82aba1b99a98b57bfb481087e1e37cb98c28d13a35f046e925b1bec1"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/SHA256SUMS.txt",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/SHA256SUMS.txt",
+      "sha256": "0c8e88b0d61761f5d5416a6c9bd2b625ddf3d57c027a0492a4a0dd2e34c1ca93"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/VALIDATION.txt",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/VALIDATION.txt",
+      "sha256": "134b9244d83d0153f4c7515daa2e25cf1ffef5a1a47a86e69e325dff55aa9e80"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/association_core.py",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/four_vector_study.py",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/four_vector_study.py",
+      "sha256": "44face680dadfb7c08b22fa2c7ba07300971b4874f5889a385a334b4949e8496"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/geometry_math.py",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/natural_geometry.py",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/natural_geometry.py",
+      "sha256": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/precise_forgetting.py",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/refine_paths.py",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/requirements.txt",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/requirements.txt",
+      "sha256": "8e27460c50cc47e4598b431fc94a19e16cbea4d305eb58cabb07754a8c34d87d"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/run_four_vector_study.ipynb",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/run_four_vector_study.ipynb",
+      "sha256": "0f3a718b39b21ac4a2e4479c3347a182e6394b17f6d235964a9960035a58ad5e"
+    },
+    {
+      "path": "suites/olmo_four_vector_study/test_four_vector.py",
+      "origin_archive": "olmo_four_vector_study.zip",
+      "origin_member": "olmo_four_vector_study/test_four_vector.py",
+      "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/README.md",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/README.md",
+      "sha256": "04e0d9d5de652bb367b56617ee92def6dffeaee81eba028ceb1cf5d2d2a60108"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/SHA256SUMS.txt",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/SHA256SUMS.txt",
+      "sha256": "f38cc3d0f307a82cea45673c4ad02c604eac93ea1feb69e0a31f4ca11e357fd3"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/VALIDATION.txt",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/VALIDATION.txt",
+      "sha256": "03195f843a214bd5f685eefc2e7e098c74be0ab47adc8457c55a63cb9911c1dc"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/association_core.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/four_vector_study.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/geometry_math.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/multimodel_engine.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/multimodel_engine.py",
+      "sha256": "eeabf085b29b184ed81437402fcc49ae027fc33df39dbab63148fed2f7431705"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/natural_geometry.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/paper_suite.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/paper_suite.py",
+      "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/precise_forgetting.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/refine_difficult.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/refine_difficult.py",
+      "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/refine_paths.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/requirements.txt",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/requirements.txt",
+      "sha256": "e93397bf5b3598eccfc4d3a363d560766ab52d20cd19c71b3d426279e528ff0e"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/run_paper_suite.ipynb",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/run_paper_suite.ipynb",
+      "sha256": "75df54bca1ecfc03ac596ca4a5a5524064417695c752c6d52af7223820fbd5bd"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/test_four_vector.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/test_four_vector.py",
+      "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/test_multimodel.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/test_multimodel.py",
+      "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c"
+    },
+    {
+      "path": "suites/multimodel_forgetting_study/test_suite_pipeline.py",
+      "origin_archive": "multimodel_forgetting_study.zip",
+      "origin_member": "multimodel_forgetting_study/test_suite_pipeline.py",
+      "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc"
+    },
+    {
+      "path": "suites/forgetting_validation/test_retention.py",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "test_retention.py",
+      "sha256": "7d5da88ac7ba0c01c4ecf597eae8d5d200ead1ed0424736a70dff02de8196bfd"
+    },
+    {
+      "path": "suites/forgetting_validation/analyze_retention.py",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "analyze_retention.py",
+      "sha256": "4836dd9795f76b26b3da901c1b7dbe89b611448abcb5dd513c9c5050ee1899b8"
+    },
+    {
+      "path": "suites/forgetting_validation/README.md",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "README.md",
+      "sha256": "61188052a2dd14bb63c825f4a2b8d3553472ef639479ce9d6d22163d99749bab"
+    },
+    {
+      "path": "suites/forgetting_validation/Run_retention_analysis.ipynb",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "Run_retention_analysis.ipynb",
+      "sha256": "e353645d1b32aff4ac2de1e20151c81eaf79ae1889063944855d871a01b13427"
+    },
+    {
+      "path": "suites/forgetting_validation/EXPERIMENT_PROTOCOL.md",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "EXPERIMENT_PROTOCOL.md",
+      "sha256": "44805ee2819fc70c1bf18d7ea77d5e1c554ab5120b3e5eb4a273d8af4e8ea2d6"
+    },
+    {
+      "path": "suites/forgetting_validation/results/all_updates.csv",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "results/all_updates.csv",
+      "sha256": "04bc4e2c105c955c7471b68cf90ccb9325a59c6b28c095ae7b4f1b46b33eea68"
+    },
+    {
+      "path": "suites/forgetting_validation/results/selected_events.json",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "results/selected_events.json",
+      "sha256": "b57d2c28f60cd91843650b2a809151ce1452e2cf0708d039da213d782a30c25c"
+    },
+    {
+      "path": "suites/forgetting_validation/results/REPORT.txt",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "results/REPORT.txt",
+      "sha256": "d1f87084ff1a5e477c0bc1b94968ac4e996ef8fad8aaba4909cc5a602ccf716d"
+    },
+    {
+      "path": "suites/forgetting_validation/results/entity_changes.csv",
+      "origin_archive": "forgetting_validation.zip",
+      "origin_member": "results/entity_changes.csv",
+      "sha256": "e7649073185c84a8b6fa2081ff768c49b07ff99892552aee05e99f3530d320f8"
+    },
+    {
+      "path": "suites/frame_history_study/README.md",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/README.md",
+      "sha256": "baf190483fcc0b3fb38658fda849f3d88a57056dd996af3b694915b50cf5ba36"
+    },
+    {
+      "path": "suites/frame_history_study/Run_frame_history.ipynb",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/Run_frame_history.ipynb",
+      "sha256": "c041efb3d4ca38e333a707ad1755a7d7c05f77377f124392e6155e0ba42d5fa2"
+    },
+    {
+      "path": "suites/frame_history_study/SHA256SUMS.txt",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/SHA256SUMS.txt",
+      "sha256": "4a27800432a8ae5973d8662132dba976e0863d877d27c56debc724a4bf8d6bbb"
+    },
+    {
+      "path": "suites/frame_history_study/VALIDATION.txt",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/VALIDATION.txt",
+      "sha256": "a948efafec741cb6a09992e8ece904678112b2b79104d343bd2955edaf1642fe"
+    },
+    {
+      "path": "suites/frame_history_study/association_core.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/frame_history_study/four_vector_study.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "suites/frame_history_study/frame_history.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/frame_history.py",
+      "sha256": "29db175774fbb2115660e1399cb4a4297bfceb1fc9ec22c1f5240ac72a6f794e"
+    },
+    {
+      "path": "suites/frame_history_study/geometry_math.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/frame_history_study/natural_geometry.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "suites/frame_history_study/precise_forgetting.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "suites/frame_history_study/refine_paths.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "suites/frame_history_study/requirements.txt",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/requirements.txt",
+      "sha256": "98dcaa5de631f2869b016e8d1ecebc0633dbd3e0ea6e3772fd780e4ed4965a73"
+    },
+    {
+      "path": "suites/frame_history_study/test_frame_history.py",
+      "origin_archive": "frame_history_study.zip",
+      "origin_member": "frame_history_study/test_frame_history.py",
+      "sha256": "dd12a361218464607f8aa8a72831ce82e96f717525d8c001fcacf743084fe185"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/README.md",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/README.md",
+      "sha256": "58d18708850be31073a29e7364b48f20776f38a9706643226a8143c58b5c76b0"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/Run_paired_models.ipynb",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/Run_paired_models.ipynb",
+      "sha256": "e47b3df66ee6b42c25512e84a1f8135a9064f2f37385509d00687827fb5ba12e"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/SHA256SUMS",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/SHA256SUMS",
+      "sha256": "6afcbc05da1cd7311eeeff4f8dad93835f11b2f750ab74dd760db20d19be154e"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/VALIDATION.txt",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/VALIDATION.txt",
+      "sha256": "58a3216fb81eca58a291f4c08563d3e6822da567e0dfd19181a34be3553cc466"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/association_core.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/four_vector_study.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/geometry_math.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/multimodel_engine.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/multimodel_engine.py",
+      "sha256": "797fbb9ad7dd1d4e9fd8360c24f2d03d875650fd62eafdf2fb7bd7d7d0ac62a0"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/natural_geometry.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/paired_suite.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/paired_suite.py",
+      "sha256": "a9f364c50bed7c0b5b53f92fb38224b1cb1e4afe2ebb72be38a4f6acd99db4ea"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/precise_forgetting.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/predict_forgetting.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/refine_difficult.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/refine_difficult.py",
+      "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/refine_paths.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/requirements.txt",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/requirements.txt",
+      "sha256": "b1c3780fce8348fc451e96511963f7338aeba0596a49f6a79221e09b04d04d42"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/test_adapters.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/test_adapters.py",
+      "sha256": "35b0ded7ec238e65486be88016af14f057ecc61c3b6e6c2c5f47634a1ac58304"
+    },
+    {
+      "path": "suites/paired_base_instruct_study/test_paired_pipeline.py",
+      "origin_archive": "paired_base_instruct_study.zip",
+      "origin_member": "paired_base_instruct_study/test_paired_pipeline.py",
+      "sha256": "d812104fc72766b93b69dd0e89a40a765090eb91482b61efcda8b96fbed3c5d5"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/README.md",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/README.md",
+      "sha256": "5f8a914964115a940f708dbcf6c32e8a795dd59229e3fdcd776e0426821b18c6"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/Run_Qwen3_and_OPEN.ipynb",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/Run_Qwen3_and_OPEN.ipynb",
+      "sha256": "672dde12fb893ad3e3ccab556d6b15f9943b5f7510469b42505143cedd85edd8"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/SHA256SUMS",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/SHA256SUMS",
+      "sha256": "c2c01c4368885cd80d7d4987fa63340b0e9042473b3cb5dab79850a8ffcf6536"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/VALIDATION.txt",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/VALIDATION.txt",
+      "sha256": "88f9b3769e0c7aceae7b61c53fbb1599671bed161e77994800c571e33ea58f11"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/association_core.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/controls.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/controls.py",
+      "sha256": "4f6f0a1c11d4126893ace4c72bec3f807bd11892bf677a6a07c5c94afa6a8e07"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/environment_setup.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/environment_setup.py",
+      "sha256": "054b653a6c0dac0b10812cd57da248da23a8e0a6359aa0e6bf8badb70b6a757f"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/four_vector_study.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/geometry_math.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/multimodel_engine.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/multimodel_engine.py",
+      "sha256": "237257defa789e0c5e543a071490583894fb00ca460175e22a7f61bd29e348b6"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/natural_geometry.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/open_assets.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/open_assets.py",
+      "sha256": "31b7b3492fb0bcd94489694ef76895c7bdbc66e066f2bc381ff66ddb02054078"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/open_observer.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/open_observer.py",
+      "sha256": "82de9bbcc8dc119824e8c0b330925bdd45e86e83fcc646c490e56c7a2e1a7b81"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/open_pilot.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/open_pilot.py",
+      "sha256": "8f9a6323f543750e5c4d8786a1b5b0de8d8f51855519090882ba23a4046e89a5"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/paired_suite.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/paired_suite.py",
+      "sha256": "3ef0e8a7263bb1f26d261ef219a96a4cc01ea2af2b71d9d72dc7452265eb0c2b"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/precise_forgetting.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/predict_forgetting.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/proxy_audit.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/proxy_audit.py",
+      "sha256": "5c70ba0d3b1a9cabd52d0757af890dbd43166d52aeca6a1ea340800dd82c0d6b"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/refine_difficult.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/refine_difficult.py",
+      "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/refine_paths.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/requirements_qwen.txt",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/requirements_qwen.txt",
+      "sha256": "207fe607317999ad0c58aa30eacd41bfaf879407d3ded78cb90a339e33f4a5d7"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/test_adapters.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/test_adapters.py",
+      "sha256": "83d08156f9c9dd295c2ed277b82fa459de1162b14aec264448330b73ff53e8ff"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/test_controls.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/test_controls.py",
+      "sha256": "fdd12814834360ad8f4d0eb644fa34825c412a746a781802cbe3b310ab6ee4d3"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/test_open_pilot.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/test_open_pilot.py",
+      "sha256": "c1810c18d73ac39d3e71cb5db733059fb70944aa1649f56dcd05be5a281c93d9"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/test_open_proxy.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/test_open_proxy.py",
+      "sha256": "f3eb8860adb80bda202d4dfaf0f674dfa5f5c13658584663200314420e82b597"
+    },
+    {
+      "path": "suites/qwen3_open1b_study/test_paired_pipeline.py",
+      "origin_archive": "qwen3_open1b_study.zip",
+      "origin_member": "qwen3_open1b_study/test_paired_pipeline.py",
+      "sha256": "b3219a7bac5fdd9eebc0dbc8f2480ebeee70a8630bb7156c2b4b5a3c87bb42fd"
+    },
+    {
+      "path": "suites/overnight_replication_study/README.md",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/README.md",
+      "sha256": "03a4777b261fa2cf4c9eb60ee28575f5fc678fb8c058bc023d6c27444689fdbb"
+    },
+    {
+      "path": "suites/overnight_replication_study/Run_Overnight_Replication.ipynb",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/Run_Overnight_Replication.ipynb",
+      "sha256": "39d23aa98c1057d9141a1bd4e1348dd54eed67e1a9533fd8a0ff9884556b6178"
+    },
+    {
+      "path": "suites/overnight_replication_study/SHA256SUMS",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/SHA256SUMS",
+      "sha256": "d8e2e8ed58c9eaf5a7a86eaac246c9eb3a48c308b60d451442c851c45b28748f"
+    },
+    {
+      "path": "suites/overnight_replication_study/SOURCE_PROVENANCE.json",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/SOURCE_PROVENANCE.json",
+      "sha256": "51e229339ad6e40987b2f4edcd67859e4034596e8603cfe5eb873c448adfbe1b"
+    },
+    {
+      "path": "suites/overnight_replication_study/VALIDATION.txt",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/VALIDATION.txt",
+      "sha256": "1e9765c2819933f6dff9189fdc6f6f00ecb40a959ee1d5dce435a05f6fffe492"
+    },
+    {
+      "path": "suites/overnight_replication_study/association_core.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/overnight_replication_study/event_controls.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/event_controls.py",
+      "sha256": "a8d436d7c565433b2972a43c8653fb5511b77a33256d6c1701a06b9548fcdaf2"
+    },
+    {
+      "path": "suites/overnight_replication_study/frozen_baselines.json",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/frozen_baselines.json",
+      "sha256": "ef53bb9870d4e39430fa95f870d9dd2a3ac3392a075c11f836ea0a80a250b573"
+    },
+    {
+      "path": "suites/overnight_replication_study/geometry_math.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/overnight_replication_study/multimodel_engine.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/multimodel_engine.py",
+      "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8"
+    },
+    {
+      "path": "suites/overnight_replication_study/overnight_engine.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/overnight_engine.py",
+      "sha256": "3a675c1fbf7808905b49dcb4fac11a308b4ed34a6d4072007ef1ae1571da9837"
+    },
+    {
+      "path": "suites/overnight_replication_study/overnight_study.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/overnight_study.py",
+      "sha256": "aa55c6dc8696c6a54cf770b058db6ba24b447ee7e665c555891e979973cb4601"
+    },
+    {
+      "path": "suites/overnight_replication_study/predict_forgetting.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "suites/overnight_replication_study/requirements.txt",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/requirements.txt",
+      "sha256": "5faa6080f3e00af7d30276260fd4b15d312d90257b1f5c148c99256d53e3475a"
+    },
+    {
+      "path": "suites/overnight_replication_study/reviewer_suite.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/reviewer_suite.py",
+      "sha256": "85234addff78996dc864226e362c1e921aaeea7dec1c29252fc667806294104e"
+    },
+    {
+      "path": "suites/overnight_replication_study/source_calibration.json",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/source_calibration.json",
+      "sha256": "8def6d188f493cd60044d6797e8c3e5dadd3a693b00500eea82aa6c3268a216b"
+    },
+    {
+      "path": "suites/overnight_replication_study/study_math.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/study_math.py",
+      "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f"
+    },
+    {
+      "path": "suites/overnight_replication_study/study_prediction.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/study_prediction.py",
+      "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a"
+    },
+    {
+      "path": "suites/overnight_replication_study/study_tasks.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/study_tasks.py",
+      "sha256": "3734a77f05d6b3d9ee9afd53dbbb29ac33614a0b09d8dc98a220cbaa423d7233"
+    },
+    {
+      "path": "suites/overnight_replication_study/test_lifecycle.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/test_lifecycle.py",
+      "sha256": "da89d33bd2ef08efc0b6c920ca24b75d7c8fcbf6bcd8abb09555b75392b8e0c5"
+    },
+    {
+      "path": "suites/overnight_replication_study/test_overnight.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/test_overnight.py",
+      "sha256": "3487cac368062fd197a5be5b85ad9ef3a27b942418c3cd0f4f886ade0fa33b41"
+    },
+    {
+      "path": "suites/overnight_replication_study/test_suite.py",
+      "origin_archive": "overnight_replication_study.zip",
+      "origin_member": "overnight_replication_study/test_suite.py",
+      "sha256": "c64ca8876de002bc6f5eae5eae0b8161116a6c83643c5af0f12b535328125c9a"
+    },
+    {
+      "path": "suites/optimizer_generality_study/README.md",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/README.md",
+      "sha256": "8b02a720eff05b9056bcac55f19b1397b4bdfcd0cf63cd4764811f873269c71c"
+    },
+    {
+      "path": "suites/optimizer_generality_study/Run_Optimizer_Generality.ipynb",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/Run_Optimizer_Generality.ipynb",
+      "sha256": "516fc12994fb576f10cecf950ef2296bbfbfc15b38ecd369e104c5c705b071df"
+    },
+    {
+      "path": "suites/optimizer_generality_study/SHA256SUMS",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/SHA256SUMS",
+      "sha256": "eda2c43e21800953ad91437518785786061f95a944ff2138e5a2772d7dcf9b97"
+    },
+    {
+      "path": "suites/optimizer_generality_study/TIMING_RESULT_NOTE.txt",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/TIMING_RESULT_NOTE.txt",
+      "sha256": "469fa2c8fd841909b0005e228d1ff054ceb2e0f1aef7d1756de2b57de80cd09e"
+    },
+    {
+      "path": "suites/optimizer_generality_study/VALIDATION.txt",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/VALIDATION.txt",
+      "sha256": "4f15664d4f845d4c52f38cac20ca17826a8fa308e5f59abbedc39e3ccbca74c0"
+    },
+    {
+      "path": "suites/optimizer_generality_study/association_core.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/optimizer_generality_study/diagnostics.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/diagnostics.py",
+      "sha256": "27f5f7c9d721a3b0cea22408a1201bf998a452ea51b212f5c75b16deec321486"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_natural_records.json.gz",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_natural_records.json.gz",
+      "sha256": "b9f12f0319d7a4b5bed7f5db78f741bf1e37ce6a4057d43b5c344acfd5e56698"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_records_provenance.json",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_records_provenance.json",
+      "sha256": "6c073e7c806f1bd0c777e2b0c84f519157ec05cfce803ab3b115d3908e3c6119"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_timing_results/REPORT.txt",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_timing_results/REPORT.txt",
+      "sha256": "78df1cd1044468939f71bd113ca3e6b6801d704e825fe355583a670e60fbc3ad"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_timing_results/metrics.json",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_timing_results/metrics.json",
+      "sha256": "6178262ebea24c9f4ab47e29a5f7928160b991f1a9b57d3c07a7c65ac469aea9"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_timing_results/paired_block_intervals.json",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_timing_results/paired_block_intervals.json",
+      "sha256": "2ccded1735dedbb130a9959af2ce4eda7cd21ab9a0e5b8cc764fd985cbc9cf9e"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_timing_results/prediction_records.json",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_timing_results/prediction_records.json",
+      "sha256": "143aa74852e0ee88601a91d18a0d26ce44ec2694f0df5f412421a60ca289b25c"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_timing_results/shift_controls.json",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_timing_results/shift_controls.json",
+      "sha256": "3587b0a455506ec8253fa5c605b0617f7f3671ba56f67d6bae51be7c2387afa4"
+    },
+    {
+      "path": "suites/optimizer_generality_study/existing_timing_results/sources.json",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/existing_timing_results/sources.json",
+      "sha256": "b3e325b844f2f4686982243c8cc8aed3a4c9694de379734639a2d39daf504e3d"
+    },
+    {
+      "path": "suites/optimizer_generality_study/experiment.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/experiment.py",
+      "sha256": "68b0b49246dcae85fa596cda0004c701b063f0568e82ffe343b330ed5c74702b"
+    },
+    {
+      "path": "suites/optimizer_generality_study/frozen_baselines.json",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/frozen_baselines.json",
+      "sha256": "ef53bb9870d4e39430fa95f870d9dd2a3ac3392a075c11f836ea0a80a250b573"
+    },
+    {
+      "path": "suites/optimizer_generality_study/geometry_math.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/optimizer_generality_study/multimodel_engine.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/multimodel_engine.py",
+      "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8"
+    },
+    {
+      "path": "suites/optimizer_generality_study/optimizers.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/optimizers.py",
+      "sha256": "cece8aa318f318817b16a5c2c5efaad231ba9ad5ad85b5c91385c070977946b7"
+    },
+    {
+      "path": "suites/optimizer_generality_study/predict_forgetting.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "suites/optimizer_generality_study/reporting.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/reporting.py",
+      "sha256": "0ec983e42e1d42e71c06fdf63b6020c03966e286069c2168b677b210d0e44fe6"
+    },
+    {
+      "path": "suites/optimizer_generality_study/requirements.txt",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/requirements.txt",
+      "sha256": "93d5421ff8d2ce9ad05e2dde50edc7021d9587a4b5bfeed3291d4a8716977166"
+    },
+    {
+      "path": "suites/optimizer_generality_study/storage.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/storage.py",
+      "sha256": "591414ba79aa16862399bd21bd21c726d1e7f96cb8666495790be2e4b3de464a"
+    },
+    {
+      "path": "suites/optimizer_generality_study/study_math.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/study_math.py",
+      "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f"
+    },
+    {
+      "path": "suites/optimizer_generality_study/study_prediction.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/study_prediction.py",
+      "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a"
+    },
+    {
+      "path": "suites/optimizer_generality_study/tasks.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/tasks.py",
+      "sha256": "b0a78b8723edacde0e8710a165383b7dee35cf3294ca107df8fdbb67e3efa402"
+    },
+    {
+      "path": "suites/optimizer_generality_study/test_study.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/test_study.py",
+      "sha256": "c9505cb7607f262db695bcc6c11af9b90b3ec47a96f6e017aa75c1a1ec499061"
+    },
+    {
+      "path": "suites/optimizer_generality_study/timing_analysis.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/timing_analysis.py",
+      "sha256": "b870374a631b8734dee53081de61e06268f2b68becef80aedbe84ecc3d3473ce"
+    },
+    {
+      "path": "suites/optimizer_generality_study/worker.py",
+      "origin_archive": "optimizer_generality_study.zip",
+      "origin_member": "optimizer_generality_study/worker.py",
+      "sha256": "fcf6e0ce540c39c4ba6b495f62f45ed701b5833b7ed654290b9dcb31f14c865d"
+    },
+    {
+      "path": "suites/history_geometry_followup/README.md",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/README.md",
+      "sha256": "c1a3757dc2be1e1027542dc0c6278a14cb44724f45409c2adb82633b1d33652a"
+    },
+    {
+      "path": "suites/history_geometry_followup/Run_History_Geometry.ipynb",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/Run_History_Geometry.ipynb",
+      "sha256": "cacf4524bc6d03bf7b7553374ecae44f1257cba6bc83d6bb0778989edee4ed7e"
+    },
+    {
+      "path": "suites/history_geometry_followup/SHA256SUMS",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/SHA256SUMS",
+      "sha256": "c6da72966d2403bf0959a4c4542fd3d592513b8870a707c8d8cded157f62940b"
+    },
+    {
+      "path": "suites/history_geometry_followup/VALIDATION.txt",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/VALIDATION.txt",
+      "sha256": "12632e60d179bd8eaf0f3eed6b03292f037dde19a3cd44a2dff4bceec4b77a6e"
+    },
+    {
+      "path": "suites/history_geometry_followup/association_core.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/history_geometry_followup/development_provenance.json",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/development_provenance.json",
+      "sha256": "8ccfbf1d13f38c8f81e0faf5e24d20617b653dd9b5c68bf4886a60775f88256d"
+    },
+    {
+      "path": "suites/history_geometry_followup/development_records.json.gz",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/development_records.json.gz",
+      "sha256": "ab18db46e554ec89f68ddcd55fba581611dcdc2197fdf8368e65352f466722ee"
+    },
+    {
+      "path": "suites/history_geometry_followup/diagnostics.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/diagnostics.py",
+      "sha256": "27f5f7c9d721a3b0cea22408a1201bf998a452ea51b212f5c75b16deec321486"
+    },
+    {
+      "path": "suites/history_geometry_followup/finite_paths.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/finite_paths.py",
+      "sha256": "133687cc581fe00f068bdf847d4f879ec7a3724e2cddaca1450db7215d3b61e9"
+    },
+    {
+      "path": "suites/history_geometry_followup/frozen_predictors.json",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/frozen_predictors.json",
+      "sha256": "fc501b01e56982f3f721ed128d03263674463e5a939642f2053cc2a8d6eec52a"
+    },
+    {
+      "path": "suites/history_geometry_followup/multimodel_engine.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/multimodel_engine.py",
+      "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8"
+    },
+    {
+      "path": "suites/history_geometry_followup/optimizers.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/optimizers.py",
+      "sha256": "cece8aa318f318817b16a5c2c5efaad231ba9ad5ad85b5c91385c070977946b7"
+    },
+    {
+      "path": "suites/history_geometry_followup/predict_forgetting.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/predict_forgetting.py",
+      "sha256": "df748f00418b390fcac09633671a54327c1902b6be782f2e6a0e71f6f2bbeff7"
+    },
+    {
+      "path": "suites/history_geometry_followup/prediction.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/prediction.py",
+      "sha256": "5d203d383448c4638007e515da42e2aea6315b9c33631945ae2282cbec2a4a3a"
+    },
+    {
+      "path": "suites/history_geometry_followup/reporting.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/reporting.py",
+      "sha256": "cf8e469556399f08cc5a3744346e3061609040fee9a80bfad6e4e50962288e28"
+    },
+    {
+      "path": "suites/history_geometry_followup/requirements.txt",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/requirements.txt",
+      "sha256": "93d5421ff8d2ce9ad05e2dde50edc7021d9587a4b5bfeed3291d4a8716977166"
+    },
+    {
+      "path": "suites/history_geometry_followup/run_study.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/run_study.py",
+      "sha256": "a717601c853f72e56be4581092de98745895668a5b6a0266bbaf5c89395e0972"
+    },
+    {
+      "path": "suites/history_geometry_followup/storage.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/storage.py",
+      "sha256": "9ce61275a873fbae8c7ca3a9b84e56cbdba64be757cee620e53314e74bd80e5f"
+    },
+    {
+      "path": "suites/history_geometry_followup/study.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/study.py",
+      "sha256": "6b4076a33067de607bd6512e90308bec6faa3ca4a78d94b5a7c0cb367e9fb57d"
+    },
+    {
+      "path": "suites/history_geometry_followup/study_math.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/study_math.py",
+      "sha256": "577ff61caef3a7de931c2c2e4d324582b7b42fcf79ec7bdf4c221692d8565843"
+    },
+    {
+      "path": "suites/history_geometry_followup/tasks.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/tasks.py",
+      "sha256": "b0a78b8723edacde0e8710a165383b7dee35cf3294ca107df8fdbb67e3efa402"
+    },
+    {
+      "path": "suites/history_geometry_followup/test_followup.py",
+      "origin_archive": "history_geometry_followup.zip",
+      "origin_member": "history_geometry_followup/test_followup.py",
+      "sha256": "60e794c18f586c668916dc71a29f19706641b1f72c5e08042ef991cb0f712917"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/README.md",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/README.md",
+      "sha256": "18a4b7df60512a49de766a006b4e61059bfa7dd454e1f39e3d16f60de1adc686"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/Run_Natural_Components.ipynb",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/Run_Natural_Components.ipynb",
+      "sha256": "78e3a342aff0a717dd7733feec691cf501f15fc5cf693510f42ab34274f99524"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/SHA256SUMS",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/SHA256SUMS",
+      "sha256": "2dd98ae9d11088e9e0cdf892ee8eb3186b1cbb8c5df38a2a67f633a0f27218ca"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/VALIDATION.txt",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/VALIDATION.txt",
+      "sha256": "e1c56ed742dc57bf83b2147472a75d39dbdaeaa2b8f4187476bba9e2ad40ffd3"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/association_core.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/components.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/components.py",
+      "sha256": "3e2d68c3f311f20bb0c94576ae9502b30e600c783036e38d7bc8a1d9c1a3adb7"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/multimodel_engine.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/multimodel_engine.py",
+      "sha256": "6dab55bd644ce17276d17ba41bf4af2aa5dfd43c28e3174e51c9aae9f1718ff7"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/path_analysis.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/path_analysis.py",
+      "sha256": "f95c1c9efee67658f3ed0f264218b699bb4b4bc90265f830d3f3d3892b3f6527"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/reporting.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/reporting.py",
+      "sha256": "7dc58104e4f818d11fe534af3bd1fc08706e6ba026e3e8b767915bee94a0d04e"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/requirements.txt",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/requirements.txt",
+      "sha256": "0e1b977f9e30ccc164a858b38aa3c23aeaa428bd1b8cc55d6a783699dbb26e84"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/run_study.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/run_study.py",
+      "sha256": "c742f66d885f607d84d149fcbb8683d5b89117e4011f5a4a8c94821556f4f347"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/storage.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/storage.py",
+      "sha256": "9ce61275a873fbae8c7ca3a9b84e56cbdba64be757cee620e53314e74bd80e5f"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/study.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/study.py",
+      "sha256": "11e7bd28758fc6d63373da9f63b697b0e730e1de82e67bacc36bdc0154d3182f"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/study_math.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/study_math.py",
+      "sha256": "01ff032be2eebbd3202ca2d7fa670ba2ff1e49373e172287b9229d8d97c5dfe8"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/tasks.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/tasks.py",
+      "sha256": "b0a78b8723edacde0e8710a165383b7dee35cf3294ca107df8fdbb67e3efa402"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/test_components.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/test_components.py",
+      "sha256": "5fd9483ab11c8ee35c96dc9612049d8d0c1cfd487477d354740891028bb18d04"
+    },
+    {
+      "path": "suites/natural_forgetting_components_fixed/test_integration.py",
+      "origin_archive": "natural_forgetting_components_fixed.zip",
+      "origin_member": "natural_forgetting_components/test_integration.py",
+      "sha256": "419634750ef8805ff24ffc4ea87ff8eb86c4edca378997d7f16590b3ad2a3ef4"
+    },
+    {
+      "path": "suites/history_dynamics_replay/README.md",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/README.md",
+      "sha256": "0d4e89fbde1748a65f021a0a23214038622f0f908ae7b28f6d7d50edc2addf56"
+    },
+    {
+      "path": "suites/history_dynamics_replay/Run_History_Dynamics.ipynb",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/Run_History_Dynamics.ipynb",
+      "sha256": "9a658f97c1f12f6e688128c1df5c9e85ff755074802e6383086411f742450efc"
+    },
+    {
+      "path": "suites/history_dynamics_replay/SHA256SUMS",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/SHA256SUMS",
+      "sha256": "04d4ca817bca8b9e995b1cbc3ee4e4df590368c98c450277890e0787d3369ef4"
+    },
+    {
+      "path": "suites/history_dynamics_replay/VALIDATION.txt",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/VALIDATION.txt",
+      "sha256": "ebb0ccf9a5f60343caa5a272e8a31af06dd5d731cc0178160a295043e8712f66"
+    },
+    {
+      "path": "suites/history_dynamics_replay/association_core.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/history_dynamics_replay/components.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/components.py",
+      "sha256": "3e2d68c3f311f20bb0c94576ae9502b30e600c783036e38d7bc8a1d9c1a3adb7"
+    },
+    {
+      "path": "suites/history_dynamics_replay/dynamics.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/dynamics.py",
+      "sha256": "fe885d68333367f11b1d3f854d97a08d6e3c9138279a8ee0e42196524ee51514"
+    },
+    {
+      "path": "suites/history_dynamics_replay/multimodel_engine.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/multimodel_engine.py",
+      "sha256": "6dab55bd644ce17276d17ba41bf4af2aa5dfd43c28e3174e51c9aae9f1718ff7"
+    },
+    {
+      "path": "suites/history_dynamics_replay/reporting.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/reporting.py",
+      "sha256": "62bd4b626a6c3664ea50e16147da2c4535c662dd9ea402150777b505ea48cf00"
+    },
+    {
+      "path": "suites/history_dynamics_replay/requirements.txt",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/requirements.txt",
+      "sha256": "0e1b977f9e30ccc164a858b38aa3c23aeaa428bd1b8cc55d6a783699dbb26e84"
+    },
+    {
+      "path": "suites/history_dynamics_replay/run_replay.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/run_replay.py",
+      "sha256": "f840f7271ed01f185c8bed39391ea9973f29c00a4fa6a416ce6764f45bcc841d"
+    },
+    {
+      "path": "suites/history_dynamics_replay/storage.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/storage.py",
+      "sha256": "9ce61275a873fbae8c7ca3a9b84e56cbdba64be757cee620e53314e74bd80e5f"
+    },
+    {
+      "path": "suites/history_dynamics_replay/study.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/study.py",
+      "sha256": "7bbc2e776dcbf4b1a3c38c64b13721c79362d75276b5926fb4036394186f72fe"
+    },
+    {
+      "path": "suites/history_dynamics_replay/study_math.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/study_math.py",
+      "sha256": "01ff032be2eebbd3202ca2d7fa670ba2ff1e49373e172287b9229d8d97c5dfe8"
+    },
+    {
+      "path": "suites/history_dynamics_replay/test_dynamics.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/test_dynamics.py",
+      "sha256": "2e100f7fee15a553687255880964bbe76232aa8ae66cdc706de6ccc33b60de92"
+    },
+    {
+      "path": "suites/history_dynamics_replay/test_replay.py",
+      "origin_archive": "history_dynamics_replay.zip",
+      "origin_member": "history_dynamics_replay/test_replay.py",
+      "sha256": "017b4acbe10951d6f7b3f4c3f5b9116a78108cddab54b1c5576f4740ab0f3516"
+    },
+    {
+      "path": "suites/qwen3_history_replication/README.md",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/README.md",
+      "sha256": "8d6fd232c43863e77ef6c043e8c81e07e54f4caa998bd03a183027d552b66d0a"
+    },
+    {
+      "path": "suites/qwen3_history_replication/Run_Qwen3_History.ipynb",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/Run_Qwen3_History.ipynb",
+      "sha256": "6798e92bba20784a72ce0a63c8e198dcc102cbbbf951358fd1dcfb0556e917c4"
+    },
+    {
+      "path": "suites/qwen3_history_replication/VALIDATION.txt",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/VALIDATION.txt",
+      "sha256": "e188e0818e1dde578371566bbf6d765f499267606e181ec80ab036ab63577ab8"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/association_core.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/cohorts.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/cohorts.py",
+      "sha256": "6377385e301afe3e5074b014065bb4754c8c4c4a8e641796fa91e2e63d0e3019"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/components.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/components.py",
+      "sha256": "3e2d68c3f311f20bb0c94576ae9502b30e600c783036e38d7bc8a1d9c1a3adb7"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/dynamics.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/dynamics.py",
+      "sha256": "1bd574faa61e79feb1aea58ac05a7ecc0c38dd5bb0bfb247ae0a6c42b9882949"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/extension_report.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/extension_report.py",
+      "sha256": "e0b7ac97f5e947c65f01bd9f47cf8a8750e3a6f67b2ba2f78f5ff1fc18ffb09a"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/multimodel_engine.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/multimodel_engine.py",
+      "sha256": "6dab55bd644ce17276d17ba41bf4af2aa5dfd43c28e3174e51c9aae9f1718ff7"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/reporting.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/reporting.py",
+      "sha256": "393d5e6f0385dc2e913bfb3644f3b6c17652b7d81fae1d56ff1ff40f91120c7b"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/run_replay.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/run_replay.py",
+      "sha256": "464d2c1e15f586e14596d72cbadb15a71379084b70f53423013a9226f8a91e29"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/storage.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/storage.py",
+      "sha256": "9ce61275a873fbae8c7ca3a9b84e56cbdba64be757cee620e53314e74bd80e5f"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/study.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/study.py",
+      "sha256": "7bbc2e776dcbf4b1a3c38c64b13721c79362d75276b5926fb4036394186f72fe"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/study_math.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/study_math.py",
+      "sha256": "01ff032be2eebbd3202ca2d7fa670ba2ff1e49373e172287b9229d8d97c5dfe8"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/test_dynamics.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/test_dynamics.py",
+      "sha256": "2e100f7fee15a553687255880964bbe76232aa8ae66cdc706de6ccc33b60de92"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/test_extensions.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/test_extensions.py",
+      "sha256": "088dee06f6efc4a30071e5fb64a4d98a150ab95ac95dddfe9abf5783a28d1bcb"
+    },
+    {
+      "path": "suites/qwen3_history_replication/history/test_replay.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/history/test_replay.py",
+      "sha256": "03a8d6e2082ca530d7bc6cd3b689d7dc19b8c9898f73c9626b18723d8c5cf33f"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/association_core.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/components.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/components.py",
+      "sha256": "3e2d68c3f311f20bb0c94576ae9502b30e600c783036e38d7bc8a1d9c1a3adb7"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/multimodel_engine.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/multimodel_engine.py",
+      "sha256": "6dab55bd644ce17276d17ba41bf4af2aa5dfd43c28e3174e51c9aae9f1718ff7"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/path_analysis.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/path_analysis.py",
+      "sha256": "f95c1c9efee67658f3ed0f264218b699bb4b4bc90265f830d3f3d3892b3f6527"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/reporting.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/reporting.py",
+      "sha256": "7dc58104e4f818d11fe534af3bd1fc08706e6ba026e3e8b767915bee94a0d04e"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/run_paths.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/run_paths.py",
+      "sha256": "815f876fcb376fcbe66a3d5ccc1a0c0090aed9abb41cfd63f041f1b11eb6c4dd"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/run_study.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/run_study.py",
+      "sha256": "15cd1f68046ad46cdcbb3b9646e8a337d17253fedcb19b2aee6c0cb95564c9f3"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/storage.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/storage.py",
+      "sha256": "9ce61275a873fbae8c7ca3a9b84e56cbdba64be757cee620e53314e74bd80e5f"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/study.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/study.py",
+      "sha256": "2fdb246c5f76cabe45aef14095a3681faa52a37cff2a3f00675c35e693c7d59d"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/study_math.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/study_math.py",
+      "sha256": "01ff032be2eebbd3202ca2d7fa670ba2ff1e49373e172287b9229d8d97c5dfe8"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/tasks.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/tasks.py",
+      "sha256": "b0a78b8723edacde0e8710a165383b7dee35cf3294ca107df8fdbb67e3efa402"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/test_components.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/test_components.py",
+      "sha256": "5fd9483ab11c8ee35c96dc9612049d8d0c1cfd487477d354740891028bb18d04"
+    },
+    {
+      "path": "suites/qwen3_history_replication/natural/test_integration.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/natural/test_integration.py",
+      "sha256": "419634750ef8805ff24ffc4ea87ff8eb86c4edca378997d7f16590b3ad2a3ef4"
+    },
+    {
+      "path": "suites/qwen3_history_replication/pipeline.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/pipeline.py",
+      "sha256": "03af96a69c5965f0b1cf37554bac99533e92799ee9256384b5ce9aca68de35a5"
+    },
+    {
+      "path": "suites/qwen3_history_replication/prepare.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/prepare.py",
+      "sha256": "b2df9b802fc954a5b9150b7fb71c4d6afc4ce9b39ce956b403a6a523189d3bf3"
+    },
+    {
+      "path": "suites/qwen3_history_replication/repair_gh200_setup.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/repair_gh200_setup.py",
+      "sha256": "291c20a75baef2b8794034cce82aa7e1e0996f92e073ccc45c50f758469c8453"
+    },
+    {
+      "path": "suites/qwen3_history_replication/replication.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/replication.py",
+      "sha256": "aae740df80ba18f59c0e42f4f69cae75c7785195b68e10f2cd650da614112c08"
+    },
+    {
+      "path": "suites/qwen3_history_replication/requirements.txt",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/requirements.txt",
+      "sha256": "673d1204a3831afafb2cd1843871b11fcf9b42fb9afbbe2651698940a7ba6b0b"
+    },
+    {
+      "path": "suites/qwen3_history_replication/setup_gh200.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/setup_gh200.py",
+      "sha256": "06e29a53addf0f5fa51149a3ef30887ffa6b96869b5038bb4fef021d97de79f2"
+    },
+    {
+      "path": "suites/qwen3_history_replication/test_pipeline.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/test_pipeline.py",
+      "sha256": "c76241c3c8e0c6447fbaa9bba25e2ebdf4aa316844608b0296f86f55317eb9f0"
+    },
+    {
+      "path": "suites/qwen3_history_replication/verify_gpu.py",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/verify_gpu.py",
+      "sha256": "311b8404617a63f258547c04bf416a3f741927c17df93c0a9ab2892890fa2149"
+    },
+    {
+      "path": "suites/qwen3_history_replication/SHA256SUMS",
+      "origin_archive": "qwen3_history_replication.zip",
+      "origin_member": "qwen3_history_replication/SHA256SUMS",
+      "sha256": "7021b32ead41285cf10f1e826d0656e19c373d44f4ae8d3a5d15378c336b7aec"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/Run_Reviewer_Experiments.ipynb",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "Run_Reviewer_Experiments.ipynb",
+      "sha256": "1761f7b7b09c89ad5c9771c373623a3e9f979a3a8b70e6ba102d791835ee615e"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/multimodel_engine.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "multimodel_engine.py",
+      "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/test_lifecycle.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "test_lifecycle.py",
+      "sha256": "da89d33bd2ef08efc0b6c920ca24b75d7c8fcbf6bcd8abb09555b75392b8e0c5"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/requirements.txt",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "requirements.txt",
+      "sha256": "5faa6080f3e00af7d30276260fd4b15d312d90257b1f5c148c99256d53e3475a"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/SOURCE_PROVENANCE.json",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "SOURCE_PROVENANCE.json",
+      "sha256": "51e229339ad6e40987b2f4edcd67859e4034596e8603cfe5eb873c448adfbe1b"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/association_core.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/study_tasks.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "study_tasks.py",
+      "sha256": "3734a77f05d6b3d9ee9afd53dbbb29ac33614a0b09d8dc98a220cbaa423d7233"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/study_prediction.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "study_prediction.py",
+      "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/frozen_baselines.json",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "frozen_baselines.json",
+      "sha256": "ef53bb9870d4e39430fa95f870d9dd2a3ac3392a075c11f836ea0a80a250b573"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/VALIDATION.txt",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "VALIDATION.txt",
+      "sha256": "72e0811e93a2110ae31474fe5f8a93e8b3021efa2cddabcd1a1bdf1d382fe99a"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/README.md",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "README.md",
+      "sha256": "0e1f4d69f1ed94fbaa539b3de7ab7c97ab5477af1be59625318ea8ca09a30d93"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/study_math.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "study_math.py",
+      "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/analyze_existing.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "analyze_existing.py",
+      "sha256": "0c54d9587707667ceaa2035d143db0bd814423c551f678e42e90d1e77c7efa75"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/test_suite.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "test_suite.py",
+      "sha256": "c64ca8876de002bc6f5eae5eae0b8161116a6c83643c5af0f12b535328125c9a"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/source_calibration.json",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "source_calibration.json",
+      "sha256": "8def6d188f493cd60044d6797e8c3e5dadd3a693b00500eea82aa6c3268a216b"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/geometry_math.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/SHA256SUMS",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "SHA256SUMS",
+      "sha256": "2b9b46ee4d04b2e84656bfde93a86774c66403d7bc2ec1296f5430551176319a"
+    },
+    {
+      "path": "suites/reviewer_experiment_suite/reviewer_suite.py",
+      "origin_directory": "reviewer_experiment_suite",
+      "origin_member": "reviewer_suite.py",
+      "sha256": "e52256bf0a34d21e64fb493dac959ae8ebf430eb6752ed9d6199b7a86bfae581"
+    },
+    {
+      "path": "historical_repairs/repair_output_head.py",
+      "origin_member": "repair_output_head.py",
+      "sha256": "e820ed42ff0b7cf98ac4a3c54e6509f9aef71823ee16af87a3238fc26c702ce7"
+    },
+    {
+      "path": "historical_repairs/fix_multimodel_resume.py",
+      "origin_member": "fix_multimodel_resume.py",
+      "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0"
+    },
+    {
+      "path": "historical_repairs/archive_reader_fix.py",
+      "origin_member": "archive_reader_fix.py",
+      "sha256": "04a8647fbe780df61160f78cfd6078cf8d7b9a97ceb964a0fc348fb3f5b29635"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/settings.json",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "7bdcd40d77a5f768e1740ff0c684dcd0ee119645dfd753b59310e1be1aa200a9"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/REPORT.txt",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "d6d23152d909a9b75c92fd80834b3133bd09e6c85da50aa58d6dbd3cb0822bd9"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/test_refinement.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/test_refinement.py",
+      "sha256": "9d7d2228aac2744ef58d0d3c4f8d7d9f055dedcd248fc8113ef637329a164e73"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/geometry_math.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/test_four_vector.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/test_four_vector.py",
+      "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/association_core.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/refine_paths.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/natural_geometry.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/natural_geometry.py",
+      "sha256": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/precise_forgetting.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "recorded_runs/four_vector_share/code/four_vector_study.py",
+      "origin_archive": "four_vector_share.zip",
+      "origin_member": "code/four_vector_study.py",
+      "sha256": "44face680dadfb7c08b22fa2c7ba07300971b4874f5889a385a334b4949e8496"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/deferred_models.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "deferred_models.json",
+      "sha256": "ce2c3a1d9690d6da2507d49a313cfc363bd4f310d446b91dd19dc639070ee87f"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "86c27c9e3e9795ba4f8ef898bbfc46505c2e1cb1511f4ce67f438e1d8f67b38c"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/REPORT.txt",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "c10ac70731ba759c59d575b3b1034473c94485ef782646c1c55dd287fac4ee73"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/runs/pythia70m/seed2/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "runs/pythia70m/seed2/settings.json",
+      "sha256": "33e164a7fb11cda353f9fc967e44bc9b8bb65b5a21cbc52115a1c83bb13f33a0"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/runs/pythia70m/seed1/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "runs/pythia70m/seed1/settings.json",
+      "sha256": "fe44571433cf8574b8908f1baae7b4106d82603e98253547d9bedeeb62d290f0"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/runs/pythia70m/seed3/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "runs/pythia70m/seed3/settings.json",
+      "sha256": "0bcbb981554be2c25cd776e3c4d69abec0623e58ad9ff437247442bf185dcc0d"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/runs/pythia410m/seed2/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "runs/pythia410m/seed2/settings.json",
+      "sha256": "55d27bf8d37eb376c308eb0c10cda11cd6118d916f30fa9ed07ea7d354bba2b4"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/runs/pythia410m/seed1/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "runs/pythia410m/seed1/settings.json",
+      "sha256": "cd97c4489c1d9b3a25b2e5ddece44c7d6331dfecd4ad8714c24b99fd4613da0e"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/runs/pythia410m/seed3/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "runs/pythia410m/seed3/settings.json",
+      "sha256": "b24b46efc3b0ac174de1de0447b35ac5b63243c16af3f342fb9fca7c29516fac"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/original_olmo/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "original_olmo/settings.json",
+      "sha256": "7bdcd40d77a5f768e1740ff0c684dcd0ee119645dfd753b59310e1be1aa200a9"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/test_suite_pipeline.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/test_suite_pipeline.py",
+      "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/test_precise.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/test_precise.py",
+      "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/bridge_replay.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/bridge_replay.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/test_lifecycle.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/test_lifecycle.py",
+      "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/mechanism_bridge.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/mechanism_bridge.py",
+      "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/structure_study.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/structure_study.py",
+      "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/test_multimodel.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/test_multimodel.py",
+      "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/geometry_math.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/test_four_vector.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/test_four_vector.py",
+      "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/paper_suite.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/paper_suite.py",
+      "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/association_core.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/test_bridge.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/test_bridge.py",
+      "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/predict_forgetting.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/notebook_runner.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/notebook_runner.py",
+      "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/test_natural_geometry.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/test_natural_geometry.py",
+      "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/bridge_core.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/bridge_core.py",
+      "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/multimodel_engine.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "eeabf085b29b184ed81437402fcc49ae027fc33df39dbab63148fed2f7431705"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/refine_difficult.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/refine_difficult.py",
+      "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/refine_paths.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/forgetting_mechanisms.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/natural_geometry.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/precise_forgetting.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/four_vector_study.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/bridge_fast.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/bridge_fast.py",
+      "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/code/fix_multimodel_resume.py",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "code/fix_multimodel_resume.py",
+      "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0"
+    },
+    {
+      "path": "recorded_runs/multimodel_share/refinement/settings.json",
+      "origin_archive": "multimodel_share.zip",
+      "origin_member": "refinement/settings.json",
+      "sha256": "f872d6d1e397a15422044bfdc67f41cdf643a7268e4f084ca072e6cb5827b8c0"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/deferred_models.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "deferred_models.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "48da78b2b39d97ec4329d7a515c1df82ed7c0183a1e7cf6602a3c14a3fea891a"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/REPORT.txt",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "bf235ed0d2b025d82e7284c10dcbd9d9740e5a49e385749e922e233dc3481d2b"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/qwen25_05b_base/seed2/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/qwen25_05b_base/seed2/settings.json",
+      "sha256": "b7d134f0ed6b2b4dd2f3bb37e297b942410024eea1428b601313c18caaf99819"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/qwen25_05b_base/seed1/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/qwen25_05b_base/seed1/settings.json",
+      "sha256": "61e0e8e37b29cb5a74f8656518eae03fcd5ea8e517416866342fc96dc6d7fe26"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/qwen25_05b_base/seed3/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/qwen25_05b_base/seed3/settings.json",
+      "sha256": "19626f6471305c1a6098f0998188f12e993689a1bf3e476ff29fdebd24ee30ef"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/smollm2_360m_instruct/seed2/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/smollm2_360m_instruct/seed2/settings.json",
+      "sha256": "da58b657e01be7a0419ba97cc88f954fa9e3fab7e1a5ef5a083720fa3e239274"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/smollm2_360m_instruct/seed1/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/smollm2_360m_instruct/seed1/settings.json",
+      "sha256": "860361f53c79dfa4d4bfdb0d8eebfcfe0b5fad05220d5dff7a533a773d686cf4"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/smollm2_360m_instruct/seed3/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/smollm2_360m_instruct/seed3/settings.json",
+      "sha256": "ca65866aa2e606c4da330960dfab4e71ca292e55a956da1c7cd7bcb5dd525508"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/smollm2_360m_base/seed2/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/smollm2_360m_base/seed2/settings.json",
+      "sha256": "6e96f34bd3edc2e0428b573b4fde21d9faebd0cec15f690d8c10e794dbfd658b"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/smollm2_360m_base/seed1/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/smollm2_360m_base/seed1/settings.json",
+      "sha256": "1e0ebee4e00196af699fd23ea2ee3230e49538f8a98d49987fed5a15e88a81b7"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/smollm2_360m_base/seed3/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/smollm2_360m_base/seed3/settings.json",
+      "sha256": "ebc13b761fe6027cb3754cd8ee1c29ed887b6f4bde49cda5542b181fe1f0ce33"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/qwen25_05b_instruct/seed2/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/qwen25_05b_instruct/seed2/settings.json",
+      "sha256": "7c6f83a5f29aba8385ebd5c82df39213f766d1a24121d9e965c1c40217ffbba7"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/qwen25_05b_instruct/seed1/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/qwen25_05b_instruct/seed1/settings.json",
+      "sha256": "1003c0c4b1886a421526259fa36641db95a3af5edc161076ae87aa40da6b40e7"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/runs/qwen25_05b_instruct/seed3/settings.json",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "runs/qwen25_05b_instruct/seed3/settings.json",
+      "sha256": "ae8c992a0acf3d11e85f6b4cf2afbd146586fc3f471a5aa07a373a050a2940ac"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_suite_pipeline.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_suite_pipeline.py",
+      "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_adapters.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_adapters.py",
+      "sha256": "35b0ded7ec238e65486be88016af14f057ecc61c3b6e6c2c5f47634a1ac58304"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/paired_suite.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/paired_suite.py",
+      "sha256": "a9f364c50bed7c0b5b53f92fb38224b1cb1e4afe2ebb72be38a4f6acd99db4ea"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_precise.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_precise.py",
+      "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/bridge_replay.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/bridge_replay.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_lifecycle.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_lifecycle.py",
+      "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/mechanism_bridge.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/mechanism_bridge.py",
+      "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/structure_study.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/structure_study.py",
+      "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_multimodel.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_multimodel.py",
+      "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/geometry_math.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_four_vector.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_four_vector.py",
+      "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/paper_suite.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/paper_suite.py",
+      "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_paired_pipeline.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_paired_pipeline.py",
+      "sha256": "d812104fc72766b93b69dd0e89a40a765090eb91482b61efcda8b96fbed3c5d5"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/association_core.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/frame_history.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/frame_history.py",
+      "sha256": "29db175774fbb2115660e1399cb4a4297bfceb1fc9ec22c1f5240ac72a6f794e"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_bridge.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_bridge.py",
+      "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/predict_forgetting.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/notebook_runner.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/notebook_runner.py",
+      "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_frame_history.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_frame_history.py",
+      "sha256": "dd12a361218464607f8aa8a72831ce82e96f717525d8c001fcacf743084fe185"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_natural_geometry.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_natural_geometry.py",
+      "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/test_retention.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/test_retention.py",
+      "sha256": "7d5da88ac7ba0c01c4ecf597eae8d5d200ead1ed0424736a70dff02de8196bfd"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/bridge_core.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/bridge_core.py",
+      "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/multimodel_engine.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "797fbb9ad7dd1d4e9fd8360c24f2d03d875650fd62eafdf2fb7bd7d7d0ac62a0"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/refine_difficult.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/refine_difficult.py",
+      "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/analyze_retention.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/analyze_retention.py",
+      "sha256": "4836dd9795f76b26b3da901c1b7dbe89b611448abcb5dd513c9c5050ee1899b8"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/refine_paths.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/forgetting_mechanisms.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/natural_geometry.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/precise_forgetting.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/four_vector_study.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/bridge_fast.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/bridge_fast.py",
+      "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce"
+    },
+    {
+      "path": "recorded_runs/paired_models_share/code/fix_multimodel_resume.py",
+      "origin_archive": "paired_models_share.zip",
+      "origin_member": "code/fix_multimodel_resume.py",
+      "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/deferred_models.json",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "deferred_models.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/settings.json",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "8b4cf539781bc2dd5ca02938ca1ad919e41d3bb1ca534eb14fae281337fb8e8a"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/REPORT.txt",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "d86279d4414449a3c4c9e99d8c0ca2b437573e0222ce560c8ce83dda4f902e62"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/runs/qwen3_06b_base/seed2/settings.json",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "runs/qwen3_06b_base/seed2/settings.json",
+      "sha256": "e69c0c0fdcce30085ef104ab9e36b549e072d09053ce28e1efd5adb861fcaff8"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/runs/qwen3_06b_base/seed1/settings.json",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "runs/qwen3_06b_base/seed1/settings.json",
+      "sha256": "202c2957f40e3d65f905791757e1d1edcaa9c71dc6c4114d74fef62286c42401"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/runs/qwen3_06b_base/seed3/settings.json",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "runs/qwen3_06b_base/seed3/settings.json",
+      "sha256": "16422309a386f5cba64e32b0acd6d89519dcc80f0db9cd839a881a629460bd02"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/open_observer.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/open_observer.py",
+      "sha256": "82de9bbcc8dc119824e8c0b330925bdd45e86e83fcc646c490e56c7a2e1a7b81"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_suite_pipeline.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_suite_pipeline.py",
+      "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_adapters.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_adapters.py",
+      "sha256": "83d08156f9c9dd295c2ed277b82fa459de1162b14aec264448330b73ff53e8ff"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/paired_suite.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/paired_suite.py",
+      "sha256": "3ef0e8a7263bb1f26d261ef219a96a4cc01ea2af2b71d9d72dc7452265eb0c2b"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_precise.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_precise.py",
+      "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/bridge_replay.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/bridge_replay.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_lifecycle.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_lifecycle.py",
+      "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_open_proxy.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_open_proxy.py",
+      "sha256": "f3eb8860adb80bda202d4dfaf0f674dfa5f5c13658584663200314420e82b597"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/mechanism_bridge.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/mechanism_bridge.py",
+      "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/structure_study.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/structure_study.py",
+      "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/proxy_audit.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/proxy_audit.py",
+      "sha256": "5c70ba0d3b1a9cabd52d0757af890dbd43166d52aeca6a1ea340800dd82c0d6b"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_multimodel.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_multimodel.py",
+      "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/geometry_math.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_four_vector.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_four_vector.py",
+      "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/paper_suite.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/paper_suite.py",
+      "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_paired_pipeline.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_paired_pipeline.py",
+      "sha256": "b3219a7bac5fdd9eebc0dbc8f2480ebeee70a8630bb7156c2b4b5a3c87bb42fd"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/association_core.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/frame_history.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/frame_history.py",
+      "sha256": "29db175774fbb2115660e1399cb4a4297bfceb1fc9ec22c1f5240ac72a6f794e"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_bridge.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_bridge.py",
+      "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/predict_forgetting.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/notebook_runner.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/notebook_runner.py",
+      "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_frame_history.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_frame_history.py",
+      "sha256": "dd12a361218464607f8aa8a72831ce82e96f717525d8c001fcacf743084fe185"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_natural_geometry.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_natural_geometry.py",
+      "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_controls.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_controls.py",
+      "sha256": "fdd12814834360ad8f4d0eb644fa34825c412a746a781802cbe3b310ab6ee4d3"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/environment_setup.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/environment_setup.py",
+      "sha256": "054b653a6c0dac0b10812cd57da248da23a8e0a6359aa0e6bf8badb70b6a757f"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_open_pilot.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_open_pilot.py",
+      "sha256": "c1810c18d73ac39d3e71cb5db733059fb70944aa1649f56dcd05be5a281c93d9"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/test_retention.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/test_retention.py",
+      "sha256": "7d5da88ac7ba0c01c4ecf597eae8d5d200ead1ed0424736a70dff02de8196bfd"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/bridge_core.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/bridge_core.py",
+      "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/multimodel_engine.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "237257defa789e0c5e543a071490583894fb00ca460175e22a7f61bd29e348b6"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/controls.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/controls.py",
+      "sha256": "4f6f0a1c11d4126893ace4c72bec3f807bd11892bf677a6a07c5c94afa6a8e07"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/refine_difficult.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/refine_difficult.py",
+      "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/open_pilot.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/open_pilot.py",
+      "sha256": "8f9a6323f543750e5c4d8786a1b5b0de8d8f51855519090882ba23a4046e89a5"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/analyze_retention.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/analyze_retention.py",
+      "sha256": "4836dd9795f76b26b3da901c1b7dbe89b611448abcb5dd513c9c5050ee1899b8"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/refine_paths.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/forgetting_mechanisms.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/natural_geometry.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/open_assets.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/open_assets.py",
+      "sha256": "31b7b3492fb0bcd94489694ef76895c7bdbc66e066f2bc381ff66ddb02054078"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/precise_forgetting.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/four_vector_study.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/bridge_fast.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/bridge_fast.py",
+      "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce"
+    },
+    {
+      "path": "recorded_runs/qwen3_models_share/code/fix_multimodel_resume.py",
+      "origin_archive": "qwen3_models_share.zip",
+      "origin_member": "code/fix_multimodel_resume.py",
+      "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/settings.json",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "settings.json",
+      "sha256": "84e45bd58107dfe127385e9bface11b57eea961686473a1f56054c60ecc792d1"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/REPORT.txt",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "47fdaf6ccc44fea40c429123a40a83c80b098d3b6aa4012a8918e8e2aec895b4"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_suite_pipeline.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_suite_pipeline.py",
+      "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_precise.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_precise.py",
+      "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/bridge_replay.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/bridge_replay.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_lifecycle.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_lifecycle.py",
+      "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/mechanism_bridge.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/mechanism_bridge.py",
+      "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/structure_study.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/structure_study.py",
+      "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_multimodel.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_multimodel.py",
+      "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/geometry_math.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_four_vector.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_four_vector.py",
+      "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/paper_suite.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/paper_suite.py",
+      "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/association_core.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/frame_history.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/frame_history.py",
+      "sha256": "29db175774fbb2115660e1399cb4a4297bfceb1fc9ec22c1f5240ac72a6f794e"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_bridge.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_bridge.py",
+      "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/predict_forgetting.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/notebook_runner.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/notebook_runner.py",
+      "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_frame_history.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_frame_history.py",
+      "sha256": "dd12a361218464607f8aa8a72831ce82e96f717525d8c001fcacf743084fe185"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_natural_geometry.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_natural_geometry.py",
+      "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/test_retention.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/test_retention.py",
+      "sha256": "7d5da88ac7ba0c01c4ecf597eae8d5d200ead1ed0424736a70dff02de8196bfd"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/bridge_core.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/bridge_core.py",
+      "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/multimodel_engine.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "eeabf085b29b184ed81437402fcc49ae027fc33df39dbab63148fed2f7431705"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/refine_difficult.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/refine_difficult.py",
+      "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/analyze_retention.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/analyze_retention.py",
+      "sha256": "4836dd9795f76b26b3da901c1b7dbe89b611448abcb5dd513c9c5050ee1899b8"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/refine_paths.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/refine_paths.py",
+      "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/forgetting_mechanisms.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/forgetting_mechanisms.py",
+      "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/natural_geometry.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/natural_geometry.py",
+      "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/precise_forgetting.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/precise_forgetting.py",
+      "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/four_vector_study.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/four_vector_study.py",
+      "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/bridge_fast.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/bridge_fast.py",
+      "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce"
+    },
+    {
+      "path": "recorded_runs/frame_history_v1_share_latest/code/fix_multimodel_resume.py",
+      "origin_archive": "frame_history_v1_share (1).zip",
+      "origin_member": "code/fix_multimodel_resume.py",
+      "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code_hashes.json",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code_hashes.json",
+      "sha256": "eccbaa54521e6b7add2c8e1a0672debd555fdf35bf162dcc77e97d51ec07d94d"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/settings.json",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "f97d175ab46b6d21fddd8312c08d79a42333d22e165e2b75804bce58bec8fa25"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/REPORT.txt",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "1cdec0ff5ee6a3e0decd827dadbc008b797271d3ac8461c87669ef2710ed851e"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/environment.json",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "environment.json",
+      "sha256": "5edb3bc40dc780d014e8674bbdc7d631333445895cc6c2668041730d2428c18c"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/reviewer_suite.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/reviewer_suite.py",
+      "sha256": "e52256bf0a34d21e64fb493dac959ae8ebf430eb6752ed9d6199b7a86bfae581"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/test_lifecycle.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/test_lifecycle.py",
+      "sha256": "da89d33bd2ef08efc0b6c920ca24b75d7c8fcbf6bcd8abb09555b75392b8e0c5"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/geometry_math.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/analyze_existing.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/analyze_existing.py",
+      "sha256": "0c54d9587707667ceaa2035d143db0bd814423c551f678e42e90d1e77c7efa75"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/association_core.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/test_suite.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/test_suite.py",
+      "sha256": "c64ca8876de002bc6f5eae5eae0b8161116a6c83643c5af0f12b535328125c9a"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/study_prediction.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/study_prediction.py",
+      "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/predict_forgetting.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/multimodel_engine.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/study_math.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/study_math.py",
+      "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f"
+    },
+    {
+      "path": "recorded_runs/reviewer_results_share/code/study_tasks.py",
+      "origin_archive": "reviewer_results_share.zip",
+      "origin_member": "code/study_tasks.py",
+      "sha256": "3734a77f05d6b3d9ee9afd53dbbb29ac33614a0b09d8dc98a220cbaa423d7233"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code_hashes.json",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code_hashes.json",
+      "sha256": "e5085b9449c8c64fd9e1c48f4f7d17175527bb29916b971aeed4e4c3b57553f3"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/settings.json",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "d80449c69a280e33912ce3ed08b036bf5e2711456f3565a771ca4795cbeb1c65"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/REPORT.txt",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "c19508b580985f4f4bb7098cb6e805fba7b3b90671a6949ddd47cd118a668cff"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/environment.json",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "environment.json",
+      "sha256": "0581471a869169f5d2afe228f35578b17547d2432adfe41e6335cd9ef6ed19df"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/reviewer_suite.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/reviewer_suite.py",
+      "sha256": "85234addff78996dc864226e362c1e921aaeea7dec1c29252fc667806294104e"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/test_lifecycle.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/test_lifecycle.py",
+      "sha256": "da89d33bd2ef08efc0b6c920ca24b75d7c8fcbf6bcd8abb09555b75392b8e0c5"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/geometry_math.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/association_core.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/test_suite.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/test_suite.py",
+      "sha256": "c64ca8876de002bc6f5eae5eae0b8161116a6c83643c5af0f12b535328125c9a"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/study_prediction.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/study_prediction.py",
+      "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/test_overnight.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/test_overnight.py",
+      "sha256": "3487cac368062fd197a5be5b85ad9ef3a27b942418c3cd0f4f886ade0fa33b41"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/predict_forgetting.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/overnight_engine.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/overnight_engine.py",
+      "sha256": "3a675c1fbf7808905b49dcb4fac11a308b4ed34a6d4072007ef1ae1571da9837"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/event_controls.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/event_controls.py",
+      "sha256": "a8d436d7c565433b2972a43c8653fb5511b77a33256d6c1701a06b9548fcdaf2"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/multimodel_engine.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/study_math.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/study_math.py",
+      "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/study_tasks.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/study_tasks.py",
+      "sha256": "3734a77f05d6b3d9ee9afd53dbbb29ac33614a0b09d8dc98a220cbaa423d7233"
+    },
+    {
+      "path": "recorded_runs/overnight_replication_share/code/overnight_study.py",
+      "origin_archive": "overnight_replication_share.zip",
+      "origin_member": "code/overnight_study.py",
+      "sha256": "aa55c6dc8696c6a54cf770b058db6ba24b447ee7e665c555891e979973cb4601"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code_hashes.json",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code_hashes.json",
+      "sha256": "f17ca078af748d93e76879cdb87e0cb085fe99ed664ad0cd7a80a1afab40c360"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/settings.json",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "fc389cfd421e52d0600f3de8f59026e830dc9cbedbc5fa176d650fc7be5241f7"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/REPORT.txt",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "8e5e2ab0f6f9d8b33430c4b836e4eac92d5905e3bc99851a7fab45ee7330aacf"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/environment.json",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "environment.json",
+      "sha256": "b9fbb8df438e0f89a1ea4d943f7779d27b9c3128cb9a1eaf65e55c881fb40071"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/diagnostics.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/diagnostics.py",
+      "sha256": "27f5f7c9d721a3b0cea22408a1201bf998a452ea51b212f5c75b16deec321486"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/optimizers.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/optimizers.py",
+      "sha256": "cece8aa318f318817b16a5c2c5efaad231ba9ad5ad85b5c91385c070977946b7"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/geometry_math.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/geometry_math.py",
+      "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/association_core.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/study_prediction.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/study_prediction.py",
+      "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/test_study.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/test_study.py",
+      "sha256": "c9505cb7607f262db695bcc6c11af9b90b3ec47a96f6e017aa75c1a1ec499061"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/predict_forgetting.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/predict_forgetting.py",
+      "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/tasks.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/tasks.py",
+      "sha256": "b0a78b8723edacde0e8710a165383b7dee35cf3294ca107df8fdbb67e3efa402"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/multimodel_engine.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/experiment.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/experiment.py",
+      "sha256": "68b0b49246dcae85fa596cda0004c701b063f0568e82ffe343b330ed5c74702b"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/study_math.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/study_math.py",
+      "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/timing_analysis.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/timing_analysis.py",
+      "sha256": "b870374a631b8734dee53081de61e06268f2b68becef80aedbe84ecc3d3473ce"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/storage.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/storage.py",
+      "sha256": "591414ba79aa16862399bd21bd21c726d1e7f96cb8666495790be2e4b3de464a"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/reporting.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/reporting.py",
+      "sha256": "0ec983e42e1d42e71c06fdf63b6020c03966e286069c2168b677b210d0e44fe6"
+    },
+    {
+      "path": "recorded_runs/optimizer_generality_share/code/worker.py",
+      "origin_archive": "optimizer_generality_share.zip",
+      "origin_member": "code/worker.py",
+      "sha256": "fcf6e0ce540c39c4ba6b495f62f45ed701b5833b7ed654290b9dcb31f14c865d"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code_hashes.json",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code_hashes.json",
+      "sha256": "6f8b065a710840c4dfde4e33c6f582bb0e8f2159fc786584c7c0513c23348067"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/snapshot_manifest.json",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "snapshot_manifest.json",
+      "sha256": "285ef61540d7845c5932870cff69e1e7285e30db9b672360bf066f623e2d154d"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/source_settings.json",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "source_settings.json",
+      "sha256": "29b34d23987a7b0eb8f1876bd498fa3c35ce7a02c2288db29efde31a64e8b0cc"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/settings.json",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "settings.json",
+      "sha256": "140bd82079a56de1b3d67c069319d760dc2efa665615ef6ecb82baa8763bb38c"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/source_environment.json",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "source_environment.json",
+      "sha256": "fcdff3dd53a34eec7912f8ba501a6ad067798a2867ca78191c7a786d5168838f"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/source_code_hashes.json",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "source_code_hashes.json",
+      "sha256": "391e60dbfa677555b26c6473ca1d18f1f2e013bb7e8bd7f2b51d049ed3d2310a"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/REPORT.txt",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "REPORT.txt",
+      "sha256": "6d9b6f0d86bc703b65e9b31673bc0da72d15a2b1ad3593396e21bf1238bdd583"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/environment.json",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "environment.json",
+      "sha256": "abc2efc86dbd61e5f24378c113007d8e57736b16761881360c6d6de1782cc66d"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/study.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/study.py",
+      "sha256": "7bbc2e776dcbf4b1a3c38c64b13721c79362d75276b5926fb4036394186f72fe"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/association_core.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/association_core.py",
+      "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/test_replay.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/test_replay.py",
+      "sha256": "017b4acbe10951d6f7b3f4c3f5b9116a78108cddab54b1c5576f4740ab0f3516"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/dynamics.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/dynamics.py",
+      "sha256": "fe885d68333367f11b1d3f854d97a08d6e3c9138279a8ee0e42196524ee51514"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/run_replay.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/run_replay.py",
+      "sha256": "f840f7271ed01f185c8bed39391ea9973f29c00a4fa6a416ce6764f45bcc841d"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/multimodel_engine.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/multimodel_engine.py",
+      "sha256": "6dab55bd644ce17276d17ba41bf4af2aa5dfd43c28e3174e51c9aae9f1718ff7"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/study_math.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/study_math.py",
+      "sha256": "01ff032be2eebbd3202ca2d7fa670ba2ff1e49373e172287b9229d8d97c5dfe8"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/storage.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/storage.py",
+      "sha256": "9ce61275a873fbae8c7ca3a9b84e56cbdba64be757cee620e53314e74bd80e5f"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/components.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/components.py",
+      "sha256": "3e2d68c3f311f20bb0c94576ae9502b30e600c783036e38d7bc8a1d9c1a3adb7"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/reporting.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/reporting.py",
+      "sha256": "62bd4b626a6c3664ea50e16147da2c4535c662dd9ea402150777b505ea48cf00"
+    },
+    {
+      "path": "recorded_runs/history_dynamics_share/code/test_dynamics.py",
+      "origin_archive": "history_dynamics_share.zip",
+      "origin_member": "code/test_dynamics.py",
+      "sha256": "2e100f7fee15a553687255880964bbe76232aa8ae66cdc706de6ccc33b60de92"
+    },
+    {
+      "path": "recorded_runs/history_geometry_loose/settings.json",
+      "origin_member": "user-supplied settings.json; association needs verification",
+      "sha256": "87eee1e7802e21a484f05fc0833330e76afcdbe25a9afacdc2806c54d145d6b9"
+    }
+  ]
+}

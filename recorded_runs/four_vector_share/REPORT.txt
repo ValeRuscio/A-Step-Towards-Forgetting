@@ -1,0 +1,28 @@
+FOUR-VECTOR NATURAL DYNAMICS — 384/384 updates measured
+Seed 1: through update 128; A_test dL -0.0200882, linear -0.0219624, remainder +0.00187428; B_test dL -0.0184403, linear -0.022431, remainder +0.00399065
+Seed 2: through update 128; A_test dL +0.0258093, linear +0.0233879, remainder +0.00242143; B_test dL +0.0203401, linear +0.0181086, remainder +0.00223149
+Seed 3: through update 128; A_test dL -0.10072, linear -0.127009, remainder +0.0262893; B_test dL -0.0668862, linear -0.0866397, remainder +0.0197536
+seed1_update021 A_test: dL +0.287872; remainder +0.418136; closure +2.27e-06; quadrature_passed=False, capped=True; orientation +0.187095, magnitude -0.200631, joint +0.431675
+seed1_update021 B_test: dL -0.0348935; remainder +0.0415549; closure -0.000575; quadrature_passed=False, capped=True; orientation +0.0328516, magnitude -0.0884102, joint +0.0965388
+seed1_update048 A_test: dL +0.658153; remainder +0.121956; closure +1.7e-07; quadrature_passed=True, capped=False; orientation +0.00661183, magnitude +0.1137, joint +0.00164447
+seed1_update048 B_test: dL +0.545801; remainder +0.111049; closure -9.2e-07; quadrature_passed=True, capped=False; orientation +0.00762181, magnitude +0.101293, joint +0.00213338
+seed2_update011 A_test: dL -0.0137297; remainder +0.0405039; closure +6.22e-06; quadrature_passed=False, capped=True; orientation +0.0368348, magnitude +0.0161786, joint -0.0125033
+seed2_update011 B_test: dL -0.047717; remainder +0.0437371; closure +4.4e-05; quadrature_passed=False, capped=True; orientation +0.0287436, magnitude +0.0212257, joint -0.00618827
+seed3_update007 A_test: dL +0.535326; remainder +0.042563; closure -5.41e-08; quadrature_passed=True, capped=False; orientation +0.00584206, magnitude +0.0361711, joint +0.000549806
+seed3_update007 B_test: dL +0.333407; remainder +0.0442302; closure +2.87e-07; quadrature_passed=True, capped=False; orientation +0.00488295, magnitude +0.0385201, joint +0.000827361
+seed1_update021 A_test alpha=0.582031: dHd -127.073; hHh -117.35; hHc -4.79206; cHc -0.138576; symmetry=True; curvature FD=False
+seed1_update021 B_test alpha=0.582031: dHd +20.5235; hHh +19.2776; hHc +0.595648; cHc +0.0545588; symmetry=True; curvature FD=True
+seed1_update048 A_test alpha=0.703125: dHd +0.25672; hHh +0.316831; hHc -0.0312042; cHc +0.00229664; symmetry=True; curvature FD=True
+seed1_update048 B_test alpha=0.703125: dHd +0.239768; hHh +0.301218; hHc -0.0323076; cHc +0.0031655; symmetry=True; curvature FD=True
+seed2_update011 A_test alpha=0.343384: dHd +0.053302; hHh +0.0340736; hHc +0.00634456; cHc +0.00653936; symmetry=True; curvature FD=False
+seed2_update011 B_test alpha=0.343384: dHd -46.3367; hHh -44.3117; hHc -1.00414; cHc -0.0166572; symmetry=True; curvature FD=False
+seed3_update007 A_test alpha=0.015625: dHd +0.102541; hHh +0.0572868; hHc +0.0193576; cHc +0.00653918; symmetry=True; curvature FD=True
+seed3_update007 B_test alpha=0.015625: dHd +0.106341; hHh +0.0605807; hHc +0.019675; cHc +0.00641076; symmetry=True; curvature FD=True
+seed1_update021 slope FD checks: 10/12 passed (including one-sided endpoint tests).
+seed1_update048 slope FD checks: 12/12 passed (including one-sided endpoint tests).
+seed2_update011 slope FD checks: 12/12 passed (including one-sided endpoint tests).
+seed3_update007 slope FD checks: 12/12 passed (including one-sided endpoint tests).
+Gradients use the complete fixed task populations, without clipping or sketches. h/c include the original training-gradient clipping.
+Path quadrature certifies numerical checks on population means only, not each entity. Capped/failed checks remain unresolved.
+Layer quantities use disjoint native parameter blocks, not activation covariance spectra.
+Loss consequences and decompositions are measured; they do not by themselves establish a causal reference-frame mechanism.

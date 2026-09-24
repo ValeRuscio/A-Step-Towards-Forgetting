@@ -1,0 +1,34 @@
+MULTIMODEL FORGETTING — original OLMo prediction fits frozen before replication
+Lead 1 = advance warning from preceding pre-update vectors. Lead 0 = current-gradient-informed diagnostic.
+Prediction threshold: A_test increase > 0.05 KL; all steps retained. Metrics are per seed, not independent-update confidence intervals.
+pythia70m seed1 loss_only: n=126, positives=7, acquisition=True, AUROC=0.4957983193277311, AP=0.06379064170471056, Brier=0.0829
+pythia70m seed2 loss_only: n=126, positives=10, acquisition=True, AUROC=0.8241379310344827, AP=0.5466647630250572, Brier=0.0835
+pythia70m seed3 loss_only: n=126, positives=13, acquisition=True, AUROC=0.8420694349897889, AP=0.5310137858604415, Brier=0.0857
+pythia70m seed1 local_projection: n=126, positives=7, acquisition=True, AUROC=0.6578631452581032, AP=0.1474222802842345, Brier=0.0743
+pythia70m seed2 local_projection: n=126, positives=10, acquisition=True, AUROC=0.9181034482758621, AP=0.7660958118187035, Brier=0.0732
+pythia70m seed3 local_projection: n=126, positives=13, acquisition=True, AUROC=0.9577944179714091, AP=0.7755167845570324, Brier=0.0727
+pythia70m seed1 static_geometry: n=126, positives=7, acquisition=True, AUROC=0.5714285714285714, AP=0.07400840730558579, Brier=0.0693
+pythia70m seed2 static_geometry: n=126, positives=10, acquisition=True, AUROC=0.8094827586206896, AP=0.23791711928346335, Brier=0.0686
+pythia70m seed3 static_geometry: n=126, positives=13, acquisition=True, AUROC=0.8679373723621511, AP=0.4916810846158672, Brier=0.0757
+pythia70m seed1 geometry_plus_changes: n=126, positives=7, acquisition=True, AUROC=0.602641056422569, AP=0.10546043525635361, Brier=0.0725
+pythia70m seed2 geometry_plus_changes: n=126, positives=10, acquisition=True, AUROC=0.8258620689655173, AP=0.34050580565611027, Brier=0.0730
+pythia70m seed3 geometry_plus_changes: n=126, positives=13, acquisition=True, AUROC=0.85500340367597, AP=0.510965403690705, Brier=0.0755
+pythia410m seed1 loss_only: n=126, positives=31, acquisition=True, AUROC=0.5378607809847199, AP=0.35129197638845516, Brier=0.1899
+pythia410m seed2 loss_only: n=126, positives=16, acquisition=True, AUROC=0.6323863636363637, AP=0.2672496516619325, Brier=0.1220
+pythia410m seed3 loss_only: n=126, positives=29, acquisition=True, AUROC=0.6757909704941344, AP=0.4857254085109013, Brier=0.1608
+pythia410m seed1 local_projection: n=126, positives=31, acquisition=True, AUROC=0.732427843803056, AP=0.5536495913847234, Brier=0.1581
+pythia410m seed2 local_projection: n=126, positives=16, acquisition=True, AUROC=0.8613636363636363, AP=0.4909032751135032, Brier=0.1041
+pythia410m seed3 local_projection: n=126, positives=29, acquisition=True, AUROC=0.7977248489157484, AP=0.6437002526375333, Brier=0.1371
+pythia410m seed1 static_geometry: n=126, positives=31, acquisition=True, AUROC=0.7640067911714771, AP=0.6429719078738023, Brier=0.1428
+pythia410m seed2 static_geometry: n=126, positives=16, acquisition=True, AUROC=0.8664772727272727, AP=0.4622195824361115, Brier=0.0979
+pythia410m seed3 static_geometry: n=126, positives=29, acquisition=True, AUROC=0.7998578030572343, AP=0.6717971219503194, Brier=0.1317
+pythia410m seed1 geometry_plus_changes: n=126, positives=31, acquisition=True, AUROC=0.7860780984719864, AP=0.648683071287654, Brier=0.1402
+pythia410m seed2 geometry_plus_changes: n=126, positives=16, acquisition=True, AUROC=0.7852272727272728, AP=0.44801715056200986, Brier=0.0995
+pythia410m seed3 geometry_plus_changes: n=126, positives=29, acquisition=True, AUROC=0.813722004976893, AP=0.7029669323133692, Brier=0.1221
+pythia70m seed1: A_valid after acquisition=0.00218487; criterion_passed=True
+pythia70m seed2: A_valid after acquisition=0.00446766; criterion_passed=True
+pythia70m seed3: A_valid after acquisition=0.00253002; criterion_passed=True
+pythia410m seed1: A_valid after acquisition=0.000162522; criterion_passed=True
+pythia410m seed2: A_valid after acquisition=0.000253367; criterion_passed=True
+pythia410m seed3: A_valid after acquisition=0.00048883; criterion_passed=True
+PENDING qwen3_06b_base: Qwen3 support unavailable. Pythia work continues in the unchanged environment; Qwen remains pending.

@@ -1,0 +1,49 @@
+TIMING AND PERSISTENCE — unfitted scores, no target-seed tuning
+Decision before update d: use geometry from completed update d-1, latest validation change from d-1, and validation loss at theta_(d-1).
+Horizon0 predicts update d; horizon1 predicts d+1; horizon3 predicts d+3; horizon7 predicts d+7. No current/future test loss is a feature.
+Raw score orientation is fixed (larger means predicted harm); no sign flipping for below-chance results.
+CIs are within-trajectory block-bootstrap diagnostics; they do not substitute for independent seeds.
+pythia410m/registry/seed11/natural previous_projection: AUROC=0.7910628019323671; n=119; events=27
+pythia410m/registry/seed11/natural previous_cosine: AUROC=0.7958937198067633; n=119; events=27
+pythia410m/registry/seed11/natural previous_update_norm: AUROC=0.6980676328502415; n=119; events=27
+pythia410m/registry/seed11/natural previous_gradient_norm: AUROC=0.2673107890499195; n=119; events=27
+pythia410m/registry/seed11/natural latest_validation_increase: AUROC=0.821658615136876; n=119; events=27
+pythia410m/registry/seed11/natural mean_validation_increase4: AUROC=0.5805152979066023; n=119; events=27
+pythia410m/registry/seed11/natural mean_validation_increase8: AUROC=0.4895330112721417; n=119; events=27
+pythia410m/registry/seed11/natural ewma_validation_increase: AUROC=0.7214170692431562; n=119; events=27
+pythia410m/registry/seed11/natural current_validation_loss: AUROC=0.4178743961352657; n=119; events=27
+pythia410m/registry/seed11/natural previous_population_interference: AUROC=0.7330917874396136; n=119; events=27
+pythia410m/registry/seed11/natural previous_training_interference: AUROC=0.7395330112721417; n=119; events=27
+pythia410m/text/seed11/natural previous_projection: AUROC=0.8183106575963719; n=119; events=56
+pythia410m/text/seed11/natural previous_cosine: AUROC=0.8081065759637188; n=119; events=56
+pythia410m/text/seed11/natural previous_update_norm: AUROC=0.5802154195011338; n=119; events=56
+pythia410m/text/seed11/natural previous_gradient_norm: AUROC=0.4039115646258503; n=119; events=56
+pythia410m/text/seed11/natural latest_validation_increase: AUROC=0.8509070294784581; n=119; events=56
+pythia410m/text/seed11/natural mean_validation_increase4: AUROC=0.6686507936507936; n=119; events=56
+pythia410m/text/seed11/natural mean_validation_increase8: AUROC=0.47845804988662133; n=119; events=56
+pythia410m/text/seed11/natural ewma_validation_increase: AUROC=0.7585034013605442; n=119; events=56
+pythia410m/text/seed11/natural current_validation_loss: AUROC=0.3812358276643991; n=119; events=56
+pythia410m/text/seed11/natural previous_population_interference: AUROC=0.7551020408163265; n=119; events=56
+pythia410m/text/seed11/natural previous_training_interference: AUROC=0.7295918367346939; n=119; events=56
+pythia410m/text/seed12/natural previous_projection: AUROC=0.8465234595816846; n=119; events=58
+pythia410m/text/seed12/natural previous_cosine: AUROC=0.855568117580554; n=119; events=58
+pythia410m/text/seed12/natural previous_update_norm: AUROC=0.5330695308083663; n=119; events=58
+pythia410m/text/seed12/natural previous_gradient_norm: AUROC=0.3343697003957038; n=119; events=58
+pythia410m/text/seed12/natural latest_validation_increase: AUROC=0.852176370830978; n=119; events=58
+pythia410m/text/seed12/natural mean_validation_increase4: AUROC=0.7227247032221594; n=119; events=58
+pythia410m/text/seed12/natural mean_validation_increase8: AUROC=0.58111927642736; n=119; events=58
+pythia410m/text/seed12/natural ewma_validation_increase: AUROC=0.7931034482758621; n=119; events=58
+pythia410m/text/seed12/natural current_validation_loss: AUROC=0.4253815715093273; n=119; events=58
+pythia410m/text/seed12/natural previous_population_interference: AUROC=0.6218202374222724; n=119; events=58
+pythia410m/text/seed12/natural previous_training_interference: AUROC=0.6563029960429622; n=119; events=58
+pythia410m/text/seed13/natural previous_projection: AUROC=0.9271541950113379; n=119; events=56
+pythia410m/text/seed13/natural previous_cosine: AUROC=0.927437641723356; n=119; events=56
+pythia410m/text/seed13/natural previous_update_norm: AUROC=0.5104875283446711; n=119; events=56
+pythia410m/text/seed13/natural previous_gradient_norm: AUROC=0.34523809523809523; n=119; events=56
+pythia410m/text/seed13/natural latest_validation_increase: AUROC=0.9404761904761905; n=119; events=56
+pythia410m/text/seed13/natural mean_validation_increase4: AUROC=0.7743764172335601; n=119; events=56
+pythia410m/text/seed13/natural mean_validation_increase8: AUROC=0.5195578231292517; n=119; events=56
+pythia410m/text/seed13/natural ewma_validation_increase: AUROC=0.8647959183673469; n=119; events=56
+pythia410m/text/seed13/natural current_validation_loss: AUROC=0.4628684807256236; n=119; events=56
+pythia410m/text/seed13/natural previous_population_interference: AUROC=0.6777210884353742; n=119; events=56
+pythia410m/text/seed13/natural previous_training_interference: AUROC=0.7437641723356009; n=119; events=56

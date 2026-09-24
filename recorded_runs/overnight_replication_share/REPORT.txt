@@ -1,0 +1,29 @@
+REVIEWER EXPERIMENT SUITE — test outcomes never trigger interventions
+27 completed conditions; 27 started
+pythia410m/text/seed12/loss_history: 128 updates; A 1.14005 -> 2.04703; B 6.68738 -> 0.72808; actions=14; complete=True
+pythia410m/text/seed12/natural: 128 updates; A 1.14005 -> 4.51782; B 6.68738 -> 0.99890; actions=0; complete=True
+pythia410m/text/seed12/preserve_lr0.25: 128 updates; A 1.14005 -> 2.57466; B 6.68738 -> 0.98980; actions=0; complete=True
+pythia410m/text/seed12/projection: 128 updates; A 1.14005 -> 4.43296; B 6.68738 -> 0.72389; actions=16; complete=True
+pythia410m/text/seed12/random_budget14_rep1: 128 updates; A 1.14005 -> 5.93724; B 6.68738 -> 0.79354; actions=14; complete=True
+pythia410m/text/seed12/random_budget14_rep2: 128 updates; A 1.14005 -> 2.63191; B 6.68738 -> 0.56008; actions=14; complete=True
+pythia410m/text/seed12/random_budget14_rep3: 128 updates; A 1.14005 -> 2.97982; B 6.68738 -> 0.62757; actions=14; complete=True
+pythia410m/text/seed12/random_budget14_rep4: 128 updates; A 1.14005 -> 3.09417; B 6.68738 -> 0.72705; actions=14; complete=True
+pythia410m/text/seed12/random_budget14_rep5: 128 updates; A 1.14005 -> 3.22057; B 6.68738 -> 0.83502; actions=14; complete=True
+pythia410m/text/seed12/random_budget16_rep1: 128 updates; A 1.14005 -> 4.28612; B 6.68738 -> 0.60195; actions=16; complete=True
+pythia410m/text/seed12/random_budget16_rep2: 128 updates; A 1.14005 -> 5.78854; B 6.68738 -> 0.67538; actions=16; complete=True
+pythia410m/text/seed12/random_budget16_rep3: 128 updates; A 1.14005 -> 7.18470; B 6.68738 -> 0.81019; actions=16; complete=True
+pythia410m/text/seed12/random_budget16_rep4: 128 updates; A 1.14005 -> 3.69834; B 6.68738 -> 0.62282; actions=16; complete=True
+pythia410m/text/seed12/random_budget16_rep5: 128 updates; A 1.14005 -> 3.48488; B 6.68738 -> 0.56818; actions=16; complete=True
+pythia410m/text/seed12/reset_m_lr0.25: 128 updates; A 1.14005 -> 2.18992; B 6.68738 -> 0.89093; actions=0; complete=True
+pythia410m/text/seed12/reset_m_lr1.0: 128 updates; A 1.14005 -> 4.27684; B 6.68738 -> 0.78486; actions=0; complete=True
+pythia410m/text/seed13/loss_history: 128 updates; A 1.33964 -> 2.02779; B 9.04021 -> 1.52920; actions=16; complete=True
+pythia410m/text/seed13/natural: 128 updates; A 1.33964 -> 1.95867; B 9.04021 -> 1.04984; actions=0; complete=True
+pythia410m/text/seed13/preserve_lr0.25: 128 updates; A 1.33964 -> 1.92946; B 9.04021 -> 1.09039; actions=0; complete=True
+pythia410m/text/seed13/projection: 128 updates; A 1.33964 -> 2.32215; B 9.04021 -> 1.36014; actions=16; complete=True
+pythia410m/text/seed13/random_budget16_rep1: 128 updates; A 1.33964 -> 2.62496; B 9.04021 -> 0.96072; actions=16; complete=True
+pythia410m/text/seed13/random_budget16_rep2: 128 updates; A 1.33964 -> 1.12529; B 9.04021 -> 1.40561; actions=16; complete=True
+pythia410m/text/seed13/random_budget16_rep3: 128 updates; A 1.33964 -> 2.53104; B 9.04021 -> 1.27345; actions=16; complete=True
+pythia410m/text/seed13/random_budget16_rep4: 128 updates; A 1.33964 -> 3.26926; B 9.04021 -> 0.64812; actions=16; complete=True
+pythia410m/text/seed13/random_budget16_rep5: 128 updates; A 1.33964 -> 2.66441; B 9.04021 -> 1.10561; actions=16; complete=True
+pythia410m/text/seed13/reset_m_lr0.25: 128 updates; A 1.33964 -> 1.87696; B 9.04021 -> 1.13671; actions=0; complete=True
+pythia410m/text/seed13/reset_m_lr1.0: 128 updates; A 1.33964 -> 2.43417; B 9.04021 -> 0.92926; actions=0; complete=True

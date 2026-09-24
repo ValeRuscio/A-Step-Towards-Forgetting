@@ -1,0 +1,11 @@
+Validation completed 2026-09-16.
+Environment: CPU, PyTorch 2.8.0, Transformers 4.57.6. No pretrained model downloads.
+
+PASS test_multimodel.py: tiny OLMo, GPT-NeoX and Qwen3 adapters match full forward losses; all trainable gradients included; tied weights counted once; natural weights/Adam state unchanged by diagnostics; finite paths and curvature checks; no post-update feature inputs; lead-time indexing; acquisition interruption/resume; logistic solver and tie-aware metrics.
+PASS test_suite_pipeline.py: complete tiny pipeline including original-result import, separate path refinement, shrinking-width curvature audits, new-model A acquisition/B trajectories/path diagnostics, frozen prediction transfer, report/plot/ZIP generation and completed-run resume.
+PASS notebook schema and code-cell compilation; all packaged Python source parses.
+PASS original OLMo trajectory data can fit eight frozen predictor variants and 24 exploratory held-out-seed evaluations with the included NumPy solver.
+
+Not run on GH200 or the full Pythia/Qwen checkpoints. Full-scale timing, acquisition quality, transfer accuracy and audit convergence must be measured by the user run.
+
+2026-09-17 Qwen import repair: simulated missing Qwen imports permits tiny Pythia initialization; unavailable Qwen deferred without settings mutation. CPU end-to-end pipeline passes dependency-blocked stage, subsequent Qwen completion, and completed-run resume. Standalone repair preserves settings/data, creates source backups, and supports launch from run/code. Remote GH200 not executed here.

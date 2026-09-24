@@ -1,0 +1,11 @@
+{
+  "README.md": "b46469d9b40011b0dc4af7dd5589915983c784aa42abe323e7fd1799175e49ff",
+  "Run_structure_study.ipynb": "2442554c0139d988b726d41cefb262ddf061ee991e62b83d966c164d14c16f49",
+  "VALIDATION.md": "665b599cddb8f8011ac61f0ff904572c7721d592942958c72f622d13ad7343fa",
+  "example_tiny_model/README.txt": "b3efed4bbdd6f26939f7a74946cc46fc2cfcb293035542586b4b44c055b37685",
+  "example_tiny_model/structure_overview.png": "cc25292678246eda041edc56bbd3ce42d0feba25e12e97868cce8cfc82b0453a",
+  "example_tiny_model/weight_change_overview.png": "f7419a81ee80cfd5511ece5eba7b5de07f70ab8e4751bfeba020d3d331e31c61",
+  "forgetting_mechanisms.py": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+  "requirements.txt": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a",
+  "structure_study.py": "532fe3295976ee7a8ee15ca684d9ad928134c975ce75ed66fbed2bb7f5e6d78c"
+}

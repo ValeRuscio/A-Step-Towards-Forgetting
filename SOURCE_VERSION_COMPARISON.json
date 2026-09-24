@@ -1,0 +1,1667 @@
+[
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/refine_paths.py",
+    "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_paths.py",
+      "suites/frame_history_study/refine_paths.py",
+      "suites/qwen3_open1b_study/refine_paths.py",
+      "suites/olmo_four_vector_study/refine_paths.py",
+      "suites/paired_base_instruct_study/refine_paths.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/forgetting_mechanisms.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/mechanism_bridge.py",
+    "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/mechanism_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/multimodel_engine.py",
+    "sha256": "eeabf085b29b184ed81437402fcc49ae027fc33df39dbab63148fed2f7431705",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_retention.py",
+    "sha256": "7d5da88ac7ba0c01c4ecf597eae8d5d200ead1ed0424736a70dff02de8196bfd",
+    "identical_distributed_files": [
+      "suites/forgetting_validation/test_retention.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_four_vector.py",
+    "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_four_vector.py",
+      "suites/olmo_four_vector_study/test_four_vector.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/bridge_replay.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_lifecycle.py",
+    "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_lifecycle.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/fix_multimodel_resume.py",
+    "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0",
+    "identical_distributed_files": []
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/structure_study.py",
+    "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182",
+    "identical_distributed_files": [
+      "suites/olmo_overnight/structure_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/association_core.py",
+    "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/association_core.py",
+      "suites/frame_history_study/association_core.py",
+      "suites/olmo_path_refinement_overnight/association_core.py",
+      "suites/olmo_precise_forgetting_overnight/association_core.py",
+      "suites/qwen3_open1b_study/association_core.py",
+      "suites/olmo_four_vector_study/association_core.py",
+      "suites/paired_base_instruct_study/association_core.py",
+      "suites/olmo_natural_geometry_overnight/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/four_vector_study.py",
+    "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/four_vector_study.py",
+      "suites/frame_history_study/four_vector_study.py",
+      "suites/qwen3_open1b_study/four_vector_study.py",
+      "suites/paired_base_instruct_study/four_vector_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/bridge_core.py",
+    "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/bridge_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/natural_geometry.py",
+    "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/natural_geometry.py",
+      "suites/frame_history_study/natural_geometry.py",
+      "suites/qwen3_open1b_study/natural_geometry.py",
+      "suites/paired_base_instruct_study/natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/frame_history.py",
+    "sha256": "29db175774fbb2115660e1399cb4a4297bfceb1fc9ec22c1f5240ac72a6f794e",
+    "identical_distributed_files": [
+      "suites/frame_history_study/frame_history.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/notebook_runner.py",
+    "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/notebook_runner.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/bridge_fast.py",
+    "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce",
+    "identical_distributed_files": [
+      "suites/olmo_bridge_speedup/bridge_fast.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_frame_history.py",
+    "sha256": "dd12a361218464607f8aa8a72831ce82e96f717525d8c001fcacf743084fe185",
+    "identical_distributed_files": [
+      "suites/frame_history_study/test_frame_history.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_suite_pipeline.py",
+    "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_suite_pipeline.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/analyze_retention.py",
+    "sha256": "4836dd9795f76b26b3da901c1b7dbe89b611448abcb5dd513c9c5050ee1899b8",
+    "identical_distributed_files": [
+      "suites/forgetting_validation/analyze_retention.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_natural_geometry.py",
+    "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb",
+    "identical_distributed_files": [
+      "suites/olmo_natural_geometry_overnight/test_natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_precise.py",
+    "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_precise.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_multimodel.py",
+    "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_multimodel.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/predict_forgetting.py",
+    "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "suites/qwen3_open1b_study/predict_forgetting.py",
+      "suites/overnight_replication_study/predict_forgetting.py",
+      "suites/optimizer_generality_study/predict_forgetting.py",
+      "suites/paired_base_instruct_study/predict_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/test_bridge.py",
+    "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/test_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/precise_forgetting.py",
+    "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/precise_forgetting.py",
+      "suites/frame_history_study/precise_forgetting.py",
+      "suites/olmo_path_refinement_overnight/precise_forgetting.py",
+      "suites/olmo_precise_forgetting_overnight/precise_forgetting.py",
+      "suites/qwen3_open1b_study/precise_forgetting.py",
+      "suites/olmo_four_vector_study/precise_forgetting.py",
+      "suites/paired_base_instruct_study/precise_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/paper_suite.py",
+    "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/paper_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/frame_history_v1_share_latest/code/refine_difficult.py",
+    "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_difficult.py",
+      "suites/qwen3_open1b_study/refine_difficult.py",
+      "suites/paired_base_instruct_study/refine_difficult.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/refine_paths.py",
+    "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_paths.py",
+      "suites/frame_history_study/refine_paths.py",
+      "suites/qwen3_open1b_study/refine_paths.py",
+      "suites/olmo_four_vector_study/refine_paths.py",
+      "suites/paired_base_instruct_study/refine_paths.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/forgetting_mechanisms.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/mechanism_bridge.py",
+    "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/mechanism_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/multimodel_engine.py",
+    "sha256": "797fbb9ad7dd1d4e9fd8360c24f2d03d875650fd62eafdf2fb7bd7d7d0ac62a0",
+    "identical_distributed_files": [
+      "suites/paired_base_instruct_study/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_retention.py",
+    "sha256": "7d5da88ac7ba0c01c4ecf597eae8d5d200ead1ed0424736a70dff02de8196bfd",
+    "identical_distributed_files": [
+      "suites/forgetting_validation/test_retention.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_four_vector.py",
+    "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_four_vector.py",
+      "suites/olmo_four_vector_study/test_four_vector.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/bridge_replay.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_lifecycle.py",
+    "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_lifecycle.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/fix_multimodel_resume.py",
+    "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0",
+    "identical_distributed_files": []
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/structure_study.py",
+    "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182",
+    "identical_distributed_files": [
+      "suites/olmo_overnight/structure_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/association_core.py",
+    "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/association_core.py",
+      "suites/frame_history_study/association_core.py",
+      "suites/olmo_path_refinement_overnight/association_core.py",
+      "suites/olmo_precise_forgetting_overnight/association_core.py",
+      "suites/qwen3_open1b_study/association_core.py",
+      "suites/olmo_four_vector_study/association_core.py",
+      "suites/paired_base_instruct_study/association_core.py",
+      "suites/olmo_natural_geometry_overnight/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/four_vector_study.py",
+    "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/four_vector_study.py",
+      "suites/frame_history_study/four_vector_study.py",
+      "suites/qwen3_open1b_study/four_vector_study.py",
+      "suites/paired_base_instruct_study/four_vector_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/bridge_core.py",
+    "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/bridge_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/natural_geometry.py",
+    "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/natural_geometry.py",
+      "suites/frame_history_study/natural_geometry.py",
+      "suites/qwen3_open1b_study/natural_geometry.py",
+      "suites/paired_base_instruct_study/natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/frame_history.py",
+    "sha256": "29db175774fbb2115660e1399cb4a4297bfceb1fc9ec22c1f5240ac72a6f794e",
+    "identical_distributed_files": [
+      "suites/frame_history_study/frame_history.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/notebook_runner.py",
+    "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/notebook_runner.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/bridge_fast.py",
+    "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce",
+    "identical_distributed_files": [
+      "suites/olmo_bridge_speedup/bridge_fast.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/paired_suite.py",
+    "sha256": "a9f364c50bed7c0b5b53f92fb38224b1cb1e4afe2ebb72be38a4f6acd99db4ea",
+    "identical_distributed_files": [
+      "suites/paired_base_instruct_study/paired_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_frame_history.py",
+    "sha256": "dd12a361218464607f8aa8a72831ce82e96f717525d8c001fcacf743084fe185",
+    "identical_distributed_files": [
+      "suites/frame_history_study/test_frame_history.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_paired_pipeline.py",
+    "sha256": "d812104fc72766b93b69dd0e89a40a765090eb91482b61efcda8b96fbed3c5d5",
+    "identical_distributed_files": [
+      "suites/paired_base_instruct_study/test_paired_pipeline.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_suite_pipeline.py",
+    "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_suite_pipeline.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/analyze_retention.py",
+    "sha256": "4836dd9795f76b26b3da901c1b7dbe89b611448abcb5dd513c9c5050ee1899b8",
+    "identical_distributed_files": [
+      "suites/forgetting_validation/analyze_retention.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_natural_geometry.py",
+    "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb",
+    "identical_distributed_files": [
+      "suites/olmo_natural_geometry_overnight/test_natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_precise.py",
+    "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_precise.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_adapters.py",
+    "sha256": "35b0ded7ec238e65486be88016af14f057ecc61c3b6e6c2c5f47634a1ac58304",
+    "identical_distributed_files": [
+      "suites/paired_base_instruct_study/test_adapters.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_multimodel.py",
+    "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_multimodel.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/predict_forgetting.py",
+    "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "suites/qwen3_open1b_study/predict_forgetting.py",
+      "suites/overnight_replication_study/predict_forgetting.py",
+      "suites/optimizer_generality_study/predict_forgetting.py",
+      "suites/paired_base_instruct_study/predict_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/test_bridge.py",
+    "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/test_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/precise_forgetting.py",
+    "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/precise_forgetting.py",
+      "suites/frame_history_study/precise_forgetting.py",
+      "suites/olmo_path_refinement_overnight/precise_forgetting.py",
+      "suites/olmo_precise_forgetting_overnight/precise_forgetting.py",
+      "suites/qwen3_open1b_study/precise_forgetting.py",
+      "suites/olmo_four_vector_study/precise_forgetting.py",
+      "suites/paired_base_instruct_study/precise_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/paper_suite.py",
+    "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/paper_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/paired_models_share/code/refine_difficult.py",
+    "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_difficult.py",
+      "suites/qwen3_open1b_study/refine_difficult.py",
+      "suites/paired_base_instruct_study/refine_difficult.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/multimodel_engine.py",
+    "sha256": "6dab55bd644ce17276d17ba41bf4af2aa5dfd43c28e3174e51c9aae9f1718ff7",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/multimodel_engine.py",
+      "suites/qwen3_history_replication/history/multimodel_engine.py",
+      "suites/natural_forgetting_components_fixed/multimodel_engine.py",
+      "suites/history_dynamics_replay/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/test_replay.py",
+    "sha256": "017b4acbe10951d6f7b3f4c3f5b9116a78108cddab54b1c5576f4740ab0f3516",
+    "identical_distributed_files": [
+      "suites/history_dynamics_replay/test_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/association_core.py",
+    "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/association_core.py",
+      "suites/qwen3_history_replication/history/association_core.py",
+      "suites/reviewer_experiment_suite/association_core.py",
+      "suites/history_geometry_followup/association_core.py",
+      "suites/overnight_replication_study/association_core.py",
+      "suites/natural_forgetting_components_fixed/association_core.py",
+      "suites/history_dynamics_replay/association_core.py",
+      "suites/optimizer_generality_study/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/run_replay.py",
+    "sha256": "f840f7271ed01f185c8bed39391ea9973f29c00a4fa6a416ce6764f45bcc841d",
+    "identical_distributed_files": [
+      "suites/history_dynamics_replay/run_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/study_math.py",
+    "sha256": "01ff032be2eebbd3202ca2d7fa670ba2ff1e49373e172287b9229d8d97c5dfe8",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/study_math.py",
+      "suites/qwen3_history_replication/history/study_math.py",
+      "suites/natural_forgetting_components_fixed/study_math.py",
+      "suites/history_dynamics_replay/study_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/storage.py",
+    "sha256": "9ce61275a873fbae8c7ca3a9b84e56cbdba64be757cee620e53314e74bd80e5f",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/storage.py",
+      "suites/qwen3_history_replication/history/storage.py",
+      "suites/history_geometry_followup/storage.py",
+      "suites/natural_forgetting_components_fixed/storage.py",
+      "suites/history_dynamics_replay/storage.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/test_dynamics.py",
+    "sha256": "2e100f7fee15a553687255880964bbe76232aa8ae66cdc706de6ccc33b60de92",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/history/test_dynamics.py",
+      "suites/history_dynamics_replay/test_dynamics.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/components.py",
+    "sha256": "3e2d68c3f311f20bb0c94576ae9502b30e600c783036e38d7bc8a1d9c1a3adb7",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/components.py",
+      "suites/qwen3_history_replication/history/components.py",
+      "suites/natural_forgetting_components_fixed/components.py",
+      "suites/history_dynamics_replay/components.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/study.py",
+    "sha256": "7bbc2e776dcbf4b1a3c38c64b13721c79362d75276b5926fb4036394186f72fe",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/history/study.py",
+      "suites/history_dynamics_replay/study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/dynamics.py",
+    "sha256": "fe885d68333367f11b1d3f854d97a08d6e3c9138279a8ee0e42196524ee51514",
+    "identical_distributed_files": [
+      "suites/history_dynamics_replay/dynamics.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/history_dynamics_share/code/reporting.py",
+    "sha256": "62bd4b626a6c3664ea50e16147da2c4535c662dd9ea402150777b505ea48cf00",
+    "identical_distributed_files": [
+      "suites/history_dynamics_replay/reporting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/worker.py",
+    "sha256": "fcf6e0ce540c39c4ba6b495f62f45ed701b5833b7ed654290b9dcb31f14c865d",
+    "identical_distributed_files": [
+      "suites/optimizer_generality_study/worker.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/multimodel_engine.py",
+    "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/multimodel_engine.py",
+      "suites/history_geometry_followup/multimodel_engine.py",
+      "suites/overnight_replication_study/multimodel_engine.py",
+      "suites/optimizer_generality_study/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/tasks.py",
+    "sha256": "b0a78b8723edacde0e8710a165383b7dee35cf3294ca107df8fdbb67e3efa402",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/tasks.py",
+      "suites/history_geometry_followup/tasks.py",
+      "suites/natural_forgetting_components_fixed/tasks.py",
+      "suites/optimizer_generality_study/tasks.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/association_core.py",
+    "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/association_core.py",
+      "suites/qwen3_history_replication/history/association_core.py",
+      "suites/reviewer_experiment_suite/association_core.py",
+      "suites/history_geometry_followup/association_core.py",
+      "suites/overnight_replication_study/association_core.py",
+      "suites/natural_forgetting_components_fixed/association_core.py",
+      "suites/history_dynamics_replay/association_core.py",
+      "suites/optimizer_generality_study/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/timing_analysis.py",
+    "sha256": "b870374a631b8734dee53081de61e06268f2b68becef80aedbe84ecc3d3473ce",
+    "identical_distributed_files": [
+      "suites/optimizer_generality_study/timing_analysis.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/diagnostics.py",
+    "sha256": "27f5f7c9d721a3b0cea22408a1201bf998a452ea51b212f5c75b16deec321486",
+    "identical_distributed_files": [
+      "suites/history_geometry_followup/diagnostics.py",
+      "suites/optimizer_generality_study/diagnostics.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/study_prediction.py",
+    "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_prediction.py",
+      "suites/overnight_replication_study/study_prediction.py",
+      "suites/optimizer_generality_study/study_prediction.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/test_study.py",
+    "sha256": "c9505cb7607f262db695bcc6c11af9b90b3ec47a96f6e017aa75c1a1ec499061",
+    "identical_distributed_files": [
+      "suites/optimizer_generality_study/test_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/optimizers.py",
+    "sha256": "cece8aa318f318817b16a5c2c5efaad231ba9ad5ad85b5c91385c070977946b7",
+    "identical_distributed_files": [
+      "suites/history_geometry_followup/optimizers.py",
+      "suites/optimizer_generality_study/optimizers.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/study_math.py",
+    "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_math.py",
+      "suites/overnight_replication_study/study_math.py",
+      "suites/optimizer_generality_study/study_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/experiment.py",
+    "sha256": "68b0b49246dcae85fa596cda0004c701b063f0568e82ffe343b330ed5c74702b",
+    "identical_distributed_files": [
+      "suites/optimizer_generality_study/experiment.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/storage.py",
+    "sha256": "591414ba79aa16862399bd21bd21c726d1e7f96cb8666495790be2e4b3de464a",
+    "identical_distributed_files": [
+      "suites/optimizer_generality_study/storage.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/predict_forgetting.py",
+    "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "suites/qwen3_open1b_study/predict_forgetting.py",
+      "suites/overnight_replication_study/predict_forgetting.py",
+      "suites/optimizer_generality_study/predict_forgetting.py",
+      "suites/paired_base_instruct_study/predict_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/optimizer_generality_share/code/reporting.py",
+    "sha256": "0ec983e42e1d42e71c06fdf63b6020c03966e286069c2168b677b210d0e44fe6",
+    "identical_distributed_files": [
+      "suites/optimizer_generality_study/reporting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/refine_paths.py",
+    "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_paths.py",
+      "suites/frame_history_study/refine_paths.py",
+      "suites/qwen3_open1b_study/refine_paths.py",
+      "suites/olmo_four_vector_study/refine_paths.py",
+      "suites/paired_base_instruct_study/refine_paths.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/test_four_vector.py",
+    "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_four_vector.py",
+      "suites/olmo_four_vector_study/test_four_vector.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/association_core.py",
+    "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/association_core.py",
+      "suites/frame_history_study/association_core.py",
+      "suites/olmo_path_refinement_overnight/association_core.py",
+      "suites/olmo_precise_forgetting_overnight/association_core.py",
+      "suites/qwen3_open1b_study/association_core.py",
+      "suites/olmo_four_vector_study/association_core.py",
+      "suites/paired_base_instruct_study/association_core.py",
+      "suites/olmo_natural_geometry_overnight/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/four_vector_study.py",
+    "sha256": "44face680dadfb7c08b22fa2c7ba07300971b4874f5889a385a334b4949e8496",
+    "identical_distributed_files": [
+      "suites/olmo_four_vector_study/four_vector_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/natural_geometry.py",
+    "sha256": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636",
+    "identical_distributed_files": [
+      "suites/olmo_path_refinement_overnight/natural_geometry.py",
+      "suites/olmo_precise_forgetting_overnight/natural_geometry.py",
+      "suites/olmo_four_vector_study/natural_geometry.py",
+      "suites/olmo_natural_geometry_overnight/natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/test_refinement.py",
+    "sha256": "9d7d2228aac2744ef58d0d3c4f8d7d9f055dedcd248fc8113ef637329a164e73",
+    "identical_distributed_files": [
+      "suites/olmo_path_refinement_overnight/test_refinement.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/four_vector_share/code/precise_forgetting.py",
+    "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/precise_forgetting.py",
+      "suites/frame_history_study/precise_forgetting.py",
+      "suites/olmo_path_refinement_overnight/precise_forgetting.py",
+      "suites/olmo_precise_forgetting_overnight/precise_forgetting.py",
+      "suites/qwen3_open1b_study/precise_forgetting.py",
+      "suites/olmo_four_vector_study/precise_forgetting.py",
+      "suites/paired_base_instruct_study/precise_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/multimodel_engine.py",
+    "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/multimodel_engine.py",
+      "suites/history_geometry_followup/multimodel_engine.py",
+      "suites/overnight_replication_study/multimodel_engine.py",
+      "suites/optimizer_generality_study/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/test_lifecycle.py",
+    "sha256": "da89d33bd2ef08efc0b6c920ca24b75d7c8fcbf6bcd8abb09555b75392b8e0c5",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/test_lifecycle.py",
+      "suites/overnight_replication_study/test_lifecycle.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/association_core.py",
+    "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/association_core.py",
+      "suites/qwen3_history_replication/history/association_core.py",
+      "suites/reviewer_experiment_suite/association_core.py",
+      "suites/history_geometry_followup/association_core.py",
+      "suites/overnight_replication_study/association_core.py",
+      "suites/natural_forgetting_components_fixed/association_core.py",
+      "suites/history_dynamics_replay/association_core.py",
+      "suites/optimizer_generality_study/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/study_tasks.py",
+    "sha256": "3734a77f05d6b3d9ee9afd53dbbb29ac33614a0b09d8dc98a220cbaa423d7233",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_tasks.py",
+      "suites/overnight_replication_study/study_tasks.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/study_prediction.py",
+    "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_prediction.py",
+      "suites/overnight_replication_study/study_prediction.py",
+      "suites/optimizer_generality_study/study_prediction.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/study_math.py",
+    "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_math.py",
+      "suites/overnight_replication_study/study_math.py",
+      "suites/optimizer_generality_study/study_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/analyze_existing.py",
+    "sha256": "0c54d9587707667ceaa2035d143db0bd814423c551f678e42e90d1e77c7efa75",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/analyze_existing.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/test_suite.py",
+    "sha256": "c64ca8876de002bc6f5eae5eae0b8161116a6c83643c5af0f12b535328125c9a",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/test_suite.py",
+      "suites/overnight_replication_study/test_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/predict_forgetting.py",
+    "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "suites/qwen3_open1b_study/predict_forgetting.py",
+      "suites/overnight_replication_study/predict_forgetting.py",
+      "suites/optimizer_generality_study/predict_forgetting.py",
+      "suites/paired_base_instruct_study/predict_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/reviewer_results_share/code/reviewer_suite.py",
+    "sha256": "e52256bf0a34d21e64fb493dac959ae8ebf430eb6752ed9d6199b7a86bfae581",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/reviewer_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/multimodel_engine.py",
+    "sha256": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/multimodel_engine.py",
+      "suites/history_geometry_followup/multimodel_engine.py",
+      "suites/overnight_replication_study/multimodel_engine.py",
+      "suites/optimizer_generality_study/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/test_lifecycle.py",
+    "sha256": "da89d33bd2ef08efc0b6c920ca24b75d7c8fcbf6bcd8abb09555b75392b8e0c5",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/test_lifecycle.py",
+      "suites/overnight_replication_study/test_lifecycle.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/association_core.py",
+    "sha256": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94",
+    "identical_distributed_files": [
+      "suites/qwen3_history_replication/natural/association_core.py",
+      "suites/qwen3_history_replication/history/association_core.py",
+      "suites/reviewer_experiment_suite/association_core.py",
+      "suites/history_geometry_followup/association_core.py",
+      "suites/overnight_replication_study/association_core.py",
+      "suites/natural_forgetting_components_fixed/association_core.py",
+      "suites/history_dynamics_replay/association_core.py",
+      "suites/optimizer_generality_study/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/study_tasks.py",
+    "sha256": "3734a77f05d6b3d9ee9afd53dbbb29ac33614a0b09d8dc98a220cbaa423d7233",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_tasks.py",
+      "suites/overnight_replication_study/study_tasks.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/test_overnight.py",
+    "sha256": "3487cac368062fd197a5be5b85ad9ef3a27b942418c3cd0f4f886ade0fa33b41",
+    "identical_distributed_files": [
+      "suites/overnight_replication_study/test_overnight.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/event_controls.py",
+    "sha256": "a8d436d7c565433b2972a43c8653fb5511b77a33256d6c1701a06b9548fcdaf2",
+    "identical_distributed_files": [
+      "suites/overnight_replication_study/event_controls.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/study_prediction.py",
+    "sha256": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_prediction.py",
+      "suites/overnight_replication_study/study_prediction.py",
+      "suites/optimizer_generality_study/study_prediction.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/study_math.py",
+    "sha256": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/study_math.py",
+      "suites/overnight_replication_study/study_math.py",
+      "suites/optimizer_generality_study/study_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/test_suite.py",
+    "sha256": "c64ca8876de002bc6f5eae5eae0b8161116a6c83643c5af0f12b535328125c9a",
+    "identical_distributed_files": [
+      "suites/reviewer_experiment_suite/test_suite.py",
+      "suites/overnight_replication_study/test_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/predict_forgetting.py",
+    "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "suites/qwen3_open1b_study/predict_forgetting.py",
+      "suites/overnight_replication_study/predict_forgetting.py",
+      "suites/optimizer_generality_study/predict_forgetting.py",
+      "suites/paired_base_instruct_study/predict_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/overnight_engine.py",
+    "sha256": "3a675c1fbf7808905b49dcb4fac11a308b4ed34a6d4072007ef1ae1571da9837",
+    "identical_distributed_files": [
+      "suites/overnight_replication_study/overnight_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/overnight_study.py",
+    "sha256": "aa55c6dc8696c6a54cf770b058db6ba24b447ee7e665c555891e979973cb4601",
+    "identical_distributed_files": [
+      "suites/overnight_replication_study/overnight_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/overnight_replication_share/code/reviewer_suite.py",
+    "sha256": "85234addff78996dc864226e362c1e921aaeea7dec1c29252fc667806294104e",
+    "identical_distributed_files": [
+      "suites/overnight_replication_study/reviewer_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/refine_paths.py",
+    "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_paths.py",
+      "suites/frame_history_study/refine_paths.py",
+      "suites/qwen3_open1b_study/refine_paths.py",
+      "suites/olmo_four_vector_study/refine_paths.py",
+      "suites/paired_base_instruct_study/refine_paths.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/forgetting_mechanisms.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/mechanism_bridge.py",
+    "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/mechanism_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/multimodel_engine.py",
+    "sha256": "eeabf085b29b184ed81437402fcc49ae027fc33df39dbab63148fed2f7431705",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/test_four_vector.py",
+    "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_four_vector.py",
+      "suites/olmo_four_vector_study/test_four_vector.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/bridge_replay.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/test_lifecycle.py",
+    "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_lifecycle.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/fix_multimodel_resume.py",
+    "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0",
+    "identical_distributed_files": []
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/structure_study.py",
+    "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182",
+    "identical_distributed_files": [
+      "suites/olmo_overnight/structure_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/association_core.py",
+    "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/association_core.py",
+      "suites/frame_history_study/association_core.py",
+      "suites/olmo_path_refinement_overnight/association_core.py",
+      "suites/olmo_precise_forgetting_overnight/association_core.py",
+      "suites/qwen3_open1b_study/association_core.py",
+      "suites/olmo_four_vector_study/association_core.py",
+      "suites/paired_base_instruct_study/association_core.py",
+      "suites/olmo_natural_geometry_overnight/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/four_vector_study.py",
+    "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/four_vector_study.py",
+      "suites/frame_history_study/four_vector_study.py",
+      "suites/qwen3_open1b_study/four_vector_study.py",
+      "suites/paired_base_instruct_study/four_vector_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/bridge_core.py",
+    "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/bridge_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/natural_geometry.py",
+    "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/natural_geometry.py",
+      "suites/frame_history_study/natural_geometry.py",
+      "suites/qwen3_open1b_study/natural_geometry.py",
+      "suites/paired_base_instruct_study/natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/notebook_runner.py",
+    "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/notebook_runner.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/bridge_fast.py",
+    "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce",
+    "identical_distributed_files": [
+      "suites/olmo_bridge_speedup/bridge_fast.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/test_suite_pipeline.py",
+    "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_suite_pipeline.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/test_natural_geometry.py",
+    "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb",
+    "identical_distributed_files": [
+      "suites/olmo_natural_geometry_overnight/test_natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/test_precise.py",
+    "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_precise.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/test_multimodel.py",
+    "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_multimodel.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/predict_forgetting.py",
+    "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "suites/qwen3_open1b_study/predict_forgetting.py",
+      "suites/overnight_replication_study/predict_forgetting.py",
+      "suites/optimizer_generality_study/predict_forgetting.py",
+      "suites/paired_base_instruct_study/predict_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/test_bridge.py",
+    "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/test_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/precise_forgetting.py",
+    "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/precise_forgetting.py",
+      "suites/frame_history_study/precise_forgetting.py",
+      "suites/olmo_path_refinement_overnight/precise_forgetting.py",
+      "suites/olmo_precise_forgetting_overnight/precise_forgetting.py",
+      "suites/qwen3_open1b_study/precise_forgetting.py",
+      "suites/olmo_four_vector_study/precise_forgetting.py",
+      "suites/paired_base_instruct_study/precise_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/paper_suite.py",
+    "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/paper_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/multimodel_share/code/refine_difficult.py",
+    "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_difficult.py",
+      "suites/qwen3_open1b_study/refine_difficult.py",
+      "suites/paired_base_instruct_study/refine_difficult.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/refine_paths.py",
+    "sha256": "995745414d2e8cb6686535eedbd3206b2417242098786d4136e475e053fb3c7f",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_paths.py",
+      "suites/frame_history_study/refine_paths.py",
+      "suites/qwen3_open1b_study/refine_paths.py",
+      "suites/olmo_four_vector_study/refine_paths.py",
+      "suites/paired_base_instruct_study/refine_paths.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/forgetting_mechanisms.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/mechanism_bridge.py",
+    "sha256": "35db01f7529be22219e77960ae2e529e2921d3d09a7842aeac67be7f63a02d01",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/mechanism_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/multimodel_engine.py",
+    "sha256": "237257defa789e0c5e543a071490583894fb00ca460175e22a7f61bd29e348b6",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/multimodel_engine.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_retention.py",
+    "sha256": "7d5da88ac7ba0c01c4ecf597eae8d5d200ead1ed0424736a70dff02de8196bfd",
+    "identical_distributed_files": [
+      "suites/forgetting_validation/test_retention.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_four_vector.py",
+    "sha256": "1337926d9426b2a6ee8ba01d349ec692e916ba51ac06155af803c0eb0b8a57eb",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_four_vector.py",
+      "suites/olmo_four_vector_study/test_four_vector.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/bridge_replay.py",
+    "sha256": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/forgetting_mechanisms.py",
+      "suites/olmo_update_path/forgetting_mechanisms.py",
+      "suites/olmo_overnight/forgetting_mechanisms.py",
+      "suites/olmo_structure_study/forgetting_mechanisms.py",
+      "suites/olmo_task_geometry/forgetting_mechanisms.py",
+      "suites/forgetting_mechanism_suite/forgetting_mechanisms.py",
+      "suites/olmo_structure_ph_rmt_ntk/forgetting_mechanisms.py",
+      "suites/olmo_mechanism_bridge/bridge_replay.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/controls.py",
+    "sha256": "4f6f0a1c11d4126893ace4c72bec3f807bd11892bf677a6a07c5c94afa6a8e07",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/controls.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_lifecycle.py",
+    "sha256": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_lifecycle.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/fix_multimodel_resume.py",
+    "sha256": "70d4f8c9208ffbc027b08e0fc6c548f3246b2e907a1684e5f952613756bc40a0",
+    "identical_distributed_files": []
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/open_observer.py",
+    "sha256": "82de9bbcc8dc119824e8c0b330925bdd45e86e83fcc646c490e56c7a2e1a7b81",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/open_observer.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/open_assets.py",
+    "sha256": "31b7b3492fb0bcd94489694ef76895c7bdbc66e066f2bc381ff66ddb02054078",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/open_assets.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_open_pilot.py",
+    "sha256": "c1810c18d73ac39d3e71cb5db733059fb70944aa1649f56dcd05be5a281c93d9",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/test_open_pilot.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/structure_study.py",
+    "sha256": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182",
+    "identical_distributed_files": [
+      "suites/olmo_overnight/structure_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/association_core.py",
+    "sha256": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/association_core.py",
+      "suites/frame_history_study/association_core.py",
+      "suites/olmo_path_refinement_overnight/association_core.py",
+      "suites/olmo_precise_forgetting_overnight/association_core.py",
+      "suites/qwen3_open1b_study/association_core.py",
+      "suites/olmo_four_vector_study/association_core.py",
+      "suites/paired_base_instruct_study/association_core.py",
+      "suites/olmo_natural_geometry_overnight/association_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/four_vector_study.py",
+    "sha256": "8500257935acdbd9e9e5320c774cae44474f93b6047ba546c5dc969e026d2e28",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/four_vector_study.py",
+      "suites/frame_history_study/four_vector_study.py",
+      "suites/qwen3_open1b_study/four_vector_study.py",
+      "suites/paired_base_instruct_study/four_vector_study.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/bridge_core.py",
+    "sha256": "7fdc8c08a291e7dd5e2e1da3ca7d7ebfacc2f90963baeb5fe51280b4b9da6b94",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/bridge_core.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/natural_geometry.py",
+    "sha256": "a0a62324ec95b4d18adcdfa7c765c753d90d433cfae71508db75d09010846898",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/natural_geometry.py",
+      "suites/frame_history_study/natural_geometry.py",
+      "suites/qwen3_open1b_study/natural_geometry.py",
+      "suites/paired_base_instruct_study/natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/frame_history.py",
+    "sha256": "29db175774fbb2115660e1399cb4a4297bfceb1fc9ec22c1f5240ac72a6f794e",
+    "identical_distributed_files": [
+      "suites/frame_history_study/frame_history.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/notebook_runner.py",
+    "sha256": "fcfa76e84c9b02c8ee6bd6c41be34cdcda7b2b34eb6c40b08367cd7bc7e66bdc",
+    "identical_distributed_files": [
+      "suites/olmo_structure_complete/notebook_runner.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/bridge_fast.py",
+    "sha256": "22b71038e0d1b1f888dce663cc033c848c021e98375dde0ce24b94848690bdce",
+    "identical_distributed_files": [
+      "suites/olmo_bridge_speedup/bridge_fast.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/paired_suite.py",
+    "sha256": "3ef0e8a7263bb1f26d261ef219a96a4cc01ea2af2b71d9d72dc7452265eb0c2b",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/paired_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_controls.py",
+    "sha256": "fdd12814834360ad8f4d0eb644fa34825c412a746a781802cbe3b310ab6ee4d3",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/test_controls.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_frame_history.py",
+    "sha256": "dd12a361218464607f8aa8a72831ce82e96f717525d8c001fcacf743084fe185",
+    "identical_distributed_files": [
+      "suites/frame_history_study/test_frame_history.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_paired_pipeline.py",
+    "sha256": "b3219a7bac5fdd9eebc0dbc8f2480ebeee70a8630bb7156c2b4b5a3c87bb42fd",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/test_paired_pipeline.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_open_proxy.py",
+    "sha256": "f3eb8860adb80bda202d4dfaf0f674dfa5f5c13658584663200314420e82b597",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/test_open_proxy.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_suite_pipeline.py",
+    "sha256": "3879a1a5c1ef8fd90df1f787b53506f09efe7293c6bc96249131e59f3ab664fc",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_suite_pipeline.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/analyze_retention.py",
+    "sha256": "4836dd9795f76b26b3da901c1b7dbe89b611448abcb5dd513c9c5050ee1899b8",
+    "identical_distributed_files": [
+      "suites/forgetting_validation/analyze_retention.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_natural_geometry.py",
+    "sha256": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb",
+    "identical_distributed_files": [
+      "suites/olmo_natural_geometry_overnight/test_natural_geometry.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_precise.py",
+    "sha256": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f",
+    "identical_distributed_files": [
+      "suites/olmo_precise_forgetting_overnight/test_precise.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/proxy_audit.py",
+    "sha256": "5c70ba0d3b1a9cabd52d0757af890dbd43166d52aeca6a1ea340800dd82c0d6b",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/proxy_audit.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/environment_setup.py",
+    "sha256": "054b653a6c0dac0b10812cd57da248da23a8e0a6359aa0e6bf8badb70b6a757f",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/environment_setup.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_adapters.py",
+    "sha256": "83d08156f9c9dd295c2ed277b82fa459de1162b14aec264448330b73ff53e8ff",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/test_adapters.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_multimodel.py",
+    "sha256": "a47efcd38f40a89b7666d0cacff3e6cd70e52ef1318b8ecf7eeb03e9e508420c",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/test_multimodel.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/predict_forgetting.py",
+    "sha256": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/predict_forgetting.py",
+      "suites/reviewer_experiment_suite/predict_forgetting.py",
+      "suites/qwen3_open1b_study/predict_forgetting.py",
+      "suites/overnight_replication_study/predict_forgetting.py",
+      "suites/optimizer_generality_study/predict_forgetting.py",
+      "suites/paired_base_instruct_study/predict_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/geometry_math.py",
+    "sha256": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/geometry_math.py",
+      "suites/reviewer_experiment_suite/geometry_math.py",
+      "suites/frame_history_study/geometry_math.py",
+      "suites/olmo_path_refinement_overnight/geometry_math.py",
+      "suites/olmo_precise_forgetting_overnight/geometry_math.py",
+      "suites/qwen3_open1b_study/geometry_math.py",
+      "suites/overnight_replication_study/geometry_math.py",
+      "suites/optimizer_generality_study/geometry_math.py",
+      "suites/olmo_four_vector_study/geometry_math.py",
+      "suites/paired_base_instruct_study/geometry_math.py",
+      "suites/olmo_natural_geometry_overnight/geometry_math.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/test_bridge.py",
+    "sha256": "b9cf1f1ffa702a49f40bd0c26389807e8b091d390f20dcdc279ced348086c3a4",
+    "identical_distributed_files": [
+      "suites/olmo_mechanism_bridge/test_bridge.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/precise_forgetting.py",
+    "sha256": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/precise_forgetting.py",
+      "suites/frame_history_study/precise_forgetting.py",
+      "suites/olmo_path_refinement_overnight/precise_forgetting.py",
+      "suites/olmo_precise_forgetting_overnight/precise_forgetting.py",
+      "suites/qwen3_open1b_study/precise_forgetting.py",
+      "suites/olmo_four_vector_study/precise_forgetting.py",
+      "suites/paired_base_instruct_study/precise_forgetting.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/open_pilot.py",
+    "sha256": "8f9a6323f543750e5c4d8786a1b5b0de8d8f51855519090882ba23a4046e89a5",
+    "identical_distributed_files": [
+      "suites/qwen3_open1b_study/open_pilot.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/paper_suite.py",
+    "sha256": "d4dd6e004c66b73f9c722fa28fda9b0d1be39e8f9a0a7155d39d27d07389367d",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/paper_suite.py"
+    ]
+  },
+  {
+    "recorded_source": "recorded_runs/qwen3_models_share/code/refine_difficult.py",
+    "sha256": "7e8902d5561fc84c836e0ecaa5a7f3e15c971e5a18d956f600b2beec8f1e4855",
+    "identical_distributed_files": [
+      "suites/multimodel_forgetting_study/refine_difficult.py",
+      "suites/qwen3_open1b_study/refine_difficult.py",
+      "suites/paired_base_instruct_study/refine_difficult.py"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+LOCAL VALIDATION — 2026-09-23
+
+CPU environment: Python3.9, PyTorch2.8.0, Transformers4.57.6. Target GH200 environment is Python3.10–3.13, PyTorch2.11.0+cu128, Transformers4.57.6.
+
+PASS: six history test methods, including exact age convolution, cross-time/scaling/magnitude closure, null-angle behavior, cohort decay and frozen-denominator calculation, age norm/cosine reconstruction, and interruption/resume/export/source-immutability integration subtests for tiny Llama, GPT-NeoX and Qwen3. Six methods passed in7.611 seconds.
+PASS: separate end-to-end three-stage subprocess pipeline using a tiny Qwen3 model, two paired answer conditions, natural training, exact replay, age/cohort exports, finite paths/Hessian calculations, matching A weights/content, share ZIP and idempotent completed launch.
+PASS: all33 Python files and all executable notebook cells parse.
+
+The full0.6B model, remote datasets, target pip installation and GH200 runtime were not executed locally. setup_gh200.py performs an actual GPU forward/backward/second-derivative probe in the new environment. Full scientific derivative/integration audits execute on selected paths and retain failures. Tiny-model tests do not guarantee all real-data derivative audits will pass or predict completion time.
+
+A test-only expected cohort expression was corrected to evaluate in FP64 rather than round an intermediate in FP32. Production attribution formulas were unchanged by that test correction. The immutable-code guard also correctly rejected an idempotent launch when a test file was edited during a test run; a clean final pipeline rerun passed.
+
+Setup correction: narrow cuSPARSELt SBSA-tag verifier added. Local synthetic checks accept only the expected metadata/ELF case and reject additional dependency errors, wrong exit code/OS/CPU architecture, x86 ELF, truncated ELF and missing library. Actual library load and CUDA checks must run on the GH200. Scientific experiment code unchanged.

@@ -1,0 +1,7 @@
+# Use the existing working PyTorch/CUDA environment. Do not reinstall torch on GH200.
+numpy>=1.24
+transformers>=4.46.3,<5
+datasets>=2.19
+huggingface-hub>=0.24
+safetensors>=0.4
+matplotlib>=3.7

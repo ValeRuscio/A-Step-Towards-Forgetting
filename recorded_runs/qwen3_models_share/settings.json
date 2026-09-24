@@ -1,0 +1,36 @@
+{
+  "version": "qwen3-natural-1",
+  "olmo_source": "/home/ubuntu/1/runs/olmo_association_v1",
+  "previous": "/home/ubuntu/4/runs/paired_base_instruct_v1",
+  "output": "/home/ubuntu/4/runs/qwen3_natural_v1",
+  "device": "cuda:0",
+  "threads": 8,
+  "hours": 11.5,
+  "reserve_minutes": 10,
+  "minimum_free_gb": 30.0,
+  "max_output_gb": 150.0,
+  "replication_fraction": 0.8,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "path_seeds": [
+    1
+  ],
+  "chunk_steps": 16,
+  "checkpoint_every": 50,
+  "acquisition_max_valid_kl": 0.25,
+  "prompt_protocol": "identical_plain_text",
+  "models": [
+    {
+      "name": "qwen3_06b_base",
+      "repo": "Qwen/Qwen3-0.6B-Base",
+      "revision": "main",
+      "enabled": true,
+      "family": "qwen3_06b",
+      "variant": "base",
+      "architecture": "qwen3"
+    }
+  ]
+}

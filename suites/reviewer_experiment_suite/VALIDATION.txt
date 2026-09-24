@@ -1,0 +1,35 @@
+Validated locally on 2026-09-18.
+Environment: Python 3.9, Torch 2.8.0 CPU, Transformers 4.57.6.
+
+11 automated tests passed:
+- Exact KL/NLL confusion + leakage identity, including one-hot targets.
+- Four-class targets and native-vocabulary accuracy evaluation.
+- Disjoint deterministic natural-text split preparation (mock dataset loader).
+- Native Adam history + current reconstruction against actual displacement.
+- Immutable branch-anchor optimizer tensors, including Adam clock.
+- First-moment reset preserves second moment and clock.
+- Fitted proper rotation preserves held-out inner products.
+- Forecast timestamp alignment and independence from future outcomes.
+- Directional autograd Hessian agrees with gradient finite differences.
+- Pause/checkpoint/resume exactly reproduces uninterrupted CPU trajectory;
+  forced-alarm policies have exactly count-matched random controls.
+- Runtime-budget changes allowed; scientific config changes refused in place.
+
+End-to-end tiny GPT-NeoX release smoke:
+15/15 conditions completed, including frame factorial and adaptive path audit.
+All five no-action preserved-history trajectories have identical test records.
+All five first-update displacement norm matches passed (relative tolerance 1e-3).
+Both task path integrations resolved; directional-Hessian audits passed.
+Frame-selection entities and held-out frame-evaluation identities are disjoint.
+
+Detached launch, repeated-launch idempotence and completion status checked.
+Report generation, trajectory PNG generation and consistent SQLite share export checked.
+Every Python file and notebook code cell parses.
+Existing four_vector_share.zip reanalysis: 216 prediction comparison rows,
+plus per-entity answer-confusion/answer-mass decomposition, no skipped database.
+
+Not validated here: full GH200 model runs, live Hugging Face dataset acquisition,
+scientific effectiveness of interventions, or overnight runtime estimates.
+The real dataset adapter was checked with mocked records and its documented
+schemas; live acquisition is pinned and performed on the experiment machine.
+These CPU smoke results are software checks, not evidence for the paper.

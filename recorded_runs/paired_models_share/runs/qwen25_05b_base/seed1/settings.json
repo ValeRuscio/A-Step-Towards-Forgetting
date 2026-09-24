@@ -1,0 +1,112 @@
+{
+  "version": "four-vector-1.0",
+  "source": "/home/ubuntu/4/runs/paired_base_instruct_v1/sources/qwen25_05b_base",
+  "output": "/home/ubuntu/4/runs/paired_base_instruct_v1/runs/qwen25_05b_base/seed1",
+  "jobs": [
+    {
+      "seed": 1,
+      "step": 21
+    },
+    {
+      "seed": 2,
+      "step": 11
+    },
+    {
+      "seed": 3,
+      "step": 7
+    },
+    {
+      "seed": 1,
+      "step": 48
+    },
+    {
+      "seed": 2,
+      "step": 35
+    },
+    {
+      "seed": 3,
+      "step": 121
+    },
+    {
+      "seed": 1,
+      "step": 20
+    },
+    {
+      "seed": 2,
+      "step": 96
+    },
+    {
+      "seed": 3,
+      "step": 6
+    },
+    {
+      "seed": 1,
+      "step": 47
+    },
+    {
+      "seed": 2,
+      "step": 10
+    },
+    {
+      "seed": 3,
+      "step": 8
+    }
+  ],
+  "device": "cuda:0",
+  "threads": 8,
+  "hours": 11.5,
+  "reserve_minutes": 10,
+  "minimum_free_gb": 30.0,
+  "max_output_gb": 15.0,
+  "splits": [
+    "A_valid",
+    "A_test",
+    "B_valid",
+    "B_test"
+  ],
+  "layers": [],
+  "partition_seed": 8041,
+  "frame_rank": 8,
+  "topology_landmarks": 16,
+  "path_levels": [
+    3,
+    5,
+    9,
+    17
+  ],
+  "integration_atol": 1e-05,
+  "integration_rtol": 0.005,
+  "fd_epsilon": 0.01,
+  "fd_atol": 0.0005,
+  "fd_rtol": 0.05,
+  "fd_entities_per_split": 2,
+  "selection_note": "Retrospective diagnostic events selected from the previous three trajectories; not independent confirmatory samples.",
+  "seeds": [
+    1
+  ],
+  "end_step": 128,
+  "chunk_steps": 16,
+  "trajectory_budget_fraction": 0.55,
+  "path_budget_fraction": 0.3,
+  "gradient_splits": [
+    "A_test",
+    "B_test"
+  ],
+  "gradient_batch": 2,
+  "diagnostic_jobs": [
+    {
+      "seed": 1,
+      "step": 57
+    },
+    {
+      "seed": 1,
+      "step": 123
+    }
+  ],
+  "max_path_points": 129,
+  "max_path_depth": 10,
+  "curvature_points_per_event": 1,
+  "curvature_batch": 1,
+  "curvature_symmetry_atol": 1e-05,
+  "curvature_symmetry_rtol": 0.01
+}

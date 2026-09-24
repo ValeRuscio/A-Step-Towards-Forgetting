@@ -1,0 +1,12 @@
+{
+  "README.md": "947c326ef5540380860417542b36e3fa45c80317a6698283e50caec3027ab46c",
+  "Run_Path_Refinement.ipynb": "9fe42fb8d2357ab7ce4e5c61d4c6274f24cf9e250a39f016d6842a110f5edd76",
+  "VALIDATION.md": "dbc39e33e2181bf4e0b8cd9ec319fdc3c01782f9d0a53b03f8c1961aa13cc630",
+  "association_core.py": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+  "geometry_math.py": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+  "natural_geometry.py": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636",
+  "precise_forgetting.py": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13",
+  "refine_paths.py": "bd6fd6ec915a25e51307311c821a36c9f0fa17c85e53d5e5042557c3c8bd6702",
+  "requirements.txt": "8e27460c50cc47e4598b431fc94a19e16cbea4d305eb58cabb07754a8c34d87d",
+  "test_refinement.py": "9d7d2228aac2744ef58d0d3c4f8d7d9f055dedcd248fc8113ef637329a164e73"
+}

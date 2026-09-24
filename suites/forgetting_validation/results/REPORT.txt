@@ -1,0 +1,18 @@
+RETENTION AND FUNCTIONAL BREADTH — existing natural trajectories
+Positive excess compares to the state immediately before the selected update.
+Later damage is trajectory persistence, not causal attribution to that one update.
+Recovery requires eight consecutive saved endpoints within 1e-4 nats of the pre-event loss.
+Accuracy is restricted to the two designated answer tokens, not full-vocabulary greedy accuracy.
+
+Seed 1 update 21: A 0.089042 -> 0.376914; harmed 32/32; median entity change +0.275463
+  two-answer accuracy 1.0 -> 0.5; majority-token probability 0.7382478147423168 -> 0.549215922647392
+  excess after 8/16/32 further updates: 0.4201859457657892 / 0.27347310155832466 / 0.9691048652527688; sustained recovery lag: None (not_observed_within_saved_followup)
+Seed 1 update 48: A 1.002873 -> 1.661026; harmed 32/32; median entity change +0.577820
+  two-answer accuracy 0.5 -> 0.5; majority-token probability 0.5086485179491643 -> 0.5015269857547677
+  excess after 8/16/32 further updates: -0.4996166463406593 / 0.015621691934620374 / -0.38653422568092355; sustained recovery lag: 6 (observed)
+Seed 2 update 11: A 0.374661 -> 0.360931; harmed 15/32; median entity change -0.081315
+  two-answer accuracy 0.46875 -> 0.46875; majority-token probability 0.5159512982059263 -> 0.5067768549413276
+  excess after 8/16/32 further updates: -0.010559004381493153 / 0.09831635977959996 / -0.0196269556360239; sustained recovery lag: None (not_applicable)
+Seed 3 update 7: A 0.966663 -> 1.501989; harmed 32/32; median entity change +0.800232
+  two-answer accuracy 0.40625 -> 0.40625; majority-token probability 0.5021258355536885 -> 0.4444960873483139
+  excess after 8/16/32 further updates: -0.3873270030683166 / -0.6116427469662664 / -0.5790927714763714; sustained recovery lag: 7 (observed)

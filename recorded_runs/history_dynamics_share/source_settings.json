@@ -1,0 +1,75 @@
+{
+  "version": "natural-components-1",
+  "output": "/home/ubuntu/9/runs/natural_forgetting_components_v1",
+  "python": "/home/ubuntu/ml_env/bin/python",
+  "device": "cuda:0",
+  "threads": 8,
+  "hours": 23.0,
+  "minimum_free_gib": 40.0,
+  "max_output_gib": 80.0,
+  "checkpoint_every": 8,
+  "models": [
+    {
+      "name": "smollm2_135m",
+      "repo": "HuggingFaceTB/SmolLM2-135M",
+      "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2"
+    },
+    {
+      "name": "pythia410m",
+      "repo": "EleutherAI/pythia-410m",
+      "revision": "9879c9b5f8bea9051dcb0e68dff21493d67e9d4f"
+    }
+  ],
+  "datasets": {
+    "sst2": "8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+    "ag_news": "eb185aade064a813bc0b7f42de02595523103ca4"
+  },
+  "seeds": [
+    51,
+    52,
+    53
+  ],
+  "answer_conditions": [
+    "counterbalanced_shared",
+    "counterbalanced_disjoint"
+  ],
+  "learning_rates": {
+    "smollm2_135m": 8e-05,
+    "pythia410m": 5e-06
+  },
+  "a_steps": 600,
+  "b_steps": 128,
+  "uniform_updates": 8,
+  "enriched_per_stratum": 1,
+  "event_threshold": 0.05,
+  "ordinary_threshold": 0.01,
+  "path_population": 32,
+  "prompt_derivative_count": 8,
+  "fp64_recheck_failed": true,
+  "path_initial_points": 5,
+  "path_max_points": 33,
+  "audit_eps": [
+    0.04,
+    0.02,
+    0.01
+  ],
+  "audit_atol": 0.0002,
+  "audit_rtol": 0.05,
+  "material_atol": 0.01,
+  "material_fraction": 0.25,
+  "acquisition_min_gain": 0.1,
+  "acquisition_min_accuracy": 0.6,
+  "beta1": 0.9,
+  "beta2": 0.99,
+  "eps": 1e-08,
+  "clip": 1.0,
+  "microbatch": 2,
+  "accumulation": 2,
+  "eval_batch": 4,
+  "derivative_batch": 1,
+  "max_length": 256,
+  "text_train": 1024,
+  "text_valid": 32,
+  "text_test": 128,
+  "smoke": false
+}

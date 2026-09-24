@@ -1,0 +1,12 @@
+Validated 2026-09-16 on CPU with torch 2.8.0 and transformers 4.57.6.
+
+PASS: natural weights and Adam state exactly match the uninstrumented tiny OLMo trajectory.
+PASS: temporal dot-product identities and deterministic reconstruction/resume.
+PASS: magnitude/orientation integral accounting.
+PASS: unresolved cancelling channel integrals do not pass merely because total closure is zero.
+PASS: full-population autodiff Hessian contractions agree with finite differences; layer contributions sum to global values.
+PASS: staged runner, detached launch, duplicate launch, cooperative stop, resume, and preservation under changed settings.
+PASS: report/plot/export generation, no tensor/checkpoint dumps.
+PASS: notebook schema and code-cell compilation.
+
+Not benchmarked or run on the user's GH200 or original 1B checkpoints. Numerical resolution must be assessed from the resulting audit flags.

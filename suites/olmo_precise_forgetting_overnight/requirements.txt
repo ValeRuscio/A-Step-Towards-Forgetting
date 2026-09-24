@@ -1,0 +1,7 @@
+# Reuse the working CUDA torch build on the GH200. Do not reinstall it blindly.
+torch>=2.4
+transformers>=4.46,<5
+numpy>=1.24
+matplotlib>=3.7
+ipython>=8
+# H0/H1 implemented locally: ripser is not required.

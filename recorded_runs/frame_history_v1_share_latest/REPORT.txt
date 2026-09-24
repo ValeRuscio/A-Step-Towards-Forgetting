@@ -1,0 +1,10 @@
+FRAME × HISTORY — held-out entities; evaluation patches, not continued training
+seed1_update020 layer 0 alpha 1.0: fitted-rotation B endpoint change -0.018944; A endpoint change +0.044355; interaction change +0.129258; baseline change +0.047804
+seed1_update020 layer 1 alpha 1.0: fitted-rotation B endpoint change +0.019591; A endpoint change +0.002779; interaction change +0.000436; baseline change -0.000835
+seed1_update020 layer 9 alpha 1.0: fitted-rotation B endpoint change +0.170582; A endpoint change +0.078667; interaction change +0.025977; baseline change +0.003583
+seed1_update021 layer 0 alpha 1.0: fitted-rotation B endpoint change -0.061470; A endpoint change -0.266076; interaction change +0.066994; baseline change +0.050344
+seed1_update021 layer 1 alpha 1.0: fitted-rotation B endpoint change +0.041272; A endpoint change +0.019199; interaction change +0.017846; baseline change +0.013535
+seed1_update021 layer 9 alpha 1.0: fitted-rotation B endpoint change +0.005740; A endpoint change -0.014137; interaction change -0.013997; baseline change -0.002518
+seed1_update048 layer 0 alpha 1.0: fitted-rotation B endpoint change -0.155932; A endpoint change -0.196315; interaction change +0.011014; baseline change -0.070751
+seed1_update048 layer 1 alpha 1.0: fitted-rotation B endpoint change -0.100554; A endpoint change -0.132585; interaction change +0.008021; baseline change -0.067819
+Negative endpoint change is an immediate rescue. Negative interaction change alone is not a rescue. Compare B and matched controls in factorial_summary.json.

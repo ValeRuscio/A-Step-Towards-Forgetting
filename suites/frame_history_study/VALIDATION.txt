@@ -1,0 +1,5 @@
+Local validation: CPU torch 2.8.0, Transformers 4.57.6, tiny random OLMo. No full-size GH200 run executed here.
+
+Passed: known proper rotation recovery; norm and distance preservation; full tiny factorial across two fractions/four corners/two held-out tasks/all controls; sham equality; additive displacement matching; saved activation and coarse-output H0/H1; simulated mid-job pause/resume with prior units unchanged; completed-run resume; summaries/plot/export; stop followed by actual detached-worker resume; natural endpoint reconstruction within float tolerance; probe preservation of weights and every optimizer-state tensor. Notebook schema and all Python code validated.
+
+No GH200 timing or full-OLMo numerical benchmark. The identity extension outside the calibration span is a documented modeling choice. Existing checkpoints and the original pinned model are required. New continued-training repair branches are not included. Four random controls do not establish statistical significance.

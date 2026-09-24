@@ -1,0 +1,11 @@
+{
+  "test_lifecycle.py": "661a2fb4485aa42e18f9977803012b1c6aeb8714fd563ce9c5e1dc6e510ea0b6",
+  "requirements.txt": "8e27460c50cc47e4598b431fc94a19e16cbea4d305eb58cabb07754a8c34d87d",
+  "association_core.py": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+  "natural_geometry.py": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636",
+  "VALIDATION.md": "a31fc9244401cd869fbdee389f97914f8ac5e793f278b419520c622f6acff473",
+  "test_natural_geometry.py": "f2f9d0d8fa6f2e7420765429f47618e6bf052da0291c8a432d599dea1c682ddb",
+  "README.md": "a36964bc8a174b1b807cf6f2d7a2fa0d476abf6f9ef2a6417e2ddba9abbab425",
+  "Run_Natural_Geometry.ipynb": "4ae1156951a980c86a14989e6bcef564b64e53785943943cc06a3ce7f0169488",
+  "geometry_math.py": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03"
+}

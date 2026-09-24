@@ -1,0 +1,9 @@
+[
+  {
+    "name": "qwen3_06b_base",
+    "repo": "Qwen/Qwen3-0.6B-Base",
+    "reason": "module transformers has no attribute Qwen3Config",
+    "transformers": "4.46.3",
+    "action": "Qwen3 support unavailable. Pythia work continues in the unchanged environment; Qwen remains pending."
+  }
+]

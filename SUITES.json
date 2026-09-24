@@ -1,0 +1,177 @@
+[
+  {
+    "id": "forgetting_mechanism_suite",
+    "purpose": "Exploratory forgetting mechanisms",
+    "notebooks": [
+      "Run_forgetting_mechanisms.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_structure_study",
+    "purpose": "Initial weight and activation structure",
+    "notebooks": [
+      "Run_structure_study.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_structure_complete",
+    "purpose": "Restartable structure study",
+    "notebooks": [
+      "Run_structure_study.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_structure_ph_rmt_ntk",
+    "purpose": "Persistent homology, RMT and task-coordinate NTK",
+    "notebooks": [
+      "Run_structure_study.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_task_geometry",
+    "purpose": "Native Adam task-aware update geometry",
+    "notebooks": [
+      "Run_structure_study.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_update_path",
+    "purpose": "Within-update paths",
+    "notebooks": [
+      "Run_structure_study.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_overnight",
+    "purpose": "Initial overnight path and branch study",
+    "notebooks": [
+      "Run_structure_study.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_mechanism_bridge",
+    "purpose": "Channel factorials and activation interventions",
+    "notebooks": [
+      "Run_mechanism_bridge.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_bridge_speedup",
+    "purpose": "Optional bridge storage/performance patch",
+    "notebooks": [
+      "Apply_speedup.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_natural_geometry_overnight",
+    "purpose": "Natural geometry trajectories",
+    "notebooks": [
+      "Run_Natural_Geometry.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_precise_forgetting_overnight",
+    "purpose": "Matched prompt/entity derivatives",
+    "notebooks": [
+      "Run_Precise_Forgetting.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_path_refinement_overnight",
+    "purpose": "Adaptive natural-path refinement",
+    "notebooks": [
+      "Run_Path_Refinement.ipynb"
+    ]
+  },
+  {
+    "id": "olmo_four_vector_study",
+    "purpose": "Original OLMo four-vector trajectories",
+    "notebooks": [
+      "run_four_vector_study.ipynb"
+    ]
+  },
+  {
+    "id": "multimodel_forgetting_study",
+    "purpose": "Pythia and original multimodel registry replication",
+    "notebooks": [
+      "run_paper_suite.ipynb"
+    ]
+  },
+  {
+    "id": "forgetting_validation",
+    "purpose": "Retention and functional breadth",
+    "notebooks": [
+      "Run_retention_analysis.ipynb"
+    ]
+  },
+  {
+    "id": "frame_history_study",
+    "purpose": "OLMo frame-by-history factorial",
+    "notebooks": [
+      "Run_frame_history.ipynb"
+    ]
+  },
+  {
+    "id": "paired_base_instruct_study",
+    "purpose": "Qwen2.5 and SmolLM2 base/instruct registry comparison",
+    "notebooks": [
+      "Run_paired_models.ipynb"
+    ]
+  },
+  {
+    "id": "qwen3_open1b_study",
+    "purpose": "Original Qwen3 registry; optional OPEN-1B pilot code (not evidence of completed pilot)",
+    "notebooks": [
+      "Run_Qwen3_and_OPEN.ipynb"
+    ]
+  },
+  {
+    "id": "overnight_replication_study",
+    "purpose": "Fresh-seed text and intervention replication",
+    "notebooks": [
+      "Run_Overnight_Replication.ipynb"
+    ]
+  },
+  {
+    "id": "optimizer_generality_study",
+    "purpose": "Timing, optimizer calibration, answer-token controls",
+    "notebooks": [
+      "Run_Optimizer_Generality.ipynb"
+    ]
+  },
+  {
+    "id": "history_geometry_followup",
+    "purpose": "Matched-start history branches and persistence controls",
+    "notebooks": [
+      "Run_History_Geometry.ipynb"
+    ]
+  },
+  {
+    "id": "natural_forgetting_components_fixed",
+    "purpose": "Natural confusion/leakage channels and finite-path Hessians; output-head fix",
+    "notebooks": [
+      "Run_Natural_Components.ipynb"
+    ]
+  },
+  {
+    "id": "history_dynamics_replay",
+    "purpose": "Seven-trajectory history-age and cross-time analysis",
+    "notebooks": [
+      "Run_History_Dynamics.ipynb"
+    ]
+  },
+  {
+    "id": "qwen3_history_replication",
+    "purpose": "Ongoing Qwen3 text/history/cohort/finite-path replication",
+    "notebooks": [
+      "Run_Qwen3_History.ipynb"
+    ]
+  },
+  {
+    "id": "reviewer_experiment_suite",
+    "purpose": "Prediction policies, history/LR controls, frame replication and SST-2 to AG News",
+    "notebooks": [
+      "Run_Reviewer_Experiments.ipynb"
+    ]
+  }
+]

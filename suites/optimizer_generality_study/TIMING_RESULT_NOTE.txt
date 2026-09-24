@@ -1,0 +1,21 @@
+Existing-record timing correction — 19 September 2026
+
+Decision: immediately before update d. Compare geometry of completed update d-1
+with its already-observed A-validation loss increase. Target: A-test loss increase
+at update d > 0.05 nats. No current/future test outcome enters either score.
+
+Pythia-410M text seed       11        12        13
+Previous projection       0.818311  0.846523  0.927154
+Latest validation change  0.850907  0.852176  0.940476
+
+Thus the projection does not beat this simple persistence baseline on these three
+trajectories. The earlier comparison against the frozen fitted loss-history model
+was insufficient to establish incremental advance-warning value. Both tests are
+retained; they are different predictors/timestamps. This new comparison is
+retrospective and should be disclosed as such. The separate norm-matched history
+interventions remain mechanistic evidence; they do not establish forecast superiority.
+
+Full threshold, horizon, early/middle/late, block-bootstrap and shift-control outputs
+are in existing_timing_results/. The 119 samples per seed are dependent updates,
+not 119 independent replications. Block-bootstrap intervals are descriptive and
+are not p-values or guarantees under arbitrary nonstationarity.

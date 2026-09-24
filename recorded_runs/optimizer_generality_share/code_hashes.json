@@ -1,0 +1,20 @@
+{
+  "diagnostics.py": "27f5f7c9d721a3b0cea22408a1201bf998a452ea51b212f5c75b16deec321486",
+  "optimizers.py": "cece8aa318f318817b16a5c2c5efaad231ba9ad5ad85b5c91385c070977946b7",
+  "geometry_math.py": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+  "association_core.py": "e583c4ed297cb3a4b06b013833b8a51fffeccbf6f3e38f0ca7b68e7c69c4cc94",
+  "study_prediction.py": "262d5e5f8929a9d115ecc8dfdf80a6bad870ec153b0ff49fe9243707ec7c5d8a",
+  "test_study.py": "c9505cb7607f262db695bcc6c11af9b90b3ec47a96f6e017aa75c1a1ec499061",
+  "predict_forgetting.py": "2bcbd49835c05360f53c6dcb2a8046f8574bf3933d4ce69921a43a67f9233026",
+  "tasks.py": "b0a78b8723edacde0e8710a165383b7dee35cf3294ca107df8fdbb67e3efa402",
+  "existing_records_provenance.json": "6c073e7c806f1bd0c777e2b0c84f519157ec05cfce803ab3b115d3908e3c6119",
+  "multimodel_engine.py": "b927e1d521f2b60105cd5c636021e9d42d439de8846903def264dc7afaada8c8",
+  "experiment.py": "68b0b49246dcae85fa596cda0004c701b063f0568e82ffe343b330ed5c74702b",
+  "study_math.py": "f38ead9c444b01a7d7ca1cfac5dfc03c5723c6855d62ad598f3dc2146dd8409f",
+  "frozen_baselines.json": "ef53bb9870d4e39430fa95f870d9dd2a3ac3392a075c11f836ea0a80a250b573",
+  "timing_analysis.py": "b870374a631b8734dee53081de61e06268f2b68becef80aedbe84ecc3d3473ce",
+  "storage.py": "591414ba79aa16862399bd21bd21c726d1e7f96cb8666495790be2e4b3de464a",
+  "reporting.py": "0ec983e42e1d42e71c06fdf63b6020c03966e286069c2168b677b210d0e44fe6",
+  "existing_natural_records.json.gz": "b9f12f0319d7a4b5bed7f5db78f741bf1e37ce6a4057d43b5c344acfd5e56698",
+  "worker.py": "fcf6e0ce540c39c4ba6b495f62f45ed701b5833b7ed654290b9dcb31f14c865d"
+}

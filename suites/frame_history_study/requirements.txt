@@ -1,0 +1,5 @@
+# Use the existing working OLMo environment; do not blindly upgrade torch or transformers.
+torch
+transformers
+numpy
+matplotlib

@@ -1,0 +1,29 @@
+{
+  "source": "optimizer_generality_share.zip / results.sqlite",
+  "sqlite_sha256": "7f9a3eb67d2f935e7a479d779bd0c7066627ad93d5b86078a9baa3a2a62341f1",
+  "jobs": [
+    "confirmation/pythia410m/seed21/adam/standard",
+    "confirmation/pythia410m/seed21/adam_beta1_0/standard",
+    "confirmation/pythia410m/seed21/momentum_sgd/standard",
+    "confirmation/pythia410m/seed21/sgd/standard",
+    "confirmation/pythia410m/seed22/adam/standard",
+    "confirmation/pythia410m/seed22/adam_beta1_0/standard",
+    "confirmation/pythia410m/seed22/momentum_sgd/standard",
+    "confirmation/pythia410m/seed22/sgd/standard",
+    "confirmation/pythia410m/seed23/adam/standard",
+    "confirmation/pythia410m/seed23/adam_beta1_0/standard",
+    "confirmation/pythia410m/seed23/momentum_sgd/standard",
+    "confirmation/pythia410m/seed23/sgd/standard",
+    "confirmation/smollm2_135m/seed21/adam/standard",
+    "confirmation/smollm2_135m/seed21/adam_beta1_0/standard",
+    "confirmation/smollm2_135m/seed21/momentum_sgd/standard",
+    "confirmation/smollm2_135m/seed21/sgd/standard",
+    "confirmation/smollm2_135m/seed22/adam/standard",
+    "confirmation/smollm2_135m/seed22/adam_beta1_0/standard",
+    "confirmation/smollm2_135m/seed22/sgd/standard",
+    "confirmation/smollm2_135m/seed23/adam/standard",
+    "confirmation/smollm2_135m/seed23/adam_beta1_0/standard",
+    "confirmation/smollm2_135m/seed23/momentum_sgd/standard",
+    "confirmation/smollm2_135m/seed23/sgd/standard"
+  ]
+}

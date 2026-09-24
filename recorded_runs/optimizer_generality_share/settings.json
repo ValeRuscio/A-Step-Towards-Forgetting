@@ -1,0 +1,129 @@
+{
+  "version": "optimizer-generality-1",
+  "output": "/home/ubuntu/7/runs/optimizer_generality_v1",
+  "python": "/home/ubuntu/4/env_qwen3/bin/python",
+  "device": "cuda:0",
+  "threads": 8,
+  "hours": 11.5,
+  "minimum_free_gib": 40.0,
+  "max_output_gib": 80.0,
+  "checkpoint_every": 8,
+  "models": [
+    {
+      "name": "smollm2_135m",
+      "repo": "HuggingFaceTB/SmolLM2-135M",
+      "revision": "main"
+    },
+    {
+      "name": "pythia410m",
+      "repo": "EleutherAI/pythia-410m",
+      "revision": "9879c9b5f8bea9051dcb0e68dff21493d67e9d4f"
+    }
+  ],
+  "datasets": {
+    "sst2": "8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+    "ag_news": "eb185aade064a813bc0b7f42de02595523103ca4"
+  },
+  "seeds": [
+    21,
+    22,
+    23
+  ],
+  "calibration_seed": 901,
+  "optimizers": [
+    "sgd",
+    "momentum_sgd",
+    "adam_beta1_0",
+    "adam"
+  ],
+  "lr_grid": {
+    "sgd": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "momentum_sgd": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "adam_beta1_0": [
+      5e-06,
+      2e-05,
+      8e-05
+    ],
+    "adam": [
+      5e-06,
+      2e-05,
+      8e-05
+    ],
+    "shampoo_block": [
+      0.0001,
+      0.001,
+      0.01
+    ],
+    "muon_fp32": [
+      0.005,
+      0.02,
+      0.08
+    ]
+  },
+  "momentum": 0.9,
+  "beta2": 0.99,
+  "eps": 1e-08,
+  "clip": 1.0,
+  "microbatch": 2,
+  "accumulation": 2,
+  "eval_batch": 4,
+  "max_length": 256,
+  "text_train": 1024,
+  "text_valid": 32,
+  "text_test": 128,
+  "calibration_a_steps": 300,
+  "calibration_b_steps": 64,
+  "calibration_eval_every": 8,
+  "a_steps": 600,
+  "b_steps": 128,
+  "acquisition_min_gain": 0.1,
+  "acquisition_min_accuracy": 0.6,
+  "calibration_retention_weight": 1.0,
+  "probe_steps": [
+    8,
+    32
+  ],
+  "path_seeds": [
+    21
+  ],
+  "path_points": 9,
+  "audit_eps": [
+    0.02,
+    0.01,
+    0.005
+  ],
+  "audit_atol": 0.0002,
+  "audit_rtol": 0.05,
+  "norm_match_rtol": 0.001,
+  "label_controls": true,
+  "label_models": [
+    "smollm2_135m"
+  ],
+  "label_optimizer": "adam",
+  "appendix": true,
+  "appendix_optimizers": [
+    "shampoo_block",
+    "muon_fp32"
+  ],
+  "appendix_seed": 31,
+  "appendix_b_steps": 64,
+  "shampoo_block": 128,
+  "shampoo_root_frequency": 10,
+  "shampoo_damping": 0.0001,
+  "muon_ns_steps": 5,
+  "aux_lr_ratio": {
+    "shampoo_block": 0.02,
+    "muon_fp32": 0.001
+  },
+  "bootstrap_replicates": 300,
+  "existing_sources": [],
+  "smoke": false
+}

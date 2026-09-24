@@ -1,0 +1,34 @@
+Validation performed 2026-09-18.
+Local test runtime: Python 3.9, PyTorch 2.8.0 CPU, Transformers 4.57.6.
+Production notebook targets Python >=3.10 and separate native/Qwen environments.
+
+PASS tiny Qwen3 native forward equivalence, full parameter gradients, natural
+parameter and optimizer preservation, finite paths/HVPs, timing of predictors,
+acquisition interruption/resume, and prediction solver checks.
+PASS Qwen3 eight-update integration with frozen predictor fixture, selected paths,
+report/export, completed-output resume, detached launch after stop, and rejection
+of changed predictor bytes. Test predictor fits are synthetic fixtures.
+PASS Torch AdamW channel decomposition against actual updates with existing
+moments and clock; rejects fresh/missing history.
+PASS observer mock: preserves final weights, existing training gradients, RNG,
+and training/evaluation modes; records post-optimizer changes separately.
+PASS all four insertion points in pinned official replay source compile;
+changed source layout rejected. No native RepOps execution was available locally.
+PASS actual pinned HF OPEN architecture in tiny dimensions: name/shape mapping,
+quantized inference and separate FP32 alternative, FP32 first-derivative and
+curvature checks. Test-host-only postponed annotations were added when importing
+the configuration class on Python 3.9; no forward/backward algorithm was changed.
+The production probe uses explicit unpadded/uncached block-aligned boolean masks
+because the published HF mask helper signature differs from Transformers 4.57.6.
+PASS detached OPEN worker blocks missing native dependencies BEFORE checkpoint
+or dataset downloads and can export its diagnostic status.
+PASS notebook schema and Python/cell syntax checks.
+
+NOT VALIDATED: full Qwen3 weights on GH200, full OPEN checkpoint/native kernels,
+canonical replay hash, original quantized derivatives, native ARM64 build,
+full-size memory/time, environment installer on the user's server.
+
+A provided native pilot is not a claim of compatibility with GH200. Its native
+results are marked verified only after a published canonical state hash matches.
+The default text probe is a numerical pilot, not a forgetting benchmark. The
+pipeline never launches a broader OPEN study automatically.

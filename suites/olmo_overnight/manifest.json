@@ -1,0 +1,13 @@
+{
+  "package": "olmo_overnight",
+  "target": "Original OLMo association checkpoints; GH200 FP32",
+  "default_session_hours": 11.5,
+  "files": {
+    "README.md": "568f8764bf08c371f84205ff2b82412331efe594298e064c6e8409b96f19364a",
+    "Run_structure_study.ipynb": "2d2e238daf0d76db9bbc3bf09f38183396c47f90976b9101461520548a5ab24c",
+    "VALIDATION.md": "319b449d1f0f41b7dde70775d0ddda4dffa9fb357fb461faadabef55f3257929",
+    "forgetting_mechanisms.py": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "requirements.txt": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a",
+    "structure_study.py": "40fccde1c491b9bea23f7dce43a7595cf3a35643d72a03ab8d3c9829c8006182"
+  }
+}

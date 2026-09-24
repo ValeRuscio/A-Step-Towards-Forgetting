@@ -1,0 +1,7 @@
+# Prefer your EXISTING working environment. Do not blindly upgrade torch/transformers.
+torch
+transformers
+numpy
+matplotlib
+# Optional, for notebook buttons; manual function calls work without it:
+# ipywidgets

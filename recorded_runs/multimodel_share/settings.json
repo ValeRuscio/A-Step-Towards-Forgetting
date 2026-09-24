@@ -1,0 +1,43 @@
+{
+  "version": "paper-suite-1",
+  "olmo_source": "/home/ubuntu/1/runs/olmo_association_v1",
+  "previous": "/home/ubuntu/4/runs/olmo_precise_forgetting_v1/runs/olmo_four_vector_v1",
+  "output": "/home/ubuntu/4/runs/multimodel_paper_v1",
+  "device": "cuda:0",
+  "threads": 8,
+  "hours": 11.5,
+  "reserve_minutes": 10,
+  "minimum_free_gb": 30.0,
+  "max_output_gb": 200.0,
+  "audit_fraction": 0.25,
+  "replication_fraction": 0.6,
+  "audit_max_points": 1025,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "chunk_steps": 16,
+  "checkpoint_every": 50,
+  "acquisition_max_valid_kl": 0.25,
+  "models": [
+    {
+      "name": "pythia70m",
+      "repo": "EleutherAI/pythia-70m",
+      "revision": "main",
+      "enabled": true
+    },
+    {
+      "name": "pythia410m",
+      "repo": "EleutherAI/pythia-410m",
+      "revision": "main",
+      "enabled": true
+    },
+    {
+      "name": "qwen3_06b_base",
+      "repo": "Qwen/Qwen3-0.6B-Base",
+      "revision": "main",
+      "enabled": true
+    }
+  ]
+}

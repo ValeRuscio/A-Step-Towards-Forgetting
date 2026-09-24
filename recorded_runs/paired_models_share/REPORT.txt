@@ -1,0 +1,75 @@
+BASE/INSTRUCT PAIRS — identical plain-text prompts; original OLMo predictors reused without fitting
+Lead 1 = advance warning from preceding pre-update vectors. Lead 0 = current-gradient-informed diagnostic.
+Prediction threshold: A_test increase > 0.05 KL; all steps retained. Metrics are per seed, not independent-update confidence intervals.
+qwen25_05b_base seed1: 128 updates; A_test 0.000163 -> 0.894316; answer accuracy 1.000 -> 0.406; large increases=21; sign reversals=0
+qwen25_05b_base seed2: 128 updates; A_test 0.135829 -> 0.554633; answer accuracy 0.906 -> 0.625; large increases=10; sign reversals=0
+qwen25_05b_base seed3: 128 updates; A_test 0.002182 -> 1.159903; answer accuracy 1.000 -> 0.375; large increases=44; sign reversals=0
+qwen25_05b_instruct seed1: 128 updates; A_test 0.001206 -> 0.860381; answer accuracy 1.000 -> 0.344; large increases=27; sign reversals=1
+qwen25_05b_instruct seed2: 128 updates; A_test 0.001794 -> 0.530255; answer accuracy 1.000 -> 0.625; large increases=11; sign reversals=0
+qwen25_05b_instruct seed3: 128 updates; A_test 0.002112 -> 0.793077; answer accuracy 1.000 -> 0.438; large increases=26; sign reversals=0
+smollm2_360m_base seed1: 128 updates; A_test 0.002965 -> 0.938128; answer accuracy 1.000 -> 0.375; large increases=5; sign reversals=0
+smollm2_360m_base seed2: 128 updates; A_test 0.007705 -> 0.572143; answer accuracy 1.000 -> 0.625; large increases=3; sign reversals=0
+smollm2_360m_base seed3: 128 updates; A_test 0.015339 -> 0.942984; answer accuracy 1.000 -> 0.406; large increases=16; sign reversals=0
+smollm2_360m_instruct seed1: 128 updates; A_test 0.012660 -> 0.936185; answer accuracy 1.000 -> 0.375; large increases=8; sign reversals=0
+smollm2_360m_instruct seed2: 128 updates; A_test 0.009741 -> 0.621280; answer accuracy 1.000 -> 0.625; large increases=1; sign reversals=0
+smollm2_360m_instruct seed3: 128 updates; A_test 0.008117 -> 0.708735; answer accuracy 1.000 -> 0.406; large increases=10; sign reversals=0
+qwen25_05b_base seed1 loss_only: n=126, positives=21, acquisition=True, AUROC=0.5959183673469388, AP=0.2970043177458822, Brier=0.1376
+qwen25_05b_base seed2 loss_only: n=126, positives=10, acquisition=True, AUROC=0.596551724137931, AP=0.1351421665095384, Brier=0.0995
+qwen25_05b_base seed3 loss_only: n=126, positives=44, acquisition=True, AUROC=0.86529933481153, AP=0.7597395568052814, Brier=0.2106
+qwen25_05b_base seed1 local_projection: n=126, positives=21, acquisition=True, AUROC=0.7709750566893424, AP=0.45411075147656205, Brier=0.1182
+qwen25_05b_base seed2 local_projection: n=126, positives=10, acquisition=True, AUROC=0.7827586206896552, AP=0.24348495846971457, Brier=0.0869
+qwen25_05b_base seed3 local_projection: n=126, positives=44, acquisition=True, AUROC=0.9110310421286031, AP=0.8588680699379803, Brier=0.1570
+qwen25_05b_base seed1 static_geometry: n=126, positives=21, acquisition=True, AUROC=0.7736961451247165, AP=0.3782911538948393, Brier=0.1263
+qwen25_05b_base seed2 static_geometry: n=126, positives=10, acquisition=True, AUROC=0.8439655172413794, AP=0.2959561630126147, Brier=0.0780
+qwen25_05b_base seed3 static_geometry: n=126, positives=44, acquisition=True, AUROC=0.9262749445676275, AP=0.9086496608518111, Brier=0.1199
+qwen25_05b_base seed1 geometry_plus_changes: n=126, positives=21, acquisition=True, AUROC=0.7396825396825397, AP=0.34942364638270457, Brier=0.1310
+qwen25_05b_base seed2 geometry_plus_changes: n=126, positives=10, acquisition=True, AUROC=0.7706896551724138, AP=0.21656706480689153, Brier=0.0838
+qwen25_05b_base seed3 geometry_plus_changes: n=126, positives=44, acquisition=True, AUROC=0.9054878048780488, AP=0.8724176261678579, Brier=0.1321
+qwen25_05b_instruct seed1 loss_only: n=126, positives=27, acquisition=True, AUROC=0.6457164234942012, AP=0.4260113051267873, Brier=0.1586
+qwen25_05b_instruct seed2 loss_only: n=126, positives=11, acquisition=True, AUROC=0.6450592885375495, AP=0.1206078185197073, Brier=0.1070
+qwen25_05b_instruct seed3 loss_only: n=126, positives=26, acquisition=True, AUROC=0.7115384615384616, AP=0.5099734464147213, Brier=0.1466
+qwen25_05b_instruct seed1 local_projection: n=126, positives=27, acquisition=True, AUROC=0.8080808080808081, AP=0.6032314559465098, Brier=0.1372
+qwen25_05b_instruct seed2 local_projection: n=126, positives=11, acquisition=True, AUROC=0.8126482213438735, AP=0.3093031216601011, Brier=0.0916
+qwen25_05b_instruct seed3 local_projection: n=126, positives=26, acquisition=True, AUROC=0.7915384615384615, AP=0.6478490733811578, Brier=0.1304
+qwen25_05b_instruct seed1 static_geometry: n=126, positives=27, acquisition=True, AUROC=0.8267863823419379, AP=0.5802506239958957, Brier=0.1281
+qwen25_05b_instruct seed2 static_geometry: n=126, positives=11, acquisition=True, AUROC=0.8150197628458498, AP=0.3433020837622758, Brier=0.0815
+qwen25_05b_instruct seed3 static_geometry: n=126, positives=26, acquisition=True, AUROC=0.7807692307692308, AP=0.6109959124019413, Brier=0.1265
+qwen25_05b_instruct seed1 geometry_plus_changes: n=126, positives=27, acquisition=True, AUROC=0.8170594837261503, AP=0.5618028850730036, Brier=0.1321
+qwen25_05b_instruct seed2 geometry_plus_changes: n=126, positives=11, acquisition=True, AUROC=0.7683794466403162, AP=0.2533237363380904, Brier=0.0845
+qwen25_05b_instruct seed3 geometry_plus_changes: n=126, positives=26, acquisition=True, AUROC=0.7984615384615384, AP=0.6203001198620663, Brier=0.1209
+smollm2_360m_base seed1 loss_only: n=126, positives=5, acquisition=True, AUROC=0.743801652892562, AP=0.27738907626741965, Brier=0.0665
+smollm2_360m_base seed2 loss_only: n=126, positives=3, acquisition=True, AUROC=0.989159891598916, AP=0.5888888888888888, Brier=0.0676
+smollm2_360m_base seed3 loss_only: n=126, positives=16, acquisition=True, AUROC=0.8494318181818182, AP=0.605554899428644, Brier=0.0906
+smollm2_360m_base seed1 local_projection: n=126, positives=5, acquisition=True, AUROC=0.9421487603305785, AP=0.35582417582417586, Brier=0.0600
+smollm2_360m_base seed2 local_projection: n=126, positives=3, acquisition=True, AUROC=0.991869918699187, AP=0.6388888888888888, Brier=0.0599
+smollm2_360m_base seed3 local_projection: n=126, positives=16, acquisition=True, AUROC=0.9363636363636364, AP=0.7292751331813832, Brier=0.0778
+smollm2_360m_base seed1 static_geometry: n=126, positives=5, acquisition=True, AUROC=0.9173553719008265, AP=0.2975757575757576, Brier=0.1119
+smollm2_360m_base seed2 static_geometry: n=126, positives=3, acquisition=True, AUROC=0.6178861788617886, AP=0.06610219845513964, Brier=0.1407
+smollm2_360m_base seed3 static_geometry: n=126, positives=16, acquisition=True, AUROC=0.9306818181818182, AP=0.7769230265702041, Brier=0.0826
+smollm2_360m_base seed1 geometry_plus_changes: n=126, positives=5, acquisition=True, AUROC=0.9223140495867769, AP=0.29873015873015873, Brier=0.0759
+smollm2_360m_base seed2 geometry_plus_changes: n=126, positives=3, acquisition=True, AUROC=0.7317073170731707, AP=0.0721653151230616, Brier=0.0789
+smollm2_360m_base seed3 geometry_plus_changes: n=126, positives=16, acquisition=True, AUROC=0.9409090909090909, AP=0.811280404933866, Brier=0.0620
+smollm2_360m_instruct seed1 loss_only: n=126, positives=8, acquisition=True, AUROC=0.7245762711864406, AP=0.294844599127304, Brier=0.0750
+smollm2_360m_instruct seed2 loss_only: n=126, positives=1, acquisition=True, AUROC=0.752, AP=0.03125, Brier=0.0697
+smollm2_360m_instruct seed3 loss_only: n=126, positives=10, acquisition=True, AUROC=0.9258620689655173, AP=0.7276117216117217, Brier=0.0711
+smollm2_360m_instruct seed1 local_projection: n=126, positives=8, acquisition=True, AUROC=0.8908898305084746, AP=0.32994713619713617, Brier=0.0685
+smollm2_360m_instruct seed2 local_projection: n=126, positives=1, acquisition=True, AUROC=0.888, AP=0.06666666666666667, Brier=0.0612
+smollm2_360m_instruct seed3 local_projection: n=126, positives=10, acquisition=True, AUROC=0.9586206896551724, AP=0.7687549514755396, Brier=0.0648
+smollm2_360m_instruct seed1 static_geometry: n=126, positives=8, acquisition=True, AUROC=0.8739406779661016, AP=0.3979350792040954, Brier=0.1048
+smollm2_360m_instruct seed2 static_geometry: n=126, positives=1, acquisition=True, AUROC=0.736, AP=0.029411764705882353, Brier=0.1039
+smollm2_360m_instruct seed3 static_geometry: n=126, positives=10, acquisition=True, AUROC=0.8543103448275862, AP=0.7158068783068785, Brier=0.1342
+smollm2_360m_instruct seed1 geometry_plus_changes: n=126, positives=8, acquisition=True, AUROC=0.864406779661017, AP=0.38346259402882255, Brier=0.0720
+smollm2_360m_instruct seed2 geometry_plus_changes: n=126, positives=1, acquisition=True, AUROC=0.736, AP=0.029411764705882353, Brier=0.0542
+smollm2_360m_instruct seed3 geometry_plus_changes: n=126, positives=10, acquisition=True, AUROC=0.8931034482758621, AP=0.6669530469530469, Brier=0.0774
+qwen25_05b_base seed1: A_valid after acquisition=0.00024893; criterion_passed=True
+qwen25_05b_base seed2: A_valid after acquisition=0.142275; criterion_passed=True
+qwen25_05b_base seed3: A_valid after acquisition=0.00113005; criterion_passed=True
+qwen25_05b_instruct seed1: A_valid after acquisition=0.000524562; criterion_passed=True
+qwen25_05b_instruct seed2: A_valid after acquisition=0.000509891; criterion_passed=True
+qwen25_05b_instruct seed3: A_valid after acquisition=0.00737851; criterion_passed=True
+smollm2_360m_base seed1: A_valid after acquisition=0.00144546; criterion_passed=True
+smollm2_360m_base seed2: A_valid after acquisition=0.00228408; criterion_passed=True
+smollm2_360m_base seed3: A_valid after acquisition=0.0036907; criterion_passed=True
+smollm2_360m_instruct seed1: A_valid after acquisition=0.00172939; criterion_passed=True
+smollm2_360m_instruct seed2: A_valid after acquisition=0.0025655; criterion_passed=True
+smollm2_360m_instruct seed3: A_valid after acquisition=0.00299557; criterion_passed=True

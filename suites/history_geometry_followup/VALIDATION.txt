@@ -1,0 +1,30 @@
+VALIDATION — 20 September 2026
+
+Six tests passed (python -m unittest -v test_followup; final run13.181s):
+1. Background launch, duplicate-launch protection, budget pause/resume,
+   read-only status refresh, and consistent ZIP export without model checkpoints.
+2. Exact equality of uninterrupted versus interrupted/resumed SQLite records,
+   including interruption inside a curvature path and after a branch checkpoint.
+   Identical branch anchor fingerprints; non-history state preservation;
+   blockwise assigned-displacement norm audit; preserved natural-step replay.
+3. No current/future validation/geometry/test information in advance features;
+   retrospective quiet-interval labels do not alter predictor features.
+4. Quadratic finite-step identity and independent weighted-Hessian integral.
+5. Tied-score AUROC/AP and empty-subset handling.
+6. Tiny GPT-NeoX end-to-end Adam and momentum-SGD runs, six paired branches,
+   all six closure/curvature-integral/derivative audits passing.
+
+Tiny Llama end-to-end and resume tests also run in tests1/2.
+CPU only; no model downloads. Test environment: Python3.9.6, Torch2.8.0,
+Transformers4.57.6, NumPy2.0.2. Target notebook is compatible with Python3.10.
+All delivered Python and notebook code cells compile.
+
+The bundled fixed logistic models were fitted successfully on the compact prior
+run development records, using train-only standardization and fixed regularization.
+Fresh seeds41/42/43 never enter fitting. The fit source hash is recorded.
+
+Not tested here: real GH200 runtime, full-size model memory/performance, network
+model/data downloads, or fresh-seed acquisition/curvature outcomes. The23-hour
+budget is a resumable session cap, not a guarantee that all jobs complete in23h.
+Numerical failures/caps are explicitly retained; tiny-model success does not
+imply all full-model path audits will pass.

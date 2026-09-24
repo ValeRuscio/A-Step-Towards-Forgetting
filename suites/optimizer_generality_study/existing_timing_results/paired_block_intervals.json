@@ -1,0 +1,450 @@
+[
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.0751964433416046,
+      0.006080948887258488
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.07908518322762502,
+      0.002059353153025944
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.1327604098646119,
+      0.3042295258620689
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.1318549252280097,
+      0.3045043089916932
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.1438028935037613,
+      0.4659640105951252
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.1418452288192821,
+      0.46589797331778077
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.026155029946761353,
+      0.12378421309872922
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/registry/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.024858058608058644,
+      0.12115875176446868
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.06306687715269803,
+      -0.010497290377109985
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.0590965506125081,
+      -0.013142154207295103
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.0650252039066055,
+      0.23273475822538556
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.06529777913731849,
+      0.2356853752260762
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.1636792452830189,
+      0.5097823173472008
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.18706925791253687,
+      0.5202018770773693
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.015001429388221854,
+      0.10106813009420977
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed11/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.020358309048571506,
+      0.10187155662335223
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.01957240468316415,
+      0.009502610493509072
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.016156462585034004,
+      0.008681060980780064
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.054303977272727205,
+      0.2053848352640289
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.04777166155198498,
+      0.2081440266725992
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.13337209302325584,
+      0.4120425632052479
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.1527824655563548,
+      0.38681850282485875
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.014221250971250956,
+      0.0949663051834252
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed12/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.011861781076066764,
+      0.09572116932986494
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.026163879598662173,
+      -0.0030903144820295944
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus latest_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      -0.02465437788018439,
+      -0.003858775620678698
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.09661350783197525,
+      0.21689859851197585
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase4",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.10157184366959458,
+      0.21675436198478695
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.2917586404309623,
+      0.5538615525059186
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus mean_validation_increase8",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.318044661342798,
+      0.5278190618887624
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 8,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.03374799919967983,
+      0.09774715913705996
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  },
+  {
+    "job": "pythia410m/text/seed13/natural",
+    "horizon_after_decision": 0,
+    "threshold": 0.05,
+    "contrast": "previous_projection minus ewma_validation_increase",
+    "block_length": 16,
+    "resamples": 300,
+    "usable": 300,
+    "interval_95": [
+      0.03663993139628731,
+      0.09834959874587774
+    ],
+    "note": "Within-trajectory circular-block bootstrap; descriptive, not independent-seed inference or a stationarity guarantee."
+  }
+]

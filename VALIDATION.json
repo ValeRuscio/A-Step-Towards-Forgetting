@@ -1,0 +1,11 @@
+{
+  "assembly_date": "2026-09-24",
+  "suites": 25,
+  "recorded_run_code_snapshots": 9,
+  "copied_source_files": 611,
+  "byte_preservation_pass": true,
+  "python_syntax_pass": true,
+  "notebook_saved_outputs": 0,
+  "full_gpu_experiments_rerun": false,
+  "note": "Suite VALIDATION files describe previous development checks, not new reruns during this release assembly. Notebook code is structurally checked; Python magics are not executed."
+}

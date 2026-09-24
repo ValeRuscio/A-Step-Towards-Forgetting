@@ -1,0 +1,9 @@
+Validation completed locally on CPU.
+
+16 automated tests passed, including deterministic pause/resume, actual update norm matching, optimizer-state preservation, test-independent event selection, policy/random action counts, and read-only historical re-audit.
+
+A separate detached-worker smoke run completed 8 trajectories, 4 event branches, and deferred frame/path measurements. Repeated launch did not start a duplicate worker. Report generation and share export succeeded; ZIP integrity passed.
+
+All notebook code cells compile. Frozen predictor bytes match the previous reviewer suite exactly.
+
+These are implementation checks with a tiny model. The complete GH200/Pythia/dataset experiment was not run locally; overnight completion time is not guaranteed. Numerical audit failures remain recorded and must be interpreted separately from job completion.

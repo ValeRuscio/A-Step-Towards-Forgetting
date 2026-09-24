@@ -1,0 +1,63 @@
+{
+  "version": "paired-base-instruct-1",
+  "olmo_source": "/home/ubuntu/1/runs/olmo_association_v1",
+  "previous": "/home/ubuntu/4/runs/multimodel_paper_v1",
+  "output": "/home/ubuntu/4/runs/paired_base_instruct_v1",
+  "device": "cuda:0",
+  "threads": 8,
+  "hours": 11.5,
+  "reserve_minutes": 10,
+  "minimum_free_gb": 30.0,
+  "max_output_gb": 150.0,
+  "replication_fraction": 0.8,
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "path_seeds": [
+    1
+  ],
+  "chunk_steps": 16,
+  "checkpoint_every": 50,
+  "acquisition_max_valid_kl": 0.25,
+  "prompt_protocol": "identical_plain_text",
+  "models": [
+    {
+      "name": "qwen25_05b_base",
+      "repo": "Qwen/Qwen2.5-0.5B",
+      "revision": "main",
+      "enabled": true,
+      "family": "qwen25_05b",
+      "variant": "base",
+      "architecture": "qwen2"
+    },
+    {
+      "name": "qwen25_05b_instruct",
+      "repo": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "main",
+      "enabled": true,
+      "family": "qwen25_05b",
+      "variant": "instruct",
+      "architecture": "qwen2"
+    },
+    {
+      "name": "smollm2_360m_base",
+      "repo": "HuggingFaceTB/SmolLM2-360M",
+      "revision": "main",
+      "enabled": true,
+      "family": "smollm2_360m",
+      "variant": "base",
+      "architecture": "llama"
+    },
+    {
+      "name": "smollm2_360m_instruct",
+      "repo": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "revision": "main",
+      "enabled": true,
+      "family": "smollm2_360m",
+      "variant": "instruct",
+      "architecture": "llama"
+    }
+  ]
+}

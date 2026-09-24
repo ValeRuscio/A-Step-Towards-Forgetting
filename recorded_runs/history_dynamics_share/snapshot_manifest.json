@@ -1,0 +1,23 @@
+{
+  "jobs": [
+    "natural/pythia410m/seed51/counterbalanced_disjoint",
+    "natural/pythia410m/seed51/counterbalanced_shared",
+    "natural/pythia410m/seed52/counterbalanced_shared",
+    "natural/smollm2_135m/seed51/counterbalanced_disjoint",
+    "natural/smollm2_135m/seed51/counterbalanced_shared",
+    "natural/smollm2_135m/seed52/counterbalanced_disjoint",
+    "natural/smollm2_135m/seed52/counterbalanced_shared"
+  ],
+  "source": "/home/ubuntu/9/runs/natural_forgetting_components_v1",
+  "source_settings_sha256": "29b34d23987a7b0eb8f1876bd498fa3c35ce7a02c2288db29efde31a64e8b0cc",
+  "data_hashes": {
+    "natural_smollm2_135m_seed52_counterbalanced_shared.json": "a964a3c05aa2ec7101c926dbf9772a3c8d4653f867c3711d83be31231745c9eb",
+    "natural_smollm2_135m_seed51_counterbalanced_disjoint.json": "e4c206a252746161b282fe08e67adbe8a5c3340ba3f053a41bbc8e381907a55f",
+    "natural_pythia410m_seed51_counterbalanced_shared.json": "dbcba7e74ee831aacf53ff1b2a8c44070c94923c2c5e330ddf99a32501f4f04d",
+    "natural_smollm2_135m_seed51_counterbalanced_shared.json": "77b086ea1a58d99122738afbb5d24edfc6dfa1b7ff24e3307af2346ba656d39a",
+    "natural_smollm2_135m_seed52_counterbalanced_disjoint.json": "1a01b02bc3043e993700a3cc379247067f52ab97ee10e413e35001731128fb0d",
+    "natural_pythia410m_seed52_counterbalanced_shared.json": "2a87a74bdc27a4e01cfedac8941768f0971c3f02a1a43cdf359ba6e1ded052ab",
+    "natural_pythia410m_seed51_counterbalanced_disjoint.json": "c3f16c1a7c1e2cff56ac450f9a003a59617fded7324957dbfea8688d5fccbe15"
+  },
+  "note": "Frozen completed trajectories; later source completion is not silently added. New output directory for a later snapshot."
+}

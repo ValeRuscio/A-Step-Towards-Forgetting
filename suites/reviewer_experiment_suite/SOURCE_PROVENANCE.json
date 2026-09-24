@@ -1,0 +1,11 @@
+{
+  "original_database_sha256": "674345581b5de59293e29a61ae127f6499bd3ea6a1b7b4ee10fac984adabbd62",
+  "original_archive": "four_vector_share.zip",
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "n_updates": 384,
+  "note": "Development source already inspected. Source norms/projection derive h+c and task-test population gradients. New prospective policies use validation gradients and measured actual displacements. Source OLMo evaluation is exploratory."
+}

@@ -1,0 +1,20 @@
+Validation performed 2026-09-17
+Environment: macOS CPU, Python 3.9, PyTorch 2.8.0, Transformers 4.57.6.
+
+PASS test_adapters.py: tiny Qwen2 and Llama native forward equivalence,
+full gradients, natural trajectory parameter and optimizer preservation,
+finite paths and HVP audits, feature timing, acquisition interruption/resume,
+and prediction solver checks.
+
+PASS test_paired_pipeline.py: four tiny checkpoint cases, matched pair data,
+fixed predictor import, eight updates per case, adaptive paths, acquisition
+and outcome reports, ZIP export, completed-output resume, detached process
+launch after stop request, and rejection of altered frozen predictors.
+The pipeline predictor artifact is a synthetic fixture, not a research result.
+
+PASS Python syntax checks, notebook cell syntax and nbformat validation.
+
+Not tested here: full released checkpoint execution, the remote GH200,
+Transformers 4.46.3 runtime, or overnight completion time. Each real checkpoint
+undergoes native forward and full-gradient audits before long acquisition.
+Passing numerical implementation tests does not establish scientific effects.

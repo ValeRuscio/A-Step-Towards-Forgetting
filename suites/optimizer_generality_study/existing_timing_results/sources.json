@@ -1,0 +1,11 @@
+[
+  {
+    "path": "/Users/valeria/Documents/Codex/2026-09-14/i/outputs/optimizer_generality_study/existing_natural_records.json.gz",
+    "jobs": [
+      "pythia410m/registry/seed11/natural",
+      "pythia410m/text/seed11/natural",
+      "pythia410m/text/seed12/natural",
+      "pythia410m/text/seed13/natural"
+    ]
+  }
+]

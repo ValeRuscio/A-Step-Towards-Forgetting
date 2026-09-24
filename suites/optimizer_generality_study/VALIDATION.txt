@@ -1,0 +1,34 @@
+Validation performed locally, 19 September 2026
+
+13 automated tests passed on CPU (Torch2.8 / Transformers4.57.6, Python3.9).
+- SGD, momentum SGD and Adam native channel sums reproduce actual updates.
+- Both matrix optimizer variants restore state and reproduce their next update.
+- History reset leaves second moments, clocks and preconditioner state unchanged.
+- Actual global/blockwise displacement matching, including zero-vector refusal.
+- Matrix inverse fourth roots and zero-input Muon transform.
+- Paired codebooks and matching text identities/content across label-control arms.
+- Mocked real dataset builder: development/confirmation separation and paired A inputs.
+- Forecast scores are unchanged by future geometry or any test outcomes.
+- Latest-persistence baseline uses the latest completed validation change.
+- Paired block bootstrap identity contrast.
+- Calibration selection ignores test outcomes.
+- Full primary/appendix integration and exact CPU interrupted/resumed equivalence.
+
+Separate background-worker smoke run:
+22/22 queue units completed on tiny Llama and GPT-NeoX models, including all four
+primary optimizers, paired label controls, Shampoo and Muon hybrids. Repeated
+Launch did not start a duplicate worker.12/12 smoke path closure and selected-point
+Hessian audits passed. Export SQLite/ZIP integrity checks passed; no checkpoints
+were included. Status returned alive=False after completion. Plots were inspected.
+
+All notebook code cells and Python modules parse. Bundled historical timing analysis
+was computed directly from compact extracts of the original SQLite records; archive
+provenance is recorded in existing_records_provenance.json.
+
+Limits:
+No full SmolLM2/Pythia GPU training was run locally. Real-corpus download/tokenization
+was exercised via a mocked dataset API, not by downloading models/corpora. Full
+GH200 numerical behavior, learning-rate suitability and wall time remain empirical.
+Smoke acquisition gates are relaxed solely for software testing; smoke results are
+not scientific evidence. Main/default gates are unchanged. Appendix algorithms are
+explicit preliminary variants, not a validation of all official implementations.

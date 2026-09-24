@@ -1,0 +1,7 @@
+# Reuse the existing GH200 CUDA torch build. Do not replace it blindly.
+torch>=2.4
+transformers>=4.51,<5
+huggingface-hub>=0.30
+numpy>=1.24
+matplotlib>=3.7
+ipython>=8

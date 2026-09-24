@@ -1,0 +1,12 @@
+{
+  "README.md": "a242bc5457da69398524c0cbcc342a573406b22bea4424676859e756058057a6",
+  "Run_forgetting_mechanisms.ipynb": "85354e4b1b6554e80a60345dc00e48889ab99f0eb72dd75e93950aff63bd002e",
+  "VALIDATION.md": "b31169b0c9ac5059651b68322e1e83e5e2f5c4bcee5ad13d05ead5cc1632073b",
+  "example_results/archive_analysis.csv": "a0b91142b1541eeb4fdd8ca2573d53a9532f11ebe4a5da8093dc1dec330940b2",
+  "example_results/archive_analysis.json": "55d3a6cc1d7521a87b1a2dfadae63c681e20ac4abfba8372d495d31967d72286",
+  "example_results/archive_dose_curves.csv": "75b56b39e664bd5213b0fe7db9e1c4ff1c5a2d3b48b03783279f1f09fd09c6cb",
+  "example_results/archive_overview.png": "4ae2a8b5825b9e8c8a175b43d9a52d89da66381a0b55f2e7f4ebfafa8b95f0c8",
+  "example_results/archive_report.txt": "f70e354e2692f7af22927692632cb4d6057363d22e5ff7fc1f7e9010cc104f5f",
+  "forgetting_mechanisms.py": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+  "requirements.txt": "595795635903f88f4ad497992c7ee01f89dd238fec26e595c3b74a8a54ff0d52"
+}

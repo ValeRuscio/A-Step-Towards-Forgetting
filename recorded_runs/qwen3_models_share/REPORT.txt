@@ -1,0 +1,21 @@
+QWEN3 NATURAL FORGETTING — identical plain-text prompts; original OLMo predictors reused without fitting
+Lead 1 = advance warning from preceding pre-update vectors. Lead 0 = current-gradient-informed diagnostic.
+Prediction threshold: A_test increase > 0.05 KL; all steps retained. Metrics are per seed, not independent-update confidence intervals.
+qwen3_06b_base seed1: 128 updates; A_test 0.000460 -> 0.457611; answer accuracy 1.000 -> 0.469; large increases=14; sign reversals=0
+qwen3_06b_base seed2: 128 updates; A_test 0.002415 -> 0.712091; answer accuracy 1.000 -> 0.625; large increases=11; sign reversals=0
+qwen3_06b_base seed3: 128 updates; A_test 0.000162 -> 0.560081; answer accuracy 1.000 -> 0.500; large increases=28; sign reversals=0
+qwen3_06b_base seed1 loss_only: n=126, positives=14, acquisition=True, AUROC=0.6772959183673469, AP=0.4144682180926018, Brier=0.1005
+qwen3_06b_base seed2 loss_only: n=126, positives=11, acquisition=True, AUROC=0.8592885375494071, AP=0.3951482667640717, Brier=0.0911
+qwen3_06b_base seed3 loss_only: n=126, positives=28, acquisition=True, AUROC=0.7394314868804664, AP=0.5395196941315406, Brier=0.1515
+qwen3_06b_base seed1 local_projection: n=126, positives=14, acquisition=True, AUROC=0.7857142857142857, AP=0.48854454772412154, Brier=0.0909
+qwen3_06b_base seed2 local_projection: n=126, positives=11, acquisition=True, AUROC=0.9462450592885375, AP=0.7387981419958164, Brier=0.0781
+qwen3_06b_base seed3 local_projection: n=126, positives=28, acquisition=True, AUROC=0.8669825072886297, AP=0.721752494601648, Brier=0.1229
+qwen3_06b_base seed1 static_geometry: n=126, positives=14, acquisition=True, AUROC=0.7308673469387755, AP=0.4358908127889245, Brier=0.1033
+qwen3_06b_base seed2 static_geometry: n=126, positives=11, acquisition=True, AUROC=0.8893280632411067, AP=0.393346054530265, Brier=0.0878
+qwen3_06b_base seed3 static_geometry: n=126, positives=28, acquisition=True, AUROC=0.8196064139941691, AP=0.6801236921395614, Brier=0.1245
+qwen3_06b_base seed1 geometry_plus_changes: n=126, positives=14, acquisition=True, AUROC=0.7506377551020408, AP=0.4666034293512187, Brier=0.1010
+qwen3_06b_base seed2 geometry_plus_changes: n=126, positives=11, acquisition=True, AUROC=0.9043478260869565, AP=0.3484251836669879, Brier=0.0830
+qwen3_06b_base seed3 geometry_plus_changes: n=126, positives=28, acquisition=True, AUROC=0.8287172011661808, AP=0.6734021913133018, Brier=0.1124
+qwen3_06b_base seed1: A_valid after acquisition=0.00169332; criterion_passed=True
+qwen3_06b_base seed2: A_valid after acquisition=0.0019022; criterion_passed=True
+qwen3_06b_base seed3: A_valid after acquisition=0.000526607; criterion_passed=True

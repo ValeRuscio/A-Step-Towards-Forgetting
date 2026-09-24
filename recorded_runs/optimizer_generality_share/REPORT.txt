@@ -1,0 +1,50 @@
+OPTIMIZER GENERALITY — validation-only calibration; native A history retained into B
+62 completed trajectories; 0 failures/skips recorded.
+Models start from pinned pretrained weights. A and B are both trained with the chosen optimizer. Different optimizers therefore have different A anchors; this is not a same-weight optimizer swap.
+All decay is zero. Same minibatch recipe and clipping. Learning rates are optimizer/model-specific, selected on disjoint development pools. Appendix matrix optimizers use auxiliary Adam on nonhidden parameters.
+Main optimizer ranking must consider acquisition gates, matched B-validation targets and all seeds. A lower loss increase with failed learning is not evidence of reduced forgetting.
+appendix/smollm2_135m/seed31/muon_fp32/standard: complete=True; acquired=False; A 2.357122->2.026625; B 0.777938; lr=0.005
+appendix/smollm2_135m/seed31/shampoo_block/standard: complete=True; acquired=True; A 0.536864->0.370598; B 0.548945; lr=0.01
+confirmation/pythia410m/seed21/adam/standard: complete=True; acquired=True; A 1.054272->1.728986; B 0.524817; lr=5e-06
+confirmation/pythia410m/seed21/adam_beta1_0/standard: complete=True; acquired=True; A 1.173455->2.065047; B 0.369412; lr=5e-06
+confirmation/pythia410m/seed21/momentum_sgd/standard: complete=True; acquired=True; A 1.279889->2.630419; B 0.478878; lr=0.01
+confirmation/pythia410m/seed21/sgd/standard: complete=True; acquired=True; A 0.700901->1.376891; B 0.475280; lr=0.01
+confirmation/pythia410m/seed22/adam/standard: complete=True; acquired=True; A 0.927824->3.771954; B 0.564090; lr=5e-06
+confirmation/pythia410m/seed22/adam_beta1_0/standard: complete=True; acquired=True; A 1.191863->2.315543; B 0.633806; lr=5e-06
+confirmation/pythia410m/seed22/momentum_sgd/standard: complete=True; acquired=True; A 0.872806->1.110801; B 0.850821; lr=0.01
+confirmation/pythia410m/seed22/sgd/standard: complete=True; acquired=True; A 0.678912->3.252144; B 0.818794; lr=0.01
+confirmation/pythia410m/seed23/adam/standard: complete=True; acquired=True; A 0.684218->2.044952; B 0.493040; lr=5e-06
+confirmation/pythia410m/seed23/adam_beta1_0/standard: complete=True; acquired=True; A 1.099295->2.555476; B 0.765532; lr=5e-06
+confirmation/pythia410m/seed23/momentum_sgd/standard: complete=True; acquired=True; A 1.035761->2.702300; B 0.904423; lr=0.01
+confirmation/pythia410m/seed23/sgd/standard: complete=True; acquired=True; A 0.881052->0.630184; B 0.499948; lr=0.01
+confirmation/smollm2_135m/seed21/adam/counterbalanced_disjoint: complete=True; acquired=True; A 1.630050->3.746260; B 0.422727; lr=8e-05
+confirmation/smollm2_135m/seed21/adam/counterbalanced_shared: complete=True; acquired=True; A 1.630050->1.469824; B 0.576427; lr=8e-05
+confirmation/smollm2_135m/seed21/adam/standard: complete=True; acquired=True; A 0.748416->2.187353; B 0.426164; lr=8e-05
+confirmation/smollm2_135m/seed21/adam_beta1_0/standard: complete=True; acquired=True; A 0.700800->0.781635; B 0.401912; lr=2e-05
+confirmation/smollm2_135m/seed21/momentum_sgd/standard: complete=True; acquired=True; A 1.250573->1.435012; B 0.349179; lr=0.01
+confirmation/smollm2_135m/seed21/sgd/standard: complete=True; acquired=True; A 1.078458->1.654674; B 0.681609; lr=0.1
+confirmation/smollm2_135m/seed22/adam/counterbalanced_disjoint: complete=True; acquired=True; A 0.799059->1.681498; B 0.535969; lr=8e-05
+confirmation/smollm2_135m/seed22/adam/counterbalanced_shared: complete=True; acquired=True; A 0.799059->1.366725; B 0.555253; lr=8e-05
+confirmation/smollm2_135m/seed22/adam/standard: complete=True; acquired=True; A 1.055745->1.556548; B 0.719142; lr=8e-05
+confirmation/smollm2_135m/seed22/adam_beta1_0/standard: complete=True; acquired=True; A 0.865086->0.505326; B 0.433811; lr=2e-05
+confirmation/smollm2_135m/seed22/momentum_sgd/standard: complete=True; acquired=False; A 0.724419->2.018663; B 1.487394; lr=0.01
+confirmation/smollm2_135m/seed22/sgd/standard: complete=True; acquired=True; A 0.871916->1.059274; B 0.538841; lr=0.1
+confirmation/smollm2_135m/seed23/adam/counterbalanced_disjoint: complete=True; acquired=True; A 0.895469->1.157632; B 0.447401; lr=8e-05
+confirmation/smollm2_135m/seed23/adam/counterbalanced_shared: complete=True; acquired=True; A 0.895469->1.801092; B 0.482788; lr=8e-05
+confirmation/smollm2_135m/seed23/adam/standard: complete=True; acquired=True; A 0.963410->1.498952; B 0.410700; lr=8e-05
+confirmation/smollm2_135m/seed23/adam_beta1_0/standard: complete=True; acquired=True; A 0.540817->0.426828; B 0.326361; lr=2e-05
+confirmation/smollm2_135m/seed23/momentum_sgd/standard: complete=True; acquired=True; A 0.877712->2.165582; B 0.330618; lr=0.01
+confirmation/smollm2_135m/seed23/sgd/standard: complete=True; acquired=True; A 0.970729->1.678426; B 0.358331; lr=0.1
+CALIBRATION appendix_calibration/smollm2_135m/muon_fp32: selected=0.005; eligible=True
+CALIBRATION appendix_calibration/smollm2_135m/shampoo_block: selected=0.01; eligible=True
+CALIBRATION calibration/pythia410m/adam: selected=5e-06; eligible=True
+CALIBRATION calibration/pythia410m/adam_beta1_0: selected=5e-06; eligible=True
+CALIBRATION calibration/pythia410m/momentum_sgd: selected=0.01; eligible=True
+CALIBRATION calibration/pythia410m/sgd: selected=0.01; eligible=True
+CALIBRATION calibration/smollm2_135m/adam: selected=8e-05; eligible=True
+CALIBRATION calibration/smollm2_135m/adam_beta1_0: selected=2e-05; eligible=True
+CALIBRATION calibration/smollm2_135m/momentum_sgd: selected=0.01; eligible=True
+CALIBRATION calibration/smollm2_135m/sgd: selected=0.1; eligible=True
+Immediate history-probe condition records: 120. First-step norm matching is audited; no continuation benefit is asserted.
+Path audits: 24; closure passed 24; selected-point Hessian passed 22. Separate criteria, unresolved cases retained.
+Timing: see timing_existing/REPORT.txt and timing_new/REPORT.txt. Horizon0 uses only geometry of the previous update and the latest already-completed validation change.

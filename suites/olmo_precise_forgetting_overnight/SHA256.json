@@ -1,0 +1,12 @@
+{
+  "README.md": "985d596addcd091d8c8f89ab4550c4c1509b0406f5cd82fda90ad0094fcf60fc",
+  "Run_Precise_Forgetting.ipynb": "d7789df3723895a54657cbf8eef7725a6be8a2605b5387103d58497278d7f2f5",
+  "VALIDATION.md": "bc9881f12ed464e888af8ebf0af329c0ac393e3b18a7f15a0b097a5b88376aa4",
+  "association_core.py": "f17e90d6909b048e344162cdb996bb9f30763f87e29f843a9870cc980dce5d72",
+  "geometry_math.py": "cdba693fc305384c2fbf2bca635bc7a82dc5fdc962712369fbf5fcba4f2dbd03",
+  "natural_geometry.py": "e76aa33ae95f2cfa3167ae90d6113a0c3ce9c6689787f0984e5c40c85f3e4636",
+  "precise_forgetting.py": "eeb1d4b282a9a2d8a248a8fddd0cd2f6a389519eaaec102254e17a92f9faee13",
+  "requirements.txt": "8e27460c50cc47e4598b431fc94a19e16cbea4d305eb58cabb07754a8c34d87d",
+  "test_lifecycle.py": "3624029cd33dfc77242b0758512001e9da9e46ce60d612bfa79ebb96272fc20c",
+  "test_precise.py": "d3236a8294a91ee9264d8717a36c81ca322e37dc01a613d411743154864e5d5f"
+}

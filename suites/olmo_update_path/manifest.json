@@ -1,0 +1,17 @@
+{
+  "package": "olmo_update_path",
+  "default_steps": [
+    20,
+    21
+  ],
+  "files": {
+    "CHECKPOINT_METHODS.md": "33697d5f8a2a1f29a421f63869cc7e3691d8f85f2d942f18919efcf4abc9c65b",
+    "README.md": "1a1eaf4b8067168f5d3d1e7828b1578a20924c57f23989d38cab4e9225479320",
+    "Run_structure_study.ipynb": "94b8dcc01a392664ad1b855fa80535e24b6e8491502818fb3c68c01c70a3a5e1",
+    "TRAJECTORY_METHODS.md": "fc8222129b1ce32cf3dcba0d2bbb01428a19df12119260dd81bb125a8f890255",
+    "VALIDATION.md": "84088fe033dcd3e3b3c053065b1c209aaae5475984f8d6d4bb3853ccf78c885e",
+    "forgetting_mechanisms.py": "8f853865d132b6f62d348282183ff20a5d3864296bf06b82ca4cd2f6338f56a8",
+    "requirements.txt": "c248ed8229caeaf7297bd6fbf54f7e2fa84ab80d1c806fa311c472ec47aa6b8a",
+    "structure_study.py": "ce94ac66cd4af253f9a8c83ef61ac34fcf4c758e76ce5830aedd2cd8017718f8"
+  }
+}

@@ -1,0 +1,32 @@
+LOCAL VALIDATION
+
+7 tests passed. Includes known polynomial derivatives, mixed and residual Hessian terms, independent path integration, native dtype restoration after separate FP64 recheck, selection without test outcomes, and end-to-end tiny Llama/GPT-NeoX training with pause/resume and export.
+
+Full pretrained GH200 execution was not available locally. Those runs must pass their own numerical and acquisition audits; local test success is not scientific validation of forthcoming results.
+
+test_audited_path_independent_integrals_cache_and_restore (test_components.Tests) ... ok
+test_fp64_recheck_is_separate_and_restores_native_dtype (test_components.Tests) ... ok
+test_gradient_loss_and_projection_additivity (test_components.Tests) ... ok
+test_quadratic_bilinear_forms_and_residual (test_components.Tests) ... ok
+test_selection_does_not_use_test_loss (test_components.Tests) ... ok
+test_both_architectures_and_pause_resume (test_integration.Integration) ... /Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+  prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+test_empty_export_refused (test_integration.Integration) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 8.158s
+
+OK
+
+OUTPUT-HEAD COMPATIBILITY FIX: all seven tests passed again; a renamed GPT-NeoX output projection produced identical evaluation and working gradients. Migration tested against original ZIP: repeated application is safe and database bytes unchanged.

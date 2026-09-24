@@ -1,0 +1,8 @@
+# Keep the existing compatible CUDA-enabled torch installation on GH200.
+# Do not replace torch with a CPU wheel. Appendix optimizers use only torch.
+numpy>=1.24
+transformers>=4.46.3,<5
+datasets>=2.19
+huggingface-hub>=0.26
+matplotlib>=3.7
+safetensors>=0.4

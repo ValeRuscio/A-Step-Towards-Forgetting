@@ -1,0 +1,44 @@
+{
+  "source": "/home/ubuntu/1/runs/olmo_association_v1",
+  "output": "/home/ubuntu/4/runs/frame_history_v1",
+  "jobs": [
+    {
+      "seed": 1,
+      "step": 21
+    },
+    {
+      "seed": 1,
+      "step": 20
+    },
+    {
+      "seed": 1,
+      "step": 48
+    },
+    {
+      "seed": 3,
+      "step": 7
+    }
+  ],
+  "layers": [
+    0,
+    1,
+    9
+  ],
+  "alphas": [
+    0.25,
+    0.625,
+    1.0
+  ],
+  "random_controls": 4,
+  "partition_seed": 8041,
+  "device": "cuda:0",
+  "threads": 8,
+  "batch": 2,
+  "hours": 11.5,
+  "reserve_minutes": 10,
+  "minimum_free_gb": 25.0,
+  "max_output_gb": 5.0,
+  "topology": true,
+  "topology_points": 16,
+  "version": "frame-history-1"
+}

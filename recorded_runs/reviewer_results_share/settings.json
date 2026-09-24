@@ -1,0 +1,93 @@
+{
+  "version": "reviewer-suite-1",
+  "output": "/home/ubuntu/5/runs/reviewer_overnight_seed11_v1",
+  "python": "/home/ubuntu/4/env_qwen3/bin/python",
+  "device": "cuda:0",
+  "threads": 8,
+  "models": [
+    {
+      "name": "pythia410m",
+      "repo": "EleutherAI/pythia-410m",
+      "revision": "9879c9b5f8bea9051dcb0e68dff21493d67e9d4f"
+    }
+  ],
+  "seeds": [
+    11
+  ],
+  "tasks": [
+    "registry",
+    "text"
+  ],
+  "lr": 2e-05,
+  "beta1": 0.9,
+  "beta2": 0.99,
+  "clip": 1.0,
+  "a_steps": 600,
+  "b_steps": 128,
+  "microbatch": 2,
+  "accumulation": 2,
+  "eval_batch": 4,
+  "entities": 32,
+  "max_length": 256,
+  "text_train": 1024,
+  "text_valid": 32,
+  "text_test": 128,
+  "checkpoint_every": 8,
+  "hours": 11.5,
+  "minimum_free_gib": 40.0,
+  "max_output_gib": 180.0,
+  "experiments": [
+    "prediction",
+    "optimizer",
+    "matched",
+    "frame"
+  ],
+  "lr_factors": [
+    0.25,
+    1.0,
+    2.0
+  ],
+  "optimizer_modes": [
+    "preserve",
+    "reset_m",
+    "reset_both"
+  ],
+  "matched_modes": [
+    "preserve",
+    "reset_m",
+    "reset_v",
+    "reset_both",
+    "fresh"
+  ],
+  "matched_steps": 16,
+  "alarm_threshold": 0.05,
+  "alarm_lr_factor": 0.25,
+  "alarm_budget": 16,
+  "frame_layers": [
+    0,
+    1
+  ],
+  "frame_fixed_steps": [
+    20
+  ],
+  "frame_event_threshold": 0.05,
+  "frame_event_limit": 2,
+  "frame_controls": 4,
+  "frame_calibration": 16,
+  "frame_test": 16,
+  "path_points": 17,
+  "path_max_points": 65,
+  "path_fd_eps": [
+    0.01,
+    0.005,
+    0.0025
+  ],
+  "path_rtol": 0.05,
+  "path_atol": 0.0002,
+  "topology": true,
+  "smoke": false,
+  "datasets": {
+    "sst2": "8d51e7e4887a4caaa95b3fbebbf53c0490b58bbb",
+    "ag_news": "eb185aade064a813bc0b7f42de02595523103ca4"
+  }
+}

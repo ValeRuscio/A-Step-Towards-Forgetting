@@ -1,0 +1,8 @@
+# Prefer the existing working OLMo/CUDA environment. Do not reinstall PyTorch blindly.
+torch>=2.4
+transformers>=4.46,<5
+numpy>=1.24
+matplotlib>=3.7
+psutil>=5.9
+ipython>=8
+nbformat>=5.9

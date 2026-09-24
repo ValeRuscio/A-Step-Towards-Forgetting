@@ -1,0 +1,10 @@
+# Reuse your working OLMo/CUDA environment; do not reinstall torch blindly.
+torch>=2.4
+transformers>=4.46,<5
+numpy>=1.24
+matplotlib>=3.7
+psutil>=5.9
+ipython>=8
+# Notebook validation only:
+nbformat>=5.9
+# H0/H1 are implemented directly; no ripser dependency.

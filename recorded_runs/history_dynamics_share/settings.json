@@ -1,0 +1,24 @@
+{
+  "version": "history-dynamics-1",
+  "source": "/home/ubuntu/9/runs/natural_forgetting_components_v1",
+  "output": "/home/ubuntu/10/runs/history_dynamics_replay_v1",
+  "python": "/home/ubuntu/ml_env/bin/python",
+  "device": "cuda:0",
+  "hours": 23.0,
+  "threads": 8,
+  "minimum_free_gib": 40.0,
+  "max_output_gib": 60.0,
+  "checkpoint_every": 32,
+  "populations": [
+    "A_valid",
+    "A_test"
+  ],
+  "test_population": 32,
+  "derivative_batch": 1,
+  "norm_floor": 1e-12,
+  "closure_atol": 1e-08,
+  "closure_rtol": 1e-06,
+  "age_residual_rtol": 0.0001,
+  "event_threshold": 0.05,
+  "event_window": 4
+}

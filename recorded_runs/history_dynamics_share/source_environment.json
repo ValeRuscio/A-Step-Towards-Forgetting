@@ -1,0 +1,11 @@
+{
+  "python": "3.10.12 (main, Jan 26 2026, 14:55:28) [GCC 11.4.0]",
+  "platform": "Linux-6.8.0-1046-nvidia-64k-aarch64-with-glibc2.35",
+  "packages": {
+    "torch": "2.11.0+cu128",
+    "transformers": "5.17.0",
+    "numpy": "1.26.4",
+    "datasets": "3.6.0"
+  },
+  "cuda": "12.8"
+}

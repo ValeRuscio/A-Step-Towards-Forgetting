@@ -1,0 +1,27 @@
+History dynamics replay: local validation
+
+Four test methods passed, including end-to-end checks for both tiny Llama and tiny GPT-NeoX. Source database bytes remained unchanged. Paused replay preserved existing diagnostic records and matched all source endpoint hashes. Explicit gradient histories validate age bins beyond age 16. Cross-time, magnitude/orientation and denominator/numerator/clock decompositions close numerically.
+
+Full pretrained GH200 execution was not performed locally. Exact endpoint hashes, age residuals and algebra checks remain required on the actual run.
+
+test_age_bins_against_explicit_history_and_native_adam (test_dynamics.Tests) ... ok
+test_cross_time_and_scaling_identities (test_dynamics.Tests) ... ok
+test_zero_norm_not_a_fabricated_angle (test_dynamics.Tests) ... ok
+test_exact_replay_pause_resume_and_export (test_replay.ReplayTests) ... /Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:64: PyparsingDeprecationWarning: 'oneOf' deprecated - use 'one_of'
+  prop = Group((name + Suppress("=") + comma_separated(value)) | oneOf(_CONSTANTS))
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:85: PyparsingDeprecationWarning: 'parseString' deprecated - use 'parse_string'
+  parse = parser.parseString(pattern)
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_fontconfig_pattern.py:89: PyparsingDeprecationWarning: 'resetCache' deprecated - use 'reset_cache'
+  parser.resetCache()
+/Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/_mathtext.py:45: PyparsingDeprecationWarning: 'enablePackrat' deprecated - use 'enable_packrat'
+  ParserElement.enablePackrat()
+In /Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'parseString' deprecated - use 'parse_string'
+In /Users/valeria/Documents/Codex/2026-09-07/i/work/testenv/lib/python3.9/site-packages/matplotlib/mpl-data/stylelib/classic.mplstyle: 'resetCache' deprecated - use 'reset_cache'
+ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 5.522s
+
+OK
